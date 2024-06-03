@@ -1,0 +1,100 @@
+[
+ {
+  "link": "/papers/2403.09611",
+  "id": "2403.09611",
+  "title": "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09611.png"
+ },
+ {
+  "link": "/papers/2403.09029",
+  "id": "2403.09029",
+  "title": "Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09029.png"
+ },
+ {
+  "link": "/papers/2403.09629",
+  "id": "2403.09629",
+  "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09629.png"
+ },
+ {
+  "link": "/papers/2403.09394",
+  "id": "2403.09394",
+  "title": "GiT: Towards Generalist Vision Transformer through Universal Language Interface",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09394.png"
+ },
+ {
+  "link": "/papers/2403.09334",
+  "id": "2403.09334",
+  "title": "Video Editing via Factorized Diffusion Distillation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09334.png"
+ },
+ {
+  "link": "/papers/2403.09055",
+  "id": "2403.09055",
+  "title": "StreamMultiDiffusion: Real-Time Interactive Generation with Region-Based Semantic Control",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09055.png"
+ },
+ {
+  "link": "/papers/2403.09347",
+  "id": "2403.09347",
+  "title": "BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09347.png"
+ },
+ {
+  "link": "/papers/2403.09333",
+  "id": "2403.09333",
+  "title": "Griffon v2: Advancing Multimodal Perception with High-Resolution Scaling and Visual-Language Co-Referring",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09333.png"
+ },
+ {
+  "link": "/papers/2403.09626",
+  "id": "2403.09626",
+  "title": "Video Mamba Suite: State Space Model as a Versatile Alternative for Video Understanding",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09626.png"
+ },
+ {
+  "link": "/papers/2403.09338",
+  "id": "2403.09338",
+  "title": "LocalMamba: Visual State Space Model with Windowed Selective Scan",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09338.png"
+ },
+ {
+  "link": "/papers/2403.09530",
+  "id": "2403.09530",
+  "title": "VisionGPT-3D: A Generalized Multimodal Agent for Enhanced 3D Vision Understanding",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09530.png"
+ },
+ {
+  "link": "/papers/2403.09631",
+  "id": "2403.09631",
+  "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09631.png"
+ },
+ {
+  "link": "/papers/2403.08773",
+  "id": "2403.08773",
+  "title": "Veagle: Advancements in Multimodal Representation Learning",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08773.png"
+ },
+ {
+  "link": "/papers/2403.09622",
+  "id": "2403.09622",
+  "title": "Glyph-ByT5: A Customized Text Encoder for Accurate Visual Text Rendering",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.09622.png"
+ }
+]

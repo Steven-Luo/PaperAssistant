@@ -1,0 +1,25 @@
+{
+  "id": "2402.10176v1",
+  "title": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+  "pdf_url": "http://arxiv.org/pdf/2402.10176v1",
+  "raw_tldr": "动机\t当前大规模数学指导调整数据集的构建依赖于使用商业限制许可的闭源大型语言模型（LLM）的输出，存在开放源代码LLM与闭源LLM在数学技能上的巨大差距，限制了开源LLM在这些数据生成管道中的使用。\n方法\t基于最近在开源LLM的进展、提出的提示新颖性以及一些暴力扩展技术，构建了包含180万个问题-解答对的数学指导调整数据集OpenMathInstruct-1，通过使用最近发布的、许可宽松的Mixtral模型，为GSM8K和MATH两个流行的数学推理基准合成代码解释器解决方案。\n结果\t在OpenMathInstruct-1的一个子集上训练的最佳模型OpenMath-CodeLlama-70B，在GSM8K上的得分为84.6%，在MATH上的得分为50.7%，与最佳的gpt蒸馏模型具有竞争力。",
+  "tldr": {
+    "动机": "当前大规模数学指导调整数据集的构建依赖于使用商业限制许可的闭源大型语言模型（LLM）的输出，存在开放源代码LLM与闭源LLM在数学技能上的巨大差距，限制了开源LLM在这些数据生成管道中的使用。",
+    "方法": "基于最近在开源LLM的进展、提出的提示新颖性以及一些暴力扩展技术，构建了包含180万个问题-解答对的数学指导调整数据集OpenMathInstruct-1，通过使用最近发布的、许可宽松的Mixtral模型，为GSM8K和MATH两个流行的数学推理基准合成代码解释器解决方案。",
+    "结果": "在OpenMathInstruct-1的一个子集上训练的最佳模型OpenMath-CodeLlama-70B，在GSM8K上的得分为84.6%，在MATH上的得分为50.7%，与最佳的gpt蒸馏模型具有竞争力。"
+  },
+  "summary_cn": "最近的研究表明，合成生成的数据集对于训练大型语言模型（LLMs）具有巨大潜力，特别是在获取目标技能方面。目前的大规模数学指导调整数据集，如 MetaMathQA（Yu 等人，2024年）和 MAmmoTH（Yue 等人，2024年），是使用具有商业限制许可证的闭源LLMs的输出构建的。限制在这些数据生成流程中使用开源LLMs的一个关键原因是最好的闭源LLMs（如GPT-4）与最好的开源LLMs在数学技能上存在巨大差距。基于最近在开源LLMs方面的进展、我们提出的提示新颖性以及一些暴力扩展，我们构建了OpenMathInstruct-1，一个包含180万个问题-解决方案对的数学指导调整数据集。该数据集是通过使用最近发布的、许可宽松的Mixtral模型为GSM8K和MATH（两个流行的数学推理基准）合成代码解释器解决方案来构建的。我们的最佳模型，OpenMath-CodeLlama-70B，在OpenMathInstruct-1的一个子集上训练，其在GSM8K上的得分为84.6％，在MATH上的得分为50.7％，与最佳的gpt蒸馏模型具有竞争力。我们在商业许可宽松的条件下发布了我们的代码、模型和OpenMathInstruct-1数据集。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"synthetically generated datasets\",\n    \"large language models\",\n    \"math instruction tuning datasets\",\n    \"open-source LLMs\",\n    \"math reasoning benchmarks\",\n    \"code-interpreter solutions\",\n    \"commercially permissive license\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "synthetically generated datasets",
+      "large language models",
+      "math instruction tuning datasets",
+      "open-source LLMs",
+      "math reasoning benchmarks",
+      "code-interpreter solutions",
+      "commercially permissive license"
+    ]
+  }
+}

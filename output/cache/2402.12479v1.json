@@ -1,0 +1,23 @@
+{
+  "id": "2402.12479v1",
+  "title": "In deep reinforcement learning, a pruned network is a good network",
+  "pdf_url": "http://arxiv.org/pdf/2402.12479v1",
+  "raw_tldr": "动机\t深度强化学习代理在有效使用其网络参数方面存在困难。\n方法\t利用稀疏训练技术的优势，并展示了逐渐的幅度剪枝如何使代理最大化参数的有效性。\n结果\t网络展现出比传统网络显著的性能改进，并展示出一种“规模律”，仅使用了全部网络参数的一小部分。",
+  "tldr": {
+    "动机": "深度强化学习代理在有效使用其网络参数方面存在困难。",
+    "方法": "利用稀疏训练技术的优势，并展示了逐渐的幅度剪枝如何使代理最大化参数的有效性。",
+    "结果": "网络展现出比传统网络显著的性能改进，并展示出一种“规模律”，仅使用了全部网络参数的一小部分。"
+  },
+  "summary_cn": "近期的研究表明，深度强化学习代理在有效利用其网络参数方面存在困难。我们利用先前对稀疏训练技术优势的洞察，证明了逐渐的幅度剪枝能够使代理最大化参数的有效性。这导致网络相较于传统网络获得了显著的性能提升，并展现出一种“规模定律”，仅使用了全部网络参数的一小部分。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\"Deep Reinforcement Learning\", \"Sparse Training\", \"Magnitude Pruning\", \"Scaling Law\", \"Network Parameters\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Deep Reinforcement Learning",
+      "Sparse Training",
+      "Magnitude Pruning",
+      "Scaling Law",
+      "Network Parameters"
+    ]
+  }
+}

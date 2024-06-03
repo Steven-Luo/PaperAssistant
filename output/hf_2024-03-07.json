@@ -1,0 +1,65 @@
+[
+ {
+  "link": "/papers/2403.03507",
+  "id": "2403.03507",
+  "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/tymX0hLyiKdpwCt7sNZ2h.png"
+ },
+ {
+  "link": "/papers/2403.03853",
+  "id": "2403.03853",
+  "title": "ShortGPT: Layers in Large Language Models are More Redundant Than You Expect",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/8My5G3ybxfrV5_fP1CE47.png"
+ },
+ {
+  "link": "/papers/2403.03883",
+  "id": "2403.03883",
+  "title": "SaulLM-7B: A pioneering Large Language Model for Law",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/omI2rPBGGEFR_UdqJdu7-.png"
+ },
+ {
+  "link": "/papers/2403.03870",
+  "id": "2403.03870",
+  "title": "Learning to Decode Collaboratively with Multiple Language Models",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/f6IFPPjX3joBiG06IVhEe.mp4"
+ },
+ {
+  "link": "/papers/2403.03346",
+  "id": "2403.03346",
+  "title": "Enhancing Vision-Language Pre-training with Rich Supervisions",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/eHfQKPXI4-QiXCAFWrgUO.png"
+ },
+ {
+  "link": "/papers/2403.03954",
+  "id": "2403.03954",
+  "title": "3D Diffusion Policy",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/OQ36C04VDmEsRwJBDuESl.mp4"
+ },
+ {
+  "link": "/papers/2403.03950",
+  "id": "2403.03950",
+  "title": "Stop Regressing: Training Value Functions via Classification for Scalable Deep RL",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/dlMyIDdgoqn_vI4Oaduqr.png"
+ },
+ {
+  "link": "/papers/2403.03956",
+  "id": "2403.03956",
+  "title": "Backtracing: Retrieving the Cause of the Query",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/FWwSrWQdr1tvUCJzsA6Ni.png"
+ },
+ {
+  "link": "/papers/2403.03234",
+  "id": "2403.03234",
+  "title": "Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/hMgnjRd5lnfIAc2wGxXm3.png"
+ }
+]

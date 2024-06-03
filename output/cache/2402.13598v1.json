@@ -1,0 +1,26 @@
+{
+  "id": "2402.13598v1",
+  "title": "User-LLM: Efficient LLM Contextualization with User Embeddings",
+  "pdf_url": "http://arxiv.org/pdf/2402.13598v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）已经彻底改变了自然语言处理领域，但如何有效地融合复杂且可能带有噪声的用户交互数据仍然是一个挑战。\n方法\t提出了一种名为User-LLM的新框架，通过使用自监督预训练从多样化的用户交互中提炼用户嵌入来使LLMs具有上下文感知能力，这些用户嵌入捕获了用户偏好及其随时间的演变，并通过交叉注意力和软提示技术将这些用户嵌入与LLMs整合，同时引入了Perceiver层以简化用户编码器与LLMs之间的整合，降低了计算需求。\n结果\t在MovieLens、Amazon Review和Google Local Review数据集上的全面实验表明，该方法在各种任务上都实现了显著的性能提升，尤其是在长序列任务和需要深入用户理解的任务上，相比基于文本提示的上下文化方法，我们的方法在计算效率上也有所提高。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）已经彻底改变了自然语言处理领域，但如何有效地融合复杂且可能带有噪声的用户交互数据仍然是一个挑战。",
+    "方法": "提出了一种名为User-LLM的新框架，通过使用自监督预训练从多样化的用户交互中提炼用户嵌入来使LLMs具有上下文感知能力，这些用户嵌入捕获了用户偏好及其随时间的演变，并通过交叉注意力和软提示技术将这些用户嵌入与LLMs整合，同时引入了Perceiver层以简化用户编码器与LLMs之间的整合，降低了计算需求。",
+    "结果": "在MovieLens、Amazon Review和Google Local Review数据集上的全面实验表明，该方法在各种任务上都实现了显著的性能提升，尤其是在长序列任务和需要深入用户理解的任务上，相比基于文本提示的上下文化方法，我们的方法在计算效率上也有所提高。"
+  },
+  "summary_cn": "大型语言模型（LLMs）已经彻底改变了自然语言处理领域。然而，有效地整合复杂且可能带有噪声的用户交互数据仍然是一个挑战。为了解决这个问题，我们提出了一种新颖的框架User-LLM，它利用用户嵌入来使LLMs具有上下文感知能力。这些嵌入通过自监督预训练从多样化的用户交互中提炼出来，捕捉了用户偏好及其随时间的演变。我们通过交叉注意力和软提示技术将这些用户嵌入与LLMs整合起来，使LLMs能够动态地适应用户上下文。我们在MovieLens、亚马逊评论和谷歌本地评论数据集上进行的全面实验表明，我们的方法在各种任务上都取得了显著的性能提升。值得注意的是，我们的方法在长序列任务和需要深入理解用户的任务上，相比基于文本提示的上下文化方法表现更佳，同时在计算效率上也更高。我们进一步整合了Perceiver层，以简化用户编码器与LLMs之间的整合，减少了计算需求。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"User Embeddings\",\n    \"Self-Supervised Pretraining\",\n    \"Cross-Attention\",\n    \"Soft-Prompting\",\n    \"Perceiver Layers\",\n    \"Natural Language Processing\",\n    \"User Interaction Data\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "User Embeddings",
+      "Self-Supervised Pretraining",
+      "Cross-Attention",
+      "Soft-Prompting",
+      "Perceiver Layers",
+      "Natural Language Processing",
+      "User Interaction Data"
+    ]
+  }
+}

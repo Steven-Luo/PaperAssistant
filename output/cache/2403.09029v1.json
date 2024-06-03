@@ -1,0 +1,25 @@
+{
+  "id": "2403.09029v1",
+  "title": "Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset",
+  "pdf_url": "http://arxiv.org/pdf/2403.09029v1",
+  "raw_tldr": "动机\t使用视觉语言模型（VLMs）在网页开发中提高效率和推动无代码解决方案的策略很有前景：通过提供UI的截图或草图，VLM可以生成复现它的代码，例如使用HTML语言。尽管VLMs在各种任务上取得了进展，但将截图转换为相应HTML的具体挑战探索甚少。我们认为这主要是因为缺乏合适的、高质量的数据集。\n方法\t本工作引入了WebSight，一个包含200万对HTML代码及其对应截图的合成数据集。我们在我们的数据集上对一个基础VLM进行了微调，并展示了将网页截图转换为功能性HTML代码的能力。为了加速这一领域的研究，我们将WebSight开源。\n结果\t引入了WebSight数据集；在该数据集上微调VLM，展示了将网页截图转换为HTML代码的能力；为加速相关研究，开源了WebSight。",
+  "tldr": {
+    "动机": "使用视觉语言模型（VLMs）在网页开发中提高效率和推动无代码解决方案的策略很有前景：通过提供UI的截图或草图，VLM可以生成复现它的代码，例如使用HTML语言。尽管VLMs在各种任务上取得了进展，但将截图转换为相应HTML的具体挑战探索甚少。我们认为这主要是因为缺乏合适的、高质量的数据集。",
+    "方法": "本工作引入了WebSight，一个包含200万对HTML代码及其对应截图的合成数据集。我们在我们的数据集上对一个基础VLM进行了微调，并展示了将网页截图转换为功能性HTML代码的能力。为了加速这一领域的研究，我们将WebSight开源。",
+    "结果": "引入了WebSight数据集；在该数据集上微调VLM，展示了将网页截图转换为HTML代码的能力；为加速相关研究，开源了WebSight。"
+  },
+  "summary_cn": "在Web开发中使用视觉-语言模型（VLMs）是提高效率和解锁无代码解决方案的有前途的策略：通过提供一个UI的截图或草图，VLM可以生成代码来复现它，例如使用HTML语言。尽管VLMs在各种任务上取得了进展，但将截图转换为相应HTML的具体挑战却鲜有探索。我们认为，这主要是因为缺乏适当的、高质量的数据集。本工作介绍了WebSight，一个由200万对HTML代码及其对应截图组成的合成数据集。我们在我们的数据集上对一个基础VLM进行了微调，并展示了将网页截图转换为功能性HTML代码的熟练度。为了加速这一领域的研究，我们将WebSight开源。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\"vision-language models\", \"web development\", \"no-code solutions\", \"HTML\", \"dataset\", \"WebSight\", \"open-source\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "vision-language models",
+      "web development",
+      "no-code solutions",
+      "HTML",
+      "dataset",
+      "WebSight",
+      "open-source"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2312.15685v1",
+  "title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
+  "pdf_url": "http://arxiv.org/pdf/2312.15685v1",
+  "raw_tldr": "动机\t指令调优是一种标准技术，用于在初始预训练阶段之后将大型语言模型与终端任务和用户偏好对齐。尽管最近的研究表明数据工程在指令调优中的关键作用——当适当选择时，只需要有限的数据就能达到卓越的性能，但我们仍然缺乏对于什么构成了良好的指令调优数据以及如何自动且有效地选择数据的原则性理解。\n方法\t本工作深入研究了用于对齐的自动数据选择策略。我们从控制研究开始，沿着复杂性、质量和多样性三个维度测量数据，检验现有方法并引入新技术以增强数据测量。随后，我们提出了一种基于测量选择数据样本的简单策略。我们介绍了deita（Data-Efficient Instruction Tuning for Alignment的简称），一系列使用我们提出的方法自动选择的数据样本，从LLaMA和Mistral模型微调得到的模型。\n结果\tdeita在仅使用6K SFT训练数据样本的情况下，性能优于或与最先进的开源对齐模型相当——这比基线中使用的数据少了10倍以上。当进一步通过直接偏好优化（DPO）训练时，deita-Mistral-7B + DPO使用6K SFT和10K DPO样本训练，达到了7.55 MT-Bench和90.06% AlpacaEval分数。我们期望这项工作能提供自动数据选择的工具，促进数据高效的对齐。我们发布了我们的模型以及选定的数据集，以便未来的研究能够更有效地对齐模型。",
+  "tldr": {
+    "动机": "指令调优是一种标准技术，用于在初始预训练阶段之后将大型语言模型与终端任务和用户偏好对齐。尽管最近的研究表明数据工程在指令调优中的关键作用——当适当选择时，只需要有限的数据就能达到卓越的性能，但我们仍然缺乏对于什么构成了良好的指令调优数据以及如何自动且有效地选择数据的原则性理解。",
+    "方法": "本工作深入研究了用于对齐的自动数据选择策略。我们从控制研究开始，沿着复杂性、质量和多样性三个维度测量数据，检验现有方法并引入新技术以增强数据测量。随后，我们提出了一种基于测量选择数据样本的简单策略。我们介绍了deita（Data-Efficient Instruction Tuning for Alignment的简称），一系列使用我们提出的方法自动选择的数据样本，从LLaMA和Mistral模型微调得到的模型。",
+    "结果": "deita在仅使用6K SFT训练数据样本的情况下，性能优于或与最先进的开源对齐模型相当——这比基线中使用的数据少了10倍以上。当进一步通过直接偏好优化（DPO）训练时，deita-Mistral-7B + DPO使用6K SFT和10K DPO样本训练，达到了7.55 MT-Bench和90.06% AlpacaEval分数。我们期望这项工作能提供自动数据选择的工具，促进数据高效的对齐。我们发布了我们的模型以及选定的数据集，以便未来的研究能够更有效地对齐模型。"
+  },
+  "summary_cn": "指令调优是一种标准技术，用于在初始预训练阶段之后将大型语言模型与最终任务和用户偏好对齐。最近的研究表明，数据工程在指令调优中扮演着关键角色——当恰当选择时，只需要有限的数据就能达到卓越的性能。然而，我们仍然缺乏对于什么构成了良好的指令调优数据以及如何自动且有效地选择数据的原则性理解。在这项工作中，我们深入探讨了用于对齐的自动数据选择策略。我们从控制研究开始，沿着复杂性、质量和多样性这三个维度来衡量数据，我们检验现有方法并引入新颖技术以增强数据测量。随后，我们提出了一种基于测量来选择数据样本的简单策略。我们展示了deita（Data-Efficient Instruction Tuning for Alignment的简称），一系列使用我们提出的方法自动选择的数据样本，从LLaMA和Mistral模型中微调得到的模型。从经验上看，deita在仅使用6K SFT训练数据样本的情况下，性能优于或与最先进的开源对齐模型相当——这比基线中使用的数据少了10倍以上。当进一步通过直接偏好优化（DPO）训练时，deita-Mistral-7B + DPO使用6K SFT和10K DPO样本训练，达到了7.55 MT-Bench和90.06% AlpacaEval分数。我们期望这项工作能够提供自动数据选择的工具，促进数据高效的对齐。我们发布了我们的模型以及选定的数据集，以便未来的研究能够更有效地对齐模型。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"instruction tuning\",\n    \"data engineering\",\n    \"automatic data selection\",\n    \"data-efficient alignment\",\n    \"LLaMA\",\n    \"Mistral\",\n    \"direct preference optimization (DPO)\",\n    \"MT-Bench\",\n    \"AlpacaEval\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "instruction tuning",
+      "data engineering",
+      "automatic data selection",
+      "data-efficient alignment",
+      "LLaMA",
+      "Mistral",
+      "direct preference optimization (DPO)",
+      "MT-Bench",
+      "AlpacaEval"
+    ]
+  }
+}

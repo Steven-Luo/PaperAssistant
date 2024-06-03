@@ -1,0 +1,37 @@
+{
+  "id": "2403.18802v1",
+  "title": "Long-form factuality in large language models",
+  "pdf_url": "http://arxiv.org/pdf/2403.18802v1",
+  "raw_tldr": "动机：为了评估大型语言模型（LLMs）在开放式领域中生成内容的事实准确性，并提供一个基准测试。\n方法：通过使用GPT-4生成包含38个主题的数千个问题的LongFact数据集，并提出了一种称为Search-Augmented Factuality Evaluator（SAFE）的方法，利用LLM将长形式响应分解为单个事实，并通过向谷歌搜索发送查询来评估每个事实的准确性。\n结果：实证表明，LLM代理能够达到超人的评分性能，在约16k个独立事实的集合上，SAFE与众包人类注释者有72%的一致性，在100个随机不同意的案例中，SAFE有76%的胜率，且成本比人类注释者便宜20倍以上。同时，对四个模型家族（Gemini、GPT、Claude和PaLM-2）的十三种语言模型进行了基准测试，发现更大的语言模型通常能够实现更好的长形式事实准确性。",
+  "tldr": {
+    "动机：为了评估大型语言模型（LLMs）在开放式领域中生成内容的事实准确性，并提供一个基准测试。": "",
+    "方法：通过使用GPT-4生成包含38个主题的数千个问题的LongFact数据集，并提出了一种称为Search-Augmented Factuality Evaluator（SAFE）的方法，利用LLM将长形式响应分解为单个事实，并通过向谷歌搜索发送查询来评估每个事实的准确性。": "",
+    "结果：实证表明，LLM代理能够达到超人的评分性能，在约16k个独立事实的集合上，SAFE与众包人类注释者有72%的一致性，在100个随机不同意的案例中，SAFE有76%的胜率，且成本比人类注释者便宜20倍以上。同时，对四个模型家族（Gemini、GPT、Claude和PaLM-2）的十三种语言模型进行了基准测试，发现更大的语言模型通常能够实现更好的长形式事实准确性。": "",
+    "动机": "",
+    "方法": "",
+    "结果": ""
+  },
+  "summary_cn": "大型语言模型（LLMs）在回应开放式主题上寻求事实的提示时，经常生成包含事实错误的内容。为了对开放领域中模型的长篇幅事实性进行基准测试，我们首先使用GPT-4生成了一个包含38个主题、数千个问题的提示集，称为LongFact。然后我们提出，LLM代理可以作为长篇幅事实性的自动评估器，通过我们称之为搜索增强事实性评估器（SAFE）的方法。SAFE利用LLM将长篇幅回应分解为一组单个事实，并通过一个多步骤推理过程来评估每个事实的准确性，该过程包括向谷歌搜索发送搜索查询，并确定一个事实是否由搜索结果支持。此外，我们提出扩展F1分数作为长篇幅事实性的聚合度量。为此，我们在回应中支持事实的百分比（精确度）与相对于代表用户首选回应长度的超参数提供事实的百分比（召回率）之间取得平衡。从经验上，我们证明了LLM代理可以实现超人类的评分表现——在约16,000个单独事实的集合上，SAFE有72%的时间与众包的人类注释者一致，在100个随机不同意的案例的子集上，SAFE有76%的时间获胜。同时，SAFE的成本不到人类注释者的五十分之一。我们还对LongFact上的十三种语言模型进行了基准测试，涵盖了四个模型家族（Gemini、GPT、Claude和PaLM-2），发现更大的语言模型通常能实现更好的长篇幅事实性。LongFact、SAFE和所有实验代码可在 https://github.com/google-deepmind/long-form-factuality 获得。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models (LLMs)\",\n    \"Factual Errors\",\n    \"Long-Form Content Generation\",\n    \"Search-Augmented Factuality Evaluator (SAFE)\",\n    \"F1 Score\",\n    \"Automated Evaluation\",\n    \"Multi-Step Reasoning\",\n    \"Google Search Integration\",\n    \"Benchmarking\",\n    \"Model Comparison\",\n    \"Cost-Effectiveness\",\n    \"Open-Domain Questions\",\n    \"Crowdsourcing\",\n    \"Human Annotation\",\n    \"LongFact Dataset\",\n    \"GitHub Repository\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models (LLMs)",
+      "Factual Errors",
+      "Long-Form Content Generation",
+      "Search-Augmented Factuality Evaluator (SAFE)",
+      "F1 Score",
+      "Automated Evaluation",
+      "Multi-Step Reasoning",
+      "Google Search Integration",
+      "Benchmarking",
+      "Model Comparison",
+      "Cost-Effectiveness",
+      "Open-Domain Questions",
+      "Crowdsourcing",
+      "Human Annotation",
+      "LongFact Dataset",
+      "GitHub Repository"
+    ]
+  }
+}

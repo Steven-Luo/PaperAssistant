@@ -1,0 +1,21 @@
+{
+  "id": "2402.16107v2",
+  "raw_tldr": "动机\t训练大型语言模型（LLMs）从头开始虽然可以产生具有独特能力和优势的模型，但这种方法成本高昂且可能导致能力上的冗余。作为替代策略，结合现有的LLMs成为一个更强大的LLM，从而减少昂贵的预训练的必要性。\n方法\t通过轻量级持续训练，使用\\textsc{FuseLLM}框架的概念，将多个结构不同的LLMs的集体知识转移到目标LLM中，实现知识融合。首先，对结构和规模不同的源LLMs进行知识融合，通过轻量级微调得到结构和大小相同的多个目标LLM，然后在参数空间内合并这些目标LLM，并提出一种基于参数矩阵变化比率确定合并权重的新方法。\n结果\t使用三个具有不同架构和规模的著名聊天LLMs（\\texttt{NH2-Mixtral-8x7B}、\\texttt{NH2-Solar-10.7B}、\\texttt{OpenChat-3.5-7B}）验证方法。实验结果表明，在多个聊天领域中，\\texttt{\\textsc{FuseChat}-7B}在7B和34B规模的聊天LLMs中表现出色，甚至超过了\\texttt{GPT-3.5 (March)}，接近\\texttt{Mixtral-8x7B-Instruct}。",
+  "tldr": {
+    "动机": "训练大型语言模型（LLMs）从头开始虽然可以产生具有独特能力和优势的模型，但这种方法成本高昂且可能导致能力上的冗余。作为替代策略，结合现有的LLMs成为一个更强大的LLM，从而减少昂贵的预训练的必要性。",
+    "方法": "通过轻量级持续训练，使用\\textsc{FuseLLM}框架的概念，将多个结构不同的LLMs的集体知识转移到目标LLM中，实现知识融合。首先，对结构和规模不同的源LLMs进行知识融合，通过轻量级微调得到结构和大小相同的多个目标LLM，然后在参数空间内合并这些目标LLM，并提出一种基于参数矩阵变化比率确定合并权重的新方法。",
+    "结果": "使用三个具有不同架构和规模的著名聊天LLMs（\\texttt{NH2-Mixtral-8x7B}、\\texttt{NH2-Solar-10.7B}、\\texttt{OpenChat-3.5-7B}）验证方法。实验结果表明，在多个聊天领域中，\\texttt{\\textsc{FuseChat}-7B}在7B和34B规模的聊天LLMs中表现出色，甚至超过了\\texttt{GPT-3.5 (March)}，接近\\texttt{Mixtral-8x7B-Instruct}。"
+  },
+  "summary_cn": "从零开始训练大型语言模型（LLMs）确实可以导致具有独特能力和优势的模型，但这种方法会带来巨大的成本，并可能导致能力上的冗余。一种替代策略是将现有的LLMs组合成一个更强大的LLM，从而减少昂贵的预训练的必要性。然而，由于LLMs的架构多样性，直接参数融合被证明是不可行的。最近，\\textsc{FuseLLM}引入了知识融合的概念，通过轻量级持续训练将多个结构不同的LLMs的集体知识转移到目标LLM中。在这份报告中，我们扩展了\\textsc{FuseLLM}框架的可扩展性和灵活性，实现了聊天LLMs的融合，从而产生了\\textsc{FuseChat}。\\textsc{FuseChat}包括两个主要阶段。首先，我们对结构和规模不同的源LLMs进行知识融合，通过轻量级微调得到结构和大小相同的多个目标LLM。然后，这些目标LLM在参数空间内合并，在此我们提出了一种基于参数矩阵在微调前后变化比率来确定合并权重的新方法。我们使用三个具有不同架构和规模的著名聊天LLMs进行验证，分别是\\texttt{NH2-Mixtral-8x7B}、\\texttt{NH2-Solar-10.7B}和\\texttt{OpenChat-3.5-7B}。跨越各种聊天领域的实验结果展示了\\texttt{\\textsc{FuseChat}-7B}在7B和34B规模的广泛聊天LLMs中的优越性，甚至超过了\\texttt{GPT-3.5 (March)}并接近\\texttt{Mixtral-8x7B-Instruct}。我们的代码、模型权重和数据在\\url{https://github.com/fanqiwan/FuseLLM}上可以公开访问。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"large language models\",\n    \"knowledge fusion\",\n    \"lightweight fine-tuning\",\n    \"chat LLMs\",\n    \"parameter space merging\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language models",
+      "knowledge fusion",
+      "lightweight fine-tuning",
+      "chat LLMs",
+      "parameter space merging"
+    ]
+  }
+}

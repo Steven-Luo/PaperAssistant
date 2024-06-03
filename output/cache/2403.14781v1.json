@@ -1,0 +1,38 @@
+{
+  "id": "2403.14781v1",
+  "title": "Champ: Controllable and Consistent Human Image Animation with 3D Parametric Guidance",
+  "pdf_url": "http://arxiv.org/pdf/2403.14781v1",
+  "raw_tldr": "动机：本研究旨在通过利用3D人类参数模型和潜在扩散框架来增强当前人类生成技术中的形状对齐和运动指导，从而提出一种人类图像动画的方法。\n方法：研究中使用了SMPL模型作为3D人类参数模型，以建立统一的身体形状和姿势表示，通过源视频中的渲染深度图像、法线图和语义图以及基于骨架的运动指导，丰富潜在扩散模型的条件，包含全面的3D形状和详细的姿势属性。同时，采用多层运动融合模块，结合自注意力机制，在空间域中融合形状和运动潜在表示。\n结果：实验评估显示，该方法在生成高质量人类动画方面具有卓越能力，能够准确捕捉姿势和形状变化。此外，该方法在提出的野外数据集上也展现了优越的泛化能力。",
+  "tldr": {
+    "动机：本研究旨在通过利用3D人类参数模型和潜在扩散框架来增强当前人类生成技术中的形状对齐和运动指导，从而提出一种人类图像动画的方法。": "",
+    "方法：研究中使用了SMPL模型作为3D人类参数模型，以建立统一的身体形状和姿势表示，通过源视频中的渲染深度图像、法线图和语义图以及基于骨架的运动指导，丰富潜在扩散模型的条件，包含全面的3D形状和详细的姿势属性。同时，采用多层运动融合模块，结合自注意力机制，在空间域中融合形状和运动潜在表示。": "",
+    "结果：实验评估显示，该方法在生成高质量人类动画方面具有卓越能力，能够准确捕捉姿势和形状变化。此外，该方法在提出的野外数据集上也展现了优越的泛化能力。": "",
+    "动机": "",
+    "方法": "",
+    "结果": ""
+  },
+  "summary_cn": "在本研究中，我们引入了一种利用3D人体参数模型的方法，在潜在扩散框架内进行人体图像动画化，以增强当前人体生成技术中的形状对齐和动作指导。该方法利用SMPL（Skinned Multi-Person Linear）模型作为3D人体参数模型，建立身体形状和姿势的统一表示。这有助于从源视频中准确捕获复杂的人体几何和运动特征。具体而言，我们结合了从SMPL序列中获得的渲染深度图像、法线图和语义图，以及基于骨骼的运动指导，丰富潜在扩散模型的条件，包括全面的3D形状和详细的姿势属性。采用了一个多层运动融合模块，集成了自注意力机制，用于在空间域中融合形状和运动的潜在表示。通过将3D人体参数模型表现为运动指导，我们可以执行参考图像与源视频运动之间人体的参数形状对齐。在基准数据集上进行的实验评估证明了该方法生成高质量人体动画的优越能力，能够准确捕捉姿势和形状的变化。此外，我们的方法在所提出的野外数据集上也展示了优越的泛化能力。项目页面：https://fudan-generative-vision.github.io/champ.",
+  "tag_info_raw": "```json\n{\n  \"main_field\": \"CV\",\n  \"tags\": [\n    \"human image animation\",\n    \"3D human parametric model\",\n    \"latent diffusion framework\",\n    \"SMPL model\",\n    \"shape alignment\",\n    \"motion guidance\",\n    \"depth images\",\n    \"normal maps\",\n    \"semantic maps\",\n    \"skeleton-based motion guidance\",\n    \"multi-layer motion fusion\",\n    \"self-attention mechanisms\",\n    \"parametric shape alignment\",\n    \"benchmark datasets\",\n    \"generalization capabilities\"\n  ]\n}\n```",
+  "tag_info": {
+    "main_field": "CV",
+    "tags": [
+      "human image animation",
+      "3D human parametric model",
+      "latent diffusion framework",
+      "SMPL model",
+      "shape alignment",
+      "motion guidance",
+      "depth images",
+      "normal maps",
+      "semantic maps",
+      "skeleton-based motion guidance",
+      "multi-layer motion fusion",
+      "self-attention mechanisms",
+      "parametric shape alignment",
+      "benchmark datasets",
+      "generalization capabilities"
+    ],
+    "主要领域": "",
+    "标签": []
+  }
+}

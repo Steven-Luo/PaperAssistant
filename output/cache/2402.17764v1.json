@@ -1,0 +1,22 @@
+{
+  "id": "2402.17764v1",
+  "raw_tldr": "动机\t最近的研究如BitNet为1位大型语言模型(LLMs)的新时代铺平了道路。本工作引入了一种1位LLM变体，即BitNet b1.58，旨在提高成本效率，同时保持与全精度Transformer LLM相同的模型大小和训练令牌的困惑度和端到端任务性能。\n方法\tBitNet b1.58将LLM的每个参数（或权重）量化为三元{-1, 0, 1}，与相同模型大小和训练令牌的全精度（即FP16或BF16）Transformer LLM匹配，同时在延迟、内存、吞吐量和能耗方面显著更高效。\n结果\tBitNet b1.58不仅在困惑度和端到端任务性能上与全精度Transformer LLM相匹配，而且在延迟、内存、吞吐量和能耗方面显著更为高效，定义了新的扩展法则和训练新一代高性能且成本效益高的LLMs的配方，同时为设计针对1位LLMs优化的特定硬件开辟了新途径。",
+  "tldr": {
+    "动机": "最近的研究如BitNet为1位大型语言模型(LLMs)的新时代铺平了道路。本工作引入了一种1位LLM变体，即BitNet b1.58，旨在提高成本效率，同时保持与全精度Transformer LLM相同的模型大小和训练令牌的困惑度和端到端任务性能。",
+    "方法": "BitNet b1.58将LLM的每个参数（或权重）量化为三元{-1, 0, 1}，与相同模型大小和训练令牌的全精度（即FP16或BF16）Transformer LLM匹配，同时在延迟、内存、吞吐量和能耗方面显著更高效。",
+    "结果": "BitNet b1.58不仅在困惑度和端到端任务性能上与全精度Transformer LLM相匹配，而且在延迟、内存、吞吐量和能耗方面显著更为高效，定义了新的扩展法则和训练新一代高性能且成本效益高的LLMs的配方，同时为设计针对1位LLMs优化的特定硬件开辟了新途径。"
+  },
+  "summary_cn": "最近的研究，例如BitNet，正在为新一代的1比特大型语言模型（LLMs）铺平道路。在这项工作中，我们介绍了一种1比特LLM变体，即BitNet b1.58，其中LLM的每一个参数（或权重）都是三元的{-1, 0, 1}。它在困惑度和最终任务性能方面与相同模型大小和训练令牌的全精度（即FP16或BF16）Transformer LLM相匹配，同时在延迟、内存、吞吐量和能耗方面显著更具成本效益。更深刻地说，1.58比特LLM定义了一个新的扩展法则和训练新一代既高性能又具成本效益的LLMs的配方。此外，它使得一种新的计算范式成为可能，并为设计专门针对1比特LLMs优化的硬件打开了大门。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"1-bit LLM\",\n    \"BitNet\",\n    \"Cost-effective\",\n    \"Scaling Law\",\n    \"Hardware Optimization\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "1-bit LLM",
+      "BitNet",
+      "Cost-effective",
+      "Scaling Law",
+      "Hardware Optimization"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+[
+ {
+  "link": "/papers/2403.03163",
+  "id": "2403.03163",
+  "title": "Design2Code: How Far Are We From Automating Front-End Engineering?",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/fCIN3z4hez-rSH7zh6IbP.png"
+ },
+ {
+  "link": "/papers/2403.03206",
+  "id": "2403.03206",
+  "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/SQl8gNof4uWZEFxtztnk3.png"
+ },
+ {
+  "link": "/papers/2403.03100",
+  "id": "2403.03100",
+  "title": "NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/ie9-sneEMA254_UASOJZh.png"
+ },
+ {
+  "link": "/papers/2403.02677",
+  "id": "2403.02677",
+  "title": "Finetuned Multimodal Language Models Are High-Quality Image-Text Data Filters",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/TYHO4NNx1DP1ekGrpXrWJ.png"
+ },
+ {
+  "link": "/papers/2403.02545",
+  "id": "2403.02545",
+  "title": "Wukong: Towards a Scaling Law for Large-Scale Recommendation",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/Fe1oBxmvxcCMUGw0nK38_.png"
+ },
+ {
+  "link": "/papers/2403.02626",
+  "id": "2403.02626",
+  "title": "Modeling Collaborator: Enabling Subjective Vision Classification With Minimal Human Effort via LLM Tool-Use",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/bIgB3HiDXrYC-YPXylneZ.png"
+ },
+ {
+  "link": "/papers/2403.02884",
+  "id": "2403.02884",
+  "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/rWX2wWPNAWQxdN9XBcG_D.png"
+ },
+ {
+  "link": "/papers/2403.03194",
+  "id": "2403.03194",
+  "title": "MAGID: An Automated Pipeline for Generating Synthetic Multi-modal Datasets",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/hO2GIUYJWIK3firlRKfiA.png"
+ },
+ {
+  "link": "/papers/2403.02775",
+  "id": "2403.02775",
+  "title": "EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/0cPQza5cyaAiPiZUlMktL.png"
+ },
+ {
+  "link": "/papers/2403.02709",
+  "id": "2403.02709",
+  "title": "RT-Sketch: Goal-Conditioned Imitation Learning from Hand-Drawn Sketches",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/k604bpCNsruHng3nw1_L-.mp4"
+ },
+ {
+  "link": "/papers/2403.02460",
+  "id": "2403.02460",
+  "title": "MagicClay: Sculpting Meshes With Generative Neural Fields",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/hcPoUoQvvcQy2be9cKa2J.mp4"
+ },
+ {
+  "link": "/papers/2403.03003",
+  "id": "2403.03003",
+  "title": "Feast Your Eyes: Mixture-of-Resolution Adaptation for Multimodal Large Language Models",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/GBOvqUR4jyJrk7MYI549a.png"
+ },
+ {
+  "link": "/papers/2403.02827",
+  "id": "2403.02827",
+  "title": "Tuning-Free Noise Rectification for High Fidelity Image-to-Video Generation",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/_D-SOw3dIFkj_wG5hzikg.mp4"
+ }
+]

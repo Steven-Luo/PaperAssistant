@@ -1,0 +1,24 @@
+{
+  "id": "2402.08939v1",
+  "title": "Premise Order Matters in Reasoning with Large Language Models",
+  "pdf_url": "http://arxiv.org/pdf/2402.08939v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在各个领域取得了显著的推理性能，但在推理任务领域，发现LLMs对前提顺序异常脆弱，尽管这种顺序并不改变底层任务。\n方法\t首先检验了前提顺序对各种LLMs进行演绎推理的影响，并发布了基于GSM8K的R-GSM基准测试，以检验数学问题解决中的排序效应。\n结果\t改变前提顺序会导致性能下降超过30%，并且在数学问题解决的R-GSM基准测试中，相对于原始GSM8K基准，也观察到了显著的准确性下降。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在各个领域取得了显著的推理性能，但在推理任务领域，发现LLMs对前提顺序异常脆弱，尽管这种顺序并不改变底层任务。",
+    "方法": "首先检验了前提顺序对各种LLMs进行演绎推理的影响，并发布了基于GSM8K的R-GSM基准测试，以检验数学问题解决中的排序效应。",
+    "结果": "改变前提顺序会导致性能下降超过30%，并且在数学问题解决的R-GSM基准测试中，相对于原始GSM8K基准，也观察到了显著的准确性下降。"
+  },
+  "summary_cn": "大型语言模型（LLMs）在各个领域取得了显著的推理性能。然而，在推理任务的领域中，我们发现了一个脆弱性：尽管前提的顺序并不改变潜在的任务，LLMs对前提的排序却出奇地脆弱。特别是，我们观察到，当前提顺序与中间推理步骤所需的上下文对齐时，LLMs达到最佳性能。例如，在演绎推理任务中，按照与地面真相证明相同的顺序呈现前提（与随机排序相反）会极大地提高模型的准确性。我们首先检验了前提排序对各种LLMs进行演绎推理的影响，我们的评估显示，改变前提顺序可能会导致性能下降超过30%。此外，我们发布了基于GSM8K的基准测试R-GSM，以检查数学问题解决中的排序效应，我们再次观察到与原始GSM8K基准相比，准确性显著下降。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Reasoning Performance\",\n    \"Premise Ordering\",\n    \"Deductive Reasoning\",\n    \"Benchmark\",\n    \"Mathematical Problem-Solving\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Reasoning Performance",
+      "Premise Ordering",
+      "Deductive Reasoning",
+      "Benchmark",
+      "Mathematical Problem-Solving"
+    ]
+  }
+}

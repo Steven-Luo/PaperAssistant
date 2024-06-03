@@ -1,0 +1,26 @@
+{
+  "id": "2403.03507v1",
+  "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+  "pdf_url": "http://arxiv.org/pdf/2403.03507v1",
+  "raw_tldr": "动机\t训练大型语言模型(LLMs)面临显著的内存挑战，主要是由于权重和优化器状态的不断增长。常见的内存减少方法如低秩适应(LoRA)存在性能不足的问题，因为它们将参数搜索限制在低秩子空间内，并改变了训练动态。\n方法\t提出了一种名为Gradient Low-Rank Projection (GaLore)的训练策略，该策略允许全参数学习，同时比常见的低秩适应方法如LoRA更节省内存。GaLore通过在优化器状态上减少高达65.5%的内存使用，在保持效率和性能的同时，支持在LLaMA 1B和7B架构上使用C4数据集进行预训练，以及在GLUE任务上对RoBERTa进行微调。\n结果\tGaLore进一步通过8位优化，将优化器内存减少了高达82.5%，总训练内存减少了63.3%，与BF16基线相比。首次展示了在消费级GPU（例如，NVIDIA RTX 4090）上预训练7B模型的可行性，无需模型并行、检查点或卸载策略。",
+  "tldr": {
+    "动机": "训练大型语言模型(LLMs)面临显著的内存挑战，主要是由于权重和优化器状态的不断增长。常见的内存减少方法如低秩适应(LoRA)存在性能不足的问题，因为它们将参数搜索限制在低秩子空间内，并改变了训练动态。",
+    "方法": "提出了一种名为Gradient Low-Rank Projection (GaLore)的训练策略，该策略允许全参数学习，同时比常见的低秩适应方法如LoRA更节省内存。GaLore通过在优化器状态上减少高达65.5%的内存使用，在保持效率和性能的同时，支持在LLaMA 1B和7B架构上使用C4数据集进行预训练，以及在GLUE任务上对RoBERTa进行微调。",
+    "结果": "GaLore进一步通过8位优化，将优化器内存减少了高达82.5%，总训练内存减少了63.3%，与BF16基线相比。首次展示了在消费级GPU（例如，NVIDIA RTX 4090）上预训练7B模型的可行性，无需模型并行、检查点或卸载策略。"
+  },
+  "summary_cn": "训练大型语言模型（LLMs）呈现出显著的内存挑战，主要是由于权重和优化器状态的不断增长所导致的。常见的内存减少方法，如低秩适应（LoRA），在每一层中向冻结的预训练权重添加一个可训练的低秩矩阵，减少了可训练参数和优化器状态。然而，这类方法通常在预训练和微调阶段的表现都不如全秩权重训练，因为它们将参数搜索限制在低秩子空间内，并改变了训练动态，而且，可能还需要全秩的热启动。在这项工作中，我们提出了梯度低秩投影（GaLore），一种训练策略，它允许全参数学习，但比常见的低秩适应方法如LoRA更节省内存。我们的方法在优化器状态的内存使用上减少了高达65.5%，同时在LLaMA 1B和7B架构上使用C4数据集进行预训练，以及在GLUE任务上微调RoBERTa时，保持了效率和性能，处理了高达19.7B的令牌。我们的8位GaLore进一步将优化器内存减少了高达82.5%，与BF16基线相比，总训练内存减少了63.3%。值得注意的是，我们首次展示了在消费级GPU（例如，NVIDIA RTX 4090）上预训练一个7B模型的可行性，这些GPU具有24GB的内存，无需模型并行、检查点或卸载策略。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Memory Efficiency\",\n    \"Low-Rank Adaptation\",\n    \"Gradient Low-Rank Projection\",\n    \"Pre-training\",\n    \"Fine-tuning\",\n    \"Optimizer States Reduction\",\n    \"Consumer GPUs\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Large Language Models",
+      "Memory Efficiency",
+      "Low-Rank Adaptation",
+      "Gradient Low-Rank Projection",
+      "Pre-training",
+      "Fine-tuning",
+      "Optimizer States Reduction",
+      "Consumer GPUs"
+    ]
+  }
+}

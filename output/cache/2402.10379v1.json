@@ -1,0 +1,23 @@
+{
+  "id": "2402.10379v1",
+  "title": "DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows",
+  "pdf_url": "http://arxiv.org/pdf/2402.10379v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）已成为NLP研究者在广泛任务中的主导和重要工具。然而，使用这些模型时会遇到一些挑战，包括它们的规模、闭源性质，以及缺乏标准化工具，这些挑战对开放科学和可重复性研究产生了直接的负面影响。\n方法\t本文介绍了一个名为DataDreamer的开源Python库，该库允许研究人员编写简单的代码来实现强大的LLM工作流程，并遵循我们提出的最佳实践，以鼓励开放科学和可重复性。\n结果\tDataDreamer帮助研究人员遵循最佳实践，鼓励开放科学和可重复性，库及其文档可在https://github.com/datadreamer-dev/DataDreamer 获取。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）已成为NLP研究者在广泛任务中的主导和重要工具。然而，使用这些模型时会遇到一些挑战，包括它们的规模、闭源性质，以及缺乏标准化工具，这些挑战对开放科学和可重复性研究产生了直接的负面影响。",
+    "方法": "本文介绍了一个名为DataDreamer的开源Python库，该库允许研究人员编写简单的代码来实现强大的LLM工作流程，并遵循我们提出的最佳实践，以鼓励开放科学和可重复性。",
+    "结果": "DataDreamer帮助研究人员遵循最佳实践，鼓励开放科学和可重复性，库及其文档可在https://github.com/datadreamer-dev/DataDreamer 获取。"
+  },
+  "summary_cn": "大型语言模型（LLMs）已成为NLP研究人员在广泛任务中的主导和重要工具。如今，许多研究人员在合成数据生成、任务评估、微调、蒸馏以及其他模型循环研究工作流中使用LLMs。然而，使用这些模型时会出现一些挑战，这些挑战源于它们的规模、闭源性质，以及缺乏针对这些新兴工作流的标准化工具。这些模型迅速崛起以及这些独特挑战立即对开放科学和使用它们的工作的可复制性产生了负面影响。在本文中，我们介绍了DataDreamer，一个开源Python库，允许研究人员编写简单的代码来实现强大的LLM工作流。DataDreamer还帮助研究人员遵循我们提出的最佳实践，以鼓励开放科学和可复制性。该库和文档可在 https://github.com/datadreamer-dev/DataDreamer 获取。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Synthetic Data Generation\",\n    \"Open Source\",\n    \"Reproducibility\",\n    \"Open Science\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Synthetic Data Generation",
+      "Open Source",
+      "Reproducibility",
+      "Open Science"
+    ]
+  }
+}

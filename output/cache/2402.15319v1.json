@@ -1,0 +1,30 @@
+{
+  "id": "2402.15319v1",
+  "raw_tldr": "#动机\n本工作展示了通过增加量化维度，可以显著改善神经网络量化的大小与准确性之间的权衡。\n\n#方法\n提出了GPTVQ方法，这是一种新的快速后训练向量量化（VQ）方法，适用于大型语言模型（LLMs）。该方法通过交错量化一个或多个列并使用来自每层输出重建MSE的Hessian的信息更新剩余未量化的权重，初始化量化码本使用高效的数据感知版本的EM算法，然后更新码本，并通过使用整数量化和基于SVD的压缩进一步压缩。\n\n#结果\nGPTVQ在一系列大型语言模型（如Llama-v2和Mistral）上建立了新的大小与准确性权衡的最新水平。此外，我们的方法效率高，在单个H100上处理Llamav2-70B模型只需3到11小时，取决于量化设置。最后，通过在移动CPU上的VQ解压缩的设备上计时，我们展示了与使用4位整数格式相比，VQ能够改善延迟。",
+  "tldr": {
+    "": "结果",
+    "本工作展示了通过增加量化维度，可以显著改善神经网络量化的大小与准确性之间的权衡。": "",
+    "提出了GPTVQ方法，这是一种新的快速后训练向量量化（VQ）方法，适用于大型语言模型（LLMs）。该方法通过交错量化一个或多个列并使用来自每层输出重建MSE的Hessian的信息更新剩余未量化的权重，初始化量化码本使用高效的数据感知版本的EM算法，然后更新码本，并通过使用整数量化和基于SVD的压缩进一步压缩。": "",
+    "GPTVQ在一系列大型语言模型（如Llama-v2和Mistral）上建立了新的大小与准确性权衡的最新水平。此外，我们的方法效率高，在单个H100上处理Llamav2-70B模型只需3到11小时，取决于量化设置。最后，通过在移动CPU上的VQ解压缩的设备上计时，我们展示了与使用4位整数格式相比，VQ能够改善延迟。": "",
+    "动机": "",
+    "方法": "",
+    "结果": ""
+  },
+  "summary_cn": "在这项工作中，我们展示了通过增加量化维度可以显著改善神经网络量化的大小与准确性之间的权衡。我们提出了GPTVQ方法，这是一种新的快速后训练向量量化（VQ）方法，能够很好地扩展到大型语言模型（LLMs）。我们的方法是交错地量化一个或多个列，并使用来自每层输出重建MSE的Hessian的信息更新剩余的未量化权重。量化码本使用一种高效的数据感知版本的EM算法进行初始化。然后更新码本，并通过使用整数量化和基于SVD的压缩进一步压缩。GPTVQ在一系列大型语言模型如Llama-v2和Mistral上建立了新的大小与准确性权衡的最新水平。此外，我们的方法效率高：在单个H100上，根据量化设置，处理一个Llamav2-70B模型需要3到11小时。最后，通过在移动CPU上对VQ解压缩的设备上时间进行测试，我们展示了与使用4位整数格式相比，VQ能够提高延迟性能。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"neural network quantization\",\n    \"vector quantization\",\n    \"Large Language Models\",\n    \"post-training quantization\",\n    \"GPTVQ method\",\n    \"Hessian\",\n    \"EM algorithm\",\n    \"SVD-based compression\",\n    \"size vs accuracy trade-off\",\n    \"on-device timings\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "neural network quantization",
+      "vector quantization",
+      "Large Language Models",
+      "post-training quantization",
+      "GPTVQ method",
+      "Hessian",
+      "EM algorithm",
+      "SVD-based compression",
+      "size vs accuracy trade-off",
+      "on-device timings"
+    ]
+  }
+}

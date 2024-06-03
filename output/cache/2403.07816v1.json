@@ -1,0 +1,23 @@
+{
+  "id": "2403.07816v1",
+  "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+  "pdf_url": "http://arxiv.org/pdf/2403.07816v1",
+  "raw_tldr": "动机\t我们调查了训练大型语言模型（LLMs）以拥有多个专业领域能力（如编码、数学推理和世界知识）的高效方法。\n方法\t我们提出了一种名为Branch-Train-MiX（BTX）的方法，该方法从一个种子模型开始，以尴尬并行的方式分支训练专家，具有高吞吐量和降低的通信成本。在异步训练各个专家后，BTX将它们的前馈参数作为专家集成到Mixture-of-Expert（MoE）层中，并对剩余参数进行平均，随后进行MoE微调阶段以学习令牌级路由。BTX概括了两种特殊情况：Branch-Train-Merge方法，它没有MoE微调阶段来学习路由；稀疏升级，它省略了异步训练专家的阶段。\n结果\tBTX与其他方法相比，实现了最佳的准确性-效率权衡。",
+  "tldr": {
+    "动机": "我们调查了训练大型语言模型（LLMs）以拥有多个专业领域能力（如编码、数学推理和世界知识）的高效方法。",
+    "方法": "我们提出了一种名为Branch-Train-MiX（BTX）的方法，该方法从一个种子模型开始，以尴尬并行的方式分支训练专家，具有高吞吐量和降低的通信成本。在异步训练各个专家后，BTX将它们的前馈参数作为专家集成到Mixture-of-Expert（MoE）层中，并对剩余参数进行平均，随后进行MoE微调阶段以学习令牌级路由。BTX概括了两种特殊情况：Branch-Train-Merge方法，它没有MoE微调阶段来学习路由；稀疏升级，它省略了异步训练专家的阶段。",
+    "结果": "BTX与其他方法相比，实现了最佳的准确性-效率权衡。"
+  },
+  "summary_cn": "我们研究了训练大型语言模型（LLMs）以掌握多个专业领域（如编码、数学推理和世界知识）能力的高效方法。我们的方法名为Branch-Train-MiX（BTX），它从一个种子模型开始，通过尴尬并行的方式分支训练专家，具有高吞吐量和降低的通信成本。在单独的专家异步训练完成后，BTX将它们的前馈参数作为专家集成到混合专家（MoE）层中，并对剩余参数进行平均，随后进行MoE微调阶段以学习令牌级路由。BTX概括了两个特殊情况，即Branch-Train-Merge方法，它没有进行MoE微调阶段以学习路由；以及稀疏升级，它省略了异步训练专家的阶段。与其他替代方法相比，BTX实现了最佳的准确性-效率权衡。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\"Large Language Models\", \"Branch-Train-MiX\", \"Mixture-of-Expert\", \"Efficient Training Methods\", \"Domain Specialization\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Large Language Models",
+      "Branch-Train-MiX",
+      "Mixture-of-Expert",
+      "Efficient Training Methods",
+      "Domain Specialization"
+    ]
+  }
+}

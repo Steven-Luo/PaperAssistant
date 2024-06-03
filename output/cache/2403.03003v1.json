@@ -1,0 +1,24 @@
+{
+  "id": "2403.03003v1",
+  "title": "Feast Your Eyes: Mixture-of-Resolution Adaptation for Multimodal Large Language Models",
+  "pdf_url": "http://arxiv.org/pdf/2403.03003v1",
+  "raw_tldr": "动机\t尽管取得了显著进展，现有的多模态大型语言模型（MLLMs）在细粒度视觉识别方面仍然存在不足。\n方法\t提出了一种名为Mixture-of-Resolution Adaptation (MRA)的新方法，采用两种视觉路径处理不同分辨率的图像，并通过混合分辨率适配器（MR-Adapters）将高分辨率视觉信息嵌入到低分辨率路径中，有效减少了MLLMs的输入序列长度。\n结果\tLLaVA-HR在11项视觉-语言（VL）任务中的表现超过了现有的MLLMs，在8项VL任务中取得了优异的成绩，例如在TextVQA任务上提高了9.4%，同时保持了训练和推理的高效性。",
+  "tldr": {
+    "动机": "尽管取得了显著进展，现有的多模态大型语言模型（MLLMs）在细粒度视觉识别方面仍然存在不足。",
+    "方法": "提出了一种名为Mixture-of-Resolution Adaptation (MRA)的新方法，采用两种视觉路径处理不同分辨率的图像，并通过混合分辨率适配器（MR-Adapters）将高分辨率视觉信息嵌入到低分辨率路径中，有效减少了MLLMs的输入序列长度。",
+    "结果": "LLaVA-HR在11项视觉-语言（VL）任务中的表现超过了现有的MLLMs，在8项VL任务中取得了优异的成绩，例如在TextVQA任务上提高了9.4%，同时保持了训练和推理的高效性。"
+  },
+  "summary_cn": "尽管取得了显著进展，现有的多模态大型语言模型（MLLMs）在细粒度视觉识别方面仍然存在不足。与以往的研究不同，我们从图像分辨率的角度研究了这一问题，并发现低分辨率和高分辨率视觉特征的结合可以有效地缓解这一缺陷。基于这一观察，我们为MLLMs提出了一种新颖且高效的方法，称为混合分辨率适应（MRA）。特别地，MRA采用了两种针对不同分辨率图像的视觉路径，其中高分辨率视觉信息通过新颖的混合分辨率适配器（MR-Adapters）嵌入到低分辨率路径中。这种设计也大大减少了MLLMs的输入序列长度。为了验证MRA，我们将其应用于最近的一个MLLM，称为LLaVA，并将新模型命名为LLaVA-HR。我们在11个视觉-语言（VL）任务上进行了广泛的实验，结果显示LLaVA-HR在8个VL任务上超越了现有的MLLMs，例如，在TextVQA上提高了9.4%。更重要的是，LLaVA-HR的训练和推理在使用MRA时仍然保持高效，例如，训练时间为20小时，推理速度是LLaVA-1.5的3倍。源代码发布在：https://github.com/luogen1996/LLaVA-HR。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"多模态大型语言模型\",\n    \"视觉识别\",\n    \"图像分辨率\",\n    \"Mixture-of-Resolution Adaptation\",\n    \"视觉-语言任务\",\n    \"模型效率\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "多模态大型语言模型",
+      "视觉识别",
+      "图像分辨率",
+      "Mixture-of-Resolution Adaptation",
+      "视觉-语言任务",
+      "模型效率"
+    ]
+  }
+}

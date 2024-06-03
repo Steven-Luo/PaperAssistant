@@ -1,0 +1,29 @@
+{
+  "id": "2403.08715v1",
+  "title": "SOTOPIA-$π$: Interactive Learning of Socially Intelligent Language Agents",
+  "pdf_url": "http://arxiv.org/pdf/2403.08715v1",
+  "raw_tldr": "动机\t人类通过模仿和社会互动学习社交技能，但现有研究在构建语言代理时大多忽视了这一社会学习过程。为了填补这一研究空白，我们提出了一种互动学习方法。\n方法\tSOTOPIA-$\\pi$是一种互动学习方法，通过行为克隆和自我强化训练来提高语言代理的社会智能，训练数据基于大型语言模型（LLM）的评分进行过滤。\n结果\t我们的训练方法使得一个7B LLM达到了专家模型（基于GPT-4的代理）的社会目标完成能力，同时提高了语言代理的安全性，并在MMLU基准上保持了一般问答（QA）能力。此外，我们发现这种训练范式揭示了基于LLM评估社会智能时的一些困难：基于LLM的评估器高估了专门为社会互动训练的语言代理的能力。",
+  "tldr": {
+    "动机": "人类通过模仿和社会互动学习社交技能，但现有研究在构建语言代理时大多忽视了这一社会学习过程。为了填补这一研究空白，我们提出了一种互动学习方法。",
+    "方法": "SOTOPIA-$\\pi$是一种互动学习方法，通过行为克隆和自我强化训练来提高语言代理的社会智能，训练数据基于大型语言模型（LLM）的评分进行过滤。",
+    "结果": "我们的训练方法使得一个7B LLM达到了专家模型（基于GPT-4的代理）的社会目标完成能力，同时提高了语言代理的安全性，并在MMLU基准上保持了一般问答（QA）能力。此外，我们发现这种训练范式揭示了基于LLM评估社会智能时的一些困难：基于LLM的评估器高估了专门为社会互动训练的语言代理的能力。"
+  },
+  "summary_cn": "人类通过模仿和社会互动学习社交技能。现有研究在构建语言代理方面，很大程度上忽视了这一社会学习过程。受此启发，我们提出了一种互动学习方法，SOTOPIA-$\\pi$，以提高语言代理的社会智能。该方法利用行为克隆和自我强化训练，针对根据大型语言模型（LLM）评级过滤的社会互动数据。我们展示了我们的训练方法使得一个7B LLM能够达到专家模型（基于GPT-4的代理）的社会目标完成能力，同时提高语言代理的安全性，并在MMLU基准测试上保持一般的问答（QA）能力。我们还发现，这种训练范式揭示了基于LLM评估社会智能时的一些困难：基于LLM的评估者高估了专门为社会互动训练的语言代理的能力。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"social learning\",\n    \"language agents\",\n    \"behavior cloning\",\n    \"self-reinforcement training\",\n    \"large language model\",\n    \"social intelligence\",\n    \"safety\",\n    \"general QA ability\",\n    \"MMLU benchmark\",\n    \"GPT-4\",\n    \"LLM-based evaluation\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "social learning",
+      "language agents",
+      "behavior cloning",
+      "self-reinforcement training",
+      "large language model",
+      "social intelligence",
+      "safety",
+      "general QA ability",
+      "MMLU benchmark",
+      "GPT-4",
+      "LLM-based evaluation"
+    ]
+  }
+}

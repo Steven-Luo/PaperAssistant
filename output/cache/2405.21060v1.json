@@ -1,0 +1,27 @@
+{
+  "id": "2405.21060v1",
+  "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+  "pdf_url": "http://arxiv.org/pdf/2405.21060v1",
+  "raw_tldr": "动机\t探索Transformers在语言建模中成功的主要架构，并与最新的状态空间模型(SSMs)如Mamba进行比较，发现SSMs在小到中等规模中可以匹敌或超越Transformers。\n方法\t开发了一个名为SSD（状态空间对偶）的丰富框架，建立了SSMs和注意力机制变体之间的理论联系，这些联系通过分解一类结构化半分可分离矩阵来实现。\n结果\t设计了一个新的架构Mamba-2，其核心层是对Mamba的选择性SSM的改进，速度提升了2-8倍，同时在语言建模上与Transformers保持竞争力。",
+  "tldr": {
+    "动机": "探索Transformers在语言建模中成功的主要架构，并与最新的状态空间模型(SSMs)如Mamba进行比较，发现SSMs在小到中等规模中可以匹敌或超越Transformers。",
+    "方法": "开发了一个名为SSD（状态空间对偶）的丰富框架，建立了SSMs和注意力机制变体之间的理论联系，这些联系通过分解一类结构化半分可分离矩阵来实现。",
+    "结果": "设计了一个新的架构Mamba-2，其核心层是对Mamba的选择性SSM的改进，速度提升了2-8倍，同时在语言建模上与Transformers保持竞争力。"
+  },
+  "summary_cn": "虽然变换器（Transformers）一直是深度学习在语言建模成功背后的主要架构，但像Mamba这样的状态空间模型（SSMs）最近已被证明在小到中等规模上能够匹敌或超越变换器。我们展示了这些模型家族实际上是相当紧密相关的，并且开发了一个丰富的理论联系框架，将SSMs与注意力的变体联系起来，这些联系是通过一个广泛研究的结构化半分离矩阵类的各种分解实现的。我们的的状态空间对偶（SSD）框架使我们能够设计一种新架构（Mamba-2），其核心层是对Mamba的选择性SSM的改进，速度提高了2-8倍，同时在语言建模方面继续与变换器竞争。",
+  "tag_info_raw": "{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"Transformers\",\n    \"State-Space Models\",\n    \"Mamba\",\n    \"Attention Mechanisms\",\n    \"Language Modeling\",\n    \"Deep Learning\",\n    \"Semi-separable Matrices\",\n    \"SSD Framework\",\n    \"Mamba-2\"\n  ]\n}",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Transformers",
+      "State-Space Models",
+      "Mamba",
+      "Attention Mechanisms",
+      "Language Modeling",
+      "Deep Learning",
+      "Semi-separable Matrices",
+      "SSD Framework",
+      "Mamba-2"
+    ]
+  }
+}

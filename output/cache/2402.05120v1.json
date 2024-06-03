@@ -1,0 +1,23 @@
+{
+  "id": "2402.05120v1",
+  "title": "More Agents Is All You Need",
+  "pdf_url": "http://arxiv.org/pdf/2402.05120v1",
+  "raw_tldr": "动机\t我们发现，通过一个简单的采样和投票方法，大型语言模型（LLMs）的性能随着实例化的代理数量的增加而提升。\n方法\t我们在一系列大型语言模型基准测试上进行了全面的实验，以验证我们的发现，并研究可以促进其发生的属性。\n结果\t此方法与现有的复杂方法正交，可进一步增强LLMs的性能，而且增强的程度与任务难度相关。",
+  "tldr": {
+    "动机": "我们发现，通过一个简单的采样和投票方法，大型语言模型（LLMs）的性能随着实例化的代理数量的增加而提升。",
+    "方法": "我们在一系列大型语言模型基准测试上进行了全面的实验，以验证我们的发现，并研究可以促进其发生的属性。",
+    "结果": "此方法与现有的复杂方法正交，可进一步增强LLMs的性能，而且增强的程度与任务难度相关。"
+  },
+  "summary_cn": "我们发现，仅通过一种抽样和投票的方法，大型语言模型（LLMs）的性能随着实例化的代理数量的增加而提升。此外，这种方法与现有的复杂方法正交，可以进一步增强LLMs的性能，而性能的增强程度与任务难度相关。我们在广泛的LLM基准测试上进行了全面的实验，以验证我们的发现，并研究可以促进其发生的属性。我们的代码在以下链接公开可用：\\url{https://anonymous.4open.science/r/more_agent_is_all_you_need}。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\"large language models\", \"sampling-and-voting method\", \"performance scaling\", \"task difficulty\", \"experiments\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language models",
+      "sampling-and-voting method",
+      "performance scaling",
+      "task difficulty",
+      "experiments"
+    ]
+  }
+}

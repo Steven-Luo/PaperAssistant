@@ -1,0 +1,24 @@
+{
+  "id": "2402.16153v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在文本生成方面展现出了令人印象深刻的能力，但其在音乐领域的应用尚未普及，音乐作为人类的创造性语言，有待于被这些模型更好地理解和生成。  \n方法\t通过持续的预训练和微调LLaMA2模型，并将其与一种与文本兼容的音乐表示法——ABC记谱法结合，将音乐视为第二语言，开发了一个名为ChatMusician的开源大型语言模型，该模型能够仅使用纯文本分词器理解和生成音乐，无需任何外部多模态神经结构或分词器。  \n结果\tChatMusician能够根据文本、和弦、旋律、主题、音乐形式等条件创作结构完整的全长音乐，超越了GPT-4的基线。在专门策划的大学级音乐理解基准测试MusicTheoryBench上，ChatMusician在零样本设置下显著超过LLaMA2和GPT-3.5。同时，赋予音乐能力并未损害语言能力，甚至实现了略高的MMLU得分。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在文本生成方面展现出了令人印象深刻的能力，但其在音乐领域的应用尚未普及，音乐作为人类的创造性语言，有待于被这些模型更好地理解和生成。  ",
+    "方法": "通过持续的预训练和微调LLaMA2模型，并将其与一种与文本兼容的音乐表示法——ABC记谱法结合，将音乐视为第二语言，开发了一个名为ChatMusician的开源大型语言模型，该模型能够仅使用纯文本分词器理解和生成音乐，无需任何外部多模态神经结构或分词器。  ",
+    "结果": "ChatMusician能够根据文本、和弦、旋律、主题、音乐形式等条件创作结构完整的全长音乐，超越了GPT-4的基线。在专门策划的大学级音乐理解基准测试MusicTheoryBench上，ChatMusician在零样本设置下显著超过LLaMA2和GPT-3.5。同时，赋予音乐能力并未损害语言能力，甚至实现了略高的MMLU得分。"
+  },
+  "summary_cn": "尽管大型语言模型（LLMs）在文本生成方面展现出了令人印象深刻的能力，我们发现它们的能力尚未普及到音乐领域——人类的创造性语言。我们介绍了ChatMusician，一款集成了内在音乐能力的开源大型语言模型。它基于持续的预训练和在与文本兼容的音乐表示法——ABC记谱法上对LLaMA2进行微调，将音乐视为第二语言。ChatMusician能够仅使用纯文本分词器理解和生成音乐，无需任何外部的多模态神经结构或分词器。有趣的是，赋予音乐能力并不损害语言能力，甚至实现了略微更高的MMLU分数。我们的模型能够根据文本、和弦、旋律、主题、音乐形式等条件创作结构完整、全长的音乐，超越了GPT-4的基线。在我们精心策划的大学级音乐理解基准测试MusicTheoryBench上，ChatMusician在零样本设置下显著超过LLaMA2和GPT-3.5。我们的工作揭示了LLMs可以是音乐的优秀压缩器，但仍有大片领域有待征服。我们在GitHub上发布了我们的4B令牌音乐-语言语料库MusicPile、收集的MusicTheoryBench、代码、模型和演示。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Music Generation\",\n    \"ABC Notation\",\n    \"Continual Pre-training\",\n    \"Finetuning\",\n    \"Text-Compatible Music Representation\",\n    \"Music-Language Corpora\",\n    \"Open-Source\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Music Generation",
+      "ABC Notation",
+      "Continual Pre-training",
+      "Finetuning",
+      "Text-Compatible Music Representation",
+      "Music-Language Corpora",
+      "Open-Source"
+    ]
+  }
+}

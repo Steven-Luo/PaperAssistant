@@ -1,0 +1,58 @@
+[
+ {
+  "link": "/papers/2403.07508",
+  "id": "2403.07508",
+  "title": "MoAI: Mixture of All Intelligence for Large Language and Vision Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07508.png"
+ },
+ {
+  "link": "/papers/2403.07816",
+  "id": "2403.07816",
+  "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07816.png"
+ },
+ {
+  "link": "/papers/2403.07750",
+  "id": "2403.07750",
+  "title": "Synth$^2$: Boosting Visual-Language Models with Synthetic Captions and Image Embeddings",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07750.png"
+ },
+ {
+  "link": "/papers/2403.07815",
+  "id": "2403.07815",
+  "title": "Chronos: Learning the Language of Time Series",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07815.png"
+ },
+ {
+  "link": "/papers/2403.07128",
+  "id": "2403.07128",
+  "title": "FAX: Scalable and Differentiable Federated Primitives in JAX",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07128.png"
+ },
+ {
+  "link": "/papers/2403.07563",
+  "id": "2403.07563",
+  "title": "Learning Generalizable Feature Fields for Mobile Manipulation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07563.png"
+ },
+ {
+  "link": "/papers/2403.07487",
+  "id": "2403.07487",
+  "title": "Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07487.png"
+ },
+ {
+  "link": "/papers/2403.07420",
+  "id": "2403.07420",
+  "title": "DragAnything: Motion Control for Anything using Entity Representation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07420.png"
+ }
+]

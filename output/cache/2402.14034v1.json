@@ -1,0 +1,28 @@
+{
+  "id": "2402.14034v1",
+  "raw_tldr": "#动机\n随着大型语言模型（LLMs）的快速发展，多智能体应用取得了显著进展。然而，在协调智能体合作和LLMs表现不稳定方面存在的复杂性，给开发健壮高效的多智能体应用带来了显著挑战。\n\n#方法\n提出了一个以开发者为中心的多智能体平台AgentScope，其核心通信机制为消息交换。AgentScope提供了丰富的语法工具、内置资源和用户友好的交互，显著降低了开发和理解的障碍。它还提供了内置和可定制的容错机制，支持多模态数据的生成、存储和传输，并设计了一个基于演员的分布式框架，实现了本地与分布式部署之间的轻松转换和自动并行优化。\n\n#结果\nAgentScope赋予开发者构建充分实现智能代理潜力的应用的能力。我们已经在https://github.com/modelscope/agentscope上发布了AgentScope，希望它能吸引更广泛的参与和创新，推动这一快速发展领域的进步。",
+  "tldr": {
+    "": "结果",
+    "随着大型语言模型（LLMs）的快速发展，多智能体应用取得了显著进展。然而，在协调智能体合作和LLMs表现不稳定方面存在的复杂性，给开发健壮高效的多智能体应用带来了显著挑战。": "",
+    "提出了一个以开发者为中心的多智能体平台AgentScope，其核心通信机制为消息交换。AgentScope提供了丰富的语法工具、内置资源和用户友好的交互，显著降低了开发和理解的障碍。它还提供了内置和可定制的容错机制，支持多模态数据的生成、存储和传输，并设计了一个基于演员的分布式框架，实现了本地与分布式部署之间的轻松转换和自动并行优化。": "",
+    "AgentScope赋予开发者构建充分实现智能代理潜力的应用的能力。我们已经在https://github.com/modelscope/agentscope上发布了AgentScope，希望它能吸引更广泛的参与和创新，推动这一快速发展领域的进步。": "",
+    "动机": "",
+    "方法": "",
+    "结果": ""
+  },
+  "summary_cn": "随着大型语言模型（LLMs）的快速进步，多智能体应用取得了显著进展。然而，协调智能体合作的复杂性和LLMs的不稳定性能带来了在开发健壯且高效的多智能体应用中的显著挑战。为了应对这些挑战，我们提出了AgentScope，这是一个以消息交换为核心通信机制的面向开发者的多智能体平台。通过丰富的语法工具、内置资源和用户友好的交互，我们的通信机制显著降低了开发和理解的障碍。为了实现健壯和灵活的多智能体应用，AgentScope提供了内置和可定制的容错机制，同时也配备了系统级支持，用于多模态数据的生成、存储和传输。此外，我们设计了一个基于演员的分布式框架，使得在本地和分布式部署之间的转换变得简单，并且无需额外努力即可自动进行并行优化。凭借这些特性，AgentScope赋予开发者构建充分实现智能代理潜力的应用的能力。我们已经在https://github.com/modelscope/agentscope上发布了AgentScope，并希望AgentScope能够吸引更广泛的参与和创新，推动这一快速发展的领域。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"multi-agent applications\",\n    \"developer-centric platform\",\n    \"message exchange\",\n    \"fault tolerance mechanisms\",\n    \"multi-modal data\",\n    \"actor-based distribution framework\",\n    \"intelligent agents\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "Large Language Models",
+      "multi-agent applications",
+      "developer-centric platform",
+      "message exchange",
+      "fault tolerance mechanisms",
+      "multi-modal data",
+      "actor-based distribution framework",
+      "intelligent agents"
+    ]
+  }
+}

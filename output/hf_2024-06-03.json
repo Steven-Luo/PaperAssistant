@@ -1,0 +1,44 @@
+[
+ {
+  "link": "/papers/2405.21060",
+  "id": "2405.21060",
+  "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.21060.png"
+ },
+ {
+  "link": "/papers/2405.21075",
+  "id": "2405.21075",
+  "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.21075.png"
+ },
+ {
+  "link": "/papers/2405.21048",
+  "id": "2405.21048",
+  "title": "Kaleido Diffusion: Improving Conditional Diffusion Models with Autoregressive Latent Modeling",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.21048.png"
+ },
+ {
+  "link": "/papers/2405.20541",
+  "id": "2405.20541",
+  "title": "Perplexed by Perplexity: Perplexity-Based Data Pruning With Small Reference Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.20541.png"
+ },
+ {
+  "link": "/papers/2405.20674",
+  "id": "2405.20674",
+  "title": "4Diffusion: Multi-view Video Diffusion Model for 4D Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.20674.png"
+ },
+ {
+  "link": "/papers/2405.18144",
+  "id": "2405.18144",
+  "title": "4-bit Shampoo for Memory-Efficient Network Training",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.18144.png"
+ }
+]

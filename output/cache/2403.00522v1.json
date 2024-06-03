@@ -1,0 +1,23 @@
+{
+  "id": "2403.00522v1",
+  "title": "VisionLLaMA: A Unified LLaMA Interface for Vision Tasks",
+  "pdf_url": "http://arxiv.org/pdf/2403.00522v1",
+  "raw_tldr": "动机\t大型语言模型基于变换器架构构建，用于处理文本输入。本文探讨是否同样的变换器可以用于处理2D图像。\n方法\t通过提出一种名为VisionLLaMA的视觉变换器，采用普通和金字塔形式，作为统一且通用的视觉任务建模框架，并通过典型的预训练范式在多个下游图像感知和图像生成任务中进行广泛评估。\n结果\tVisionLLaMA在多个案例中展现了相较于之前最先进视觉变换器的显著提升，被认为是视觉生成和理解的强大新基线模型。",
+  "tldr": {
+    "动机": "大型语言模型基于变换器架构构建，用于处理文本输入。本文探讨是否同样的变换器可以用于处理2D图像。",
+    "方法": "通过提出一种名为VisionLLaMA的视觉变换器，采用普通和金字塔形式，作为统一且通用的视觉任务建模框架，并通过典型的预训练范式在多个下游图像感知和图像生成任务中进行广泛评估。",
+    "结果": "VisionLLaMA在多个案例中展现了相较于之前最先进视觉变换器的显著提升，被认为是视觉生成和理解的强大新基线模型。"
+  },
+  "summary_cn": "大型语言模型是基于变换器架构之上构建的，用于处理文本输入。例如，LLaMA在许多开源实现中脱颖而出。同样的变换器能用来处理二维图像吗？在这篇论文中，我们通过揭示一个类似LLaMA的视觉变换器来回答这个问题，这个变换器以平面和金字塔形式出现，被称为VisionLLaMA，专为此目的设计。VisionLLaMA是一个统一和通用的建模框架，用于解决大多数视觉任务。我们通过在大量下游任务中使用典型的预训练范式来广泛评估其有效性，特别是在图像感知和图像生成方面。在许多情况下，VisionLLaMA展示了相比之前最先进的视觉变换器的显著提升。我们相信VisionLLaMA可以作为视觉生成和理解的一个强大的新基准模型。我们的代码将在https://github.com/Meituan-AutoML/VisionLLaMA发布。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"transformer-based architecture\",\n    \"vision transformer\",\n    \"image perception\",\n    \"image generation\",\n    \"VisionLLaMA\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "transformer-based architecture",
+      "vision transformer",
+      "image perception",
+      "image generation",
+      "VisionLLaMA"
+    ]
+  }
+}

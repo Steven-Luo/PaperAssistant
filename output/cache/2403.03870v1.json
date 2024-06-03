@@ -1,0 +1,26 @@
+{
+  "id": "2403.03870v1",
+  "title": "Learning to Decode Collaboratively with Multiple Language Models",
+  "pdf_url": "http://arxiv.org/pdf/2403.03870v1",
+  "raw_tldr": "动机\t我们提出了一种方法，使多个大型语言模型（LLM）通过在令牌级别交错生成来协作，旨在解决跨领域设置中的问题，其中一个通用基础LLM需要调用领域专家模型。\n方法\t通过将哪个LLM生成下一个令牌的决定建模为一个潜在变量，并优化训练集下的边际似然，基础LLM自动学习何时自我生成何时调用“助手”语言模型生成，无需直接监督。\n结果\t在指令遵循、领域特定QA和推理任务上，联合系统的性能超过了单个模型的性能。通过对学习到的潜在决策的定性分析，我们展示了使用我们的方法训练的模型展现出几种有趣的协作模式，例如模板填充。",
+  "tldr": {
+    "动机": "我们提出了一种方法，使多个大型语言模型（LLM）通过在令牌级别交错生成来协作，旨在解决跨领域设置中的问题，其中一个通用基础LLM需要调用领域专家模型。",
+    "方法": "通过将哪个LLM生成下一个令牌的决定建模为一个潜在变量，并优化训练集下的边际似然，基础LLM自动学习何时自我生成何时调用“助手”语言模型生成，无需直接监督。",
+    "结果": "在指令遵循、领域特定QA和推理任务上，联合系统的性能超过了单个模型的性能。通过对学习到的潜在决策的定性分析，我们展示了使用我们的方法训练的模型展现出几种有趣的协作模式，例如模板填充。"
+  },
+  "summary_cn": "我们提出了一种方法，通过在令牌级别交错多个大型语言模型（LLM）的生成来教会它们协作。我们将决定哪个LLM生成下一个令牌视为一个潜在变量。通过优化我们的潜在变量模型下训练集的边际似然，基础LLM自动学习何时自行生成以及何时调用其中一个“助手”语言模型进行生成，所有这些都无需直接监督。在解码过程中进行令牌级别的协作，允许以一种针对手头具体任务量身定制的方式融合每个模型的专业知识。我们的协作解码在跨领域设置中特别有用，其中通用基础LLM学会调用领域专家模型。在遵循指令、领域特定的问答和推理任务上，我们展示了联合系统的性能超过了单个模型的性能。通过对学习到的潜在决策进行定性分析，我们展示了使用我们的方法训练的模型展现出几种有趣的协作模式，例如，模板填充。我们的代码可在 https://github.com/clinicalml/co-llm 获取。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"large language models\",\n    \"collaboration\",\n    \"token-level generation\",\n    \"latent variable model\",\n    \"cross-domain\",\n    \"instruction-following\",\n    \"domain-specific QA\",\n    \"reasoning tasks\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language models",
+      "collaboration",
+      "token-level generation",
+      "latent variable model",
+      "cross-domain",
+      "instruction-following",
+      "domain-specific QA",
+      "reasoning tasks"
+    ]
+  }
+}

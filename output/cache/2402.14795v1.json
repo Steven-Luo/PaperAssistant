@@ -1,0 +1,21 @@
+{
+  "id": "2402.14795v1",
+  "raw_tldr": "动机#为了解决机器人模仿学习在真实世界任务中的应用问题，提出了一种新颖的方法CyberDemo，该方法利用模拟人类演示来提高机器人在现实世界中的表现。\n\n方法#CyberDemo通过在模拟环境中加入大量数据增强技术，使其在转移到真实世界时，相比传统的同域真实世界演示具有更好的性能，能够处理多样的物理和视觉条件。\n\n结果#CyberDemo在各种任务的成功率上超过了基线方法，并且展现了对以前未见过的对象的泛化能力，例如能够旋转新型的四通阀和五通阀，尽管人类演示仅涉及三通阀。",
+  "tldr": {
+    "动机": "为了解决机器人模仿学习在真实世界任务中的应用问题，提出了一种新颖的方法CyberDemo，该方法利用模拟人类演示来提高机器人在现实世界中的表现。",
+    "方法": "CyberDemo通过在模拟环境中加入大量数据增强技术，使其在转移到真实世界时，相比传统的同域真实世界演示具有更好的性能，能够处理多样的物理和视觉条件。",
+    "结果": "CyberDemo在各种任务的成功率上超过了基线方法，并且展现了对以前未见过的对象的泛化能力，例如能够旋转新型的四通阀和五通阀，尽管人类演示仅涉及三通阀。"
+  },
+  "summary_cn": "我们介绍了CyberDemo，这是一种新颖的机器人模仿学习方法，它利用模拟人类演示来处理现实世界任务。通过在模拟环境中加入大量数据增强，CyberDemo在转移到现实世界时，相比传统的同域真实世界演示表现出更好的性能，能够处理多样的物理和视觉条件。尽管在数据收集上既经济又方便，CyberDemo在各种任务的成功率上超过了基线方法，并且展现了对以前未见过的物体的泛化能力。例如，尽管人类演示只涉及三通阀，它也能旋转新颖的四通阀和五通阀。我们的研究展示了模拟人类演示对于现实世界灵巧操作任务的重大潜力。更多详情可以在https://cyber-demo.github.io找到。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Robotics\",\n  \"标签\": [\n    \"Imitation Learning\",\n    \"Simulated Human Demonstrations\",\n    \"Data Augmentation\",\n    \"Real-World Task Transfer\",\n    \"Dexterous Manipulation\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Robotics",
+    "标签": [
+      "Imitation Learning",
+      "Simulated Human Demonstrations",
+      "Data Augmentation",
+      "Real-World Task Transfer",
+      "Dexterous Manipulation"
+    ]
+  }
+}

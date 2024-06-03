@@ -1,0 +1,37 @@
+[
+ {
+  "link": "/papers/2403.19046",
+  "id": "2403.19046",
+  "title": "LITA: Language Instructed Temporal-Localization Assistant",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.19046.png"
+ },
+ {
+  "link": "/papers/2403.19655",
+  "id": "2403.19655",
+  "title": "GaussianCube: Structuring Gaussian Splatting using Optimal Transport for 3D Generative Modeling",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.19655.png"
+ },
+ {
+  "link": "/papers/2403.19270",
+  "id": "2403.19270",
+  "title": "sDPO: Don't Use Your Data All at Once",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.19270.png"
+ },
+ {
+  "link": "/papers/2403.19319",
+  "id": "2403.19319",
+  "title": "Mesh2NeRF: Direct Mesh Supervision for Neural Radiance Field Representation and Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.19319.png"
+ },
+ {
+  "link": "/papers/2403.18978",
+  "id": "2403.18978",
+  "title": "TextCraftor: Your Text Encoder Can be Image Quality Controller",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18978.png"
+ }
+]

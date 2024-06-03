@@ -1,0 +1,23 @@
+{
+  "id": "2403.07128v1",
+  "title": "FAX: Scalable and Differentiable Federated Primitives in JAX",
+  "pdf_url": "http://arxiv.org/pdf/2403.07128v1",
+  "raw_tldr": "动机\t我们提出了FAX，一个基于JAX的库，旨在支持数据中心和跨设备应用中的大规模分布式和联邦计算。\n方法\tFAX利用JAX的分片机制，实现了对TPUs和最新JAX运行时（包括Pathways）的原生支持，并将联邦计算的构建块作为原语嵌入到JAX中。\n结果\tFAX能够被转换为XLA HLO；提供了完整的联邦自动微分实现，大大简化了联邦计算的表达；FAX计算可以被解释为现有的生产跨设备联邦计算系统。",
+  "tldr": {
+    "动机": "我们提出了FAX，一个基于JAX的库，旨在支持数据中心和跨设备应用中的大规模分布式和联邦计算。",
+    "方法": "FAX利用JAX的分片机制，实现了对TPUs和最新JAX运行时（包括Pathways）的原生支持，并将联邦计算的构建块作为原语嵌入到JAX中。",
+    "结果": "FAX能够被转换为XLA HLO；提供了完整的联邦自动微分实现，大大简化了联邦计算的表达；FAX计算可以被解释为现有的生产跨设备联邦计算系统。"
+  },
+  "summary_cn": "我们介绍了FAX，一个基于JAX的库，旨在支持大规模分布式和联邦计算，适用于数据中心和跨设备应用。FAX利用JAX的分片机制，能够原生地定位到TPUs和最先进的JAX运行时环境，包括Pathways。FAX将联邦计算的构建块作为原语嵌入到JAX中。这带来了三个关键好处。首先，FAX计算可以转换为XLA HLO。其次，FAX提供了完整的联邦自动微分实现，极大简化了联邦计算的表达。最后，FAX计算可以解释为现有的生产跨设备联邦计算系统。我们展示了FAX为数据中心中的联邦计算提供了一个易于编程、高性能和可扩展的框架。FAX可在https://github.com/google-research/google-research/tree/master/fax 获取。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"JAX\",\n    \"distributed computing\",\n    \"federated learning\",\n    \"TPUs\",\n    \"automatic differentiation\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "JAX",
+      "distributed computing",
+      "federated learning",
+      "TPUs",
+      "automatic differentiation"
+    ]
+  }
+}

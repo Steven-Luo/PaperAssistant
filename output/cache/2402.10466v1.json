@@ -1,0 +1,26 @@
+{
+  "id": "2402.10466v1",
+  "title": "Large Language Models as Zero-shot Dialogue State Tracker through Function Calling",
+  "pdf_url": "http://arxiv.org/pdf/2402.10466v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在对话系统中日益普遍，因其在一般上下文中的先进理解和生成能力。然而，它们在需要不仅仅是回应生成，还需要在特定任务和领域内有效进行对话状态跟踪（DST）的任务导向对话（TOD）中的有效性仍不尽人意。\n方法\t本工作提出了一种通过函数调用来解决LLMs中DST的新方法FnCTOD，该方法改进了零样本DST，允许在不需要大量数据收集或模型调整的情况下适应多样化的领域。\n结果\t实验结果表明，我们的方法通过在上下文提示中使各种7B或13B参数模型超越了由ChatGPT实现的先前的最佳状态（SOTA），并提高了ChatGPT的性能，击败SOTA 5.6%的平均JGA。GPT-3.5和GPT-4的个别模型结果分别提高了4.8%和14%。我们还展示了通过在一小部分多样化的任务导向对话上进行微调，我们可以为一个13B参数的LLaMA2-Chat模型装备函数调用能力和与ChatGPT相当的DST性能，同时保持其聊天能力。我们计划开源实验代码和模型。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在对话系统中日益普遍，因其在一般上下文中的先进理解和生成能力。然而，它们在需要不仅仅是回应生成，还需要在特定任务和领域内有效进行对话状态跟踪（DST）的任务导向对话（TOD）中的有效性仍不尽人意。",
+    "方法": "本工作提出了一种通过函数调用来解决LLMs中DST的新方法FnCTOD，该方法改进了零样本DST，允许在不需要大量数据收集或模型调整的情况下适应多样化的领域。",
+    "结果": "实验结果表明，我们的方法通过在上下文提示中使各种7B或13B参数模型超越了由ChatGPT实现的先前的最佳状态（SOTA），并提高了ChatGPT的性能，击败SOTA 5.6%的平均JGA。GPT-3.5和GPT-4的个别模型结果分别提高了4.8%和14%。我们还展示了通过在一小部分多样化的任务导向对话上进行微调，我们可以为一个13B参数的LLaMA2-Chat模型装备函数调用能力和与ChatGPT相当的DST性能，同时保持其聊天能力。我们计划开源实验代码和模型。"
+  },
+  "summary_cn": "大型语言模型（LLMs）由于其在一般情境下的高级理解和生成能力，越来越普遍地应用于对话系统中。然而，它们在面向任务的对话（TOD）中的有效性，这不仅需要生成响应，还需要在特定任务和领域内有效地进行对话状态跟踪（DST），仍然不尽人意。在这项工作中，我们提出了一种通过函数调用来使用LLMs解决DST的新方法FnCTOD。这种方法改进了零样本DST，允许适应多样化的领域，而无需大量数据收集或模型调整。我们的实验结果表明，我们的方法在使用适度大小的开源和专有LLMs时都取得了卓越的性能：通过上下文提示，它使得各种7B或13B参数模型超越了之前由ChatGPT实现的最新技术水平（SOTA），并提高了ChatGPT的性能，平均JGA提高了5.6%。对于GPT-3.5和GPT-4的单个模型结果分别提高了4.8%和14%。我们还展示了，通过在一小批多样化的面向任务的对话上进行微调，我们可以为适度大小的模型配备函数调用能力和与ChatGPT相当的DST性能，同时保持其聊天能力，具体来说是一个13B参数的LLaMA2-Chat模型。我们计划开源实验代码和模型。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Conversational Systems\",\n    \"Task-Oriented Dialogues\",\n    \"Dialogue State Tracking\",\n    \"Zero-Shot Learning\",\n    \"In-Context Prompting\",\n    \"Fine-Tuning\",\n    \"Open-Source\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Conversational Systems",
+      "Task-Oriented Dialogues",
+      "Dialogue State Tracking",
+      "Zero-Shot Learning",
+      "In-Context Prompting",
+      "Fine-Tuning",
+      "Open-Source"
+    ]
+  }
+}

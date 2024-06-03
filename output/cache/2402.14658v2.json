@@ -1,0 +1,22 @@
+{
+  "id": "2402.14658v2",
+  "raw_tldr": "动机#大型语言模型的引入显著推进了代码生成技术。然而，开源模型通常缺乏像GPT-4代码解释器那样的执行能力和迭代精炼功能。\n\n方法#我们介绍了OpenCodeInterpreter，这是一个旨在生成、执行和迭代精炼代码的开源代码系统家族。OpenCodeInterpreter通过整合执行和人类反馈，支持动态代码精炼，得到了一个包含68K多轮交互的Code-Feedback数据集的支持。\n\n结果#在HumanEval、MBPP及其通过EvalPlus增强的版本等关键基准测试中，OpenCodeInterpreter展现出了卓越的性能。特别是，OpenCodeInterpreter-33B在HumanEval和MBPP的平均（及加强版本）上达到了83.2（76.4）的准确率，与GPT-4的84.2（76.2）相当接近，并且在使用GPT-4合成的人类反馈后，准确率进一步提升到91.6（84.6）。OpenCodeInterpreter缩小了开源代码生成模型与像GPT-4代码解释器这样的专有系统之间的差距。",
+  "tldr": {
+    "动机": "大型语言模型的引入显著推进了代码生成技术。然而，开源模型通常缺乏像GPT-4代码解释器那样的执行能力和迭代精炼功能。",
+    "方法": "我们介绍了OpenCodeInterpreter，这是一个旨在生成、执行和迭代精炼代码的开源代码系统家族。OpenCodeInterpreter通过整合执行和人类反馈，支持动态代码精炼，得到了一个包含68K多轮交互的Code-Feedback数据集的支持。",
+    "结果": "在HumanEval、MBPP及其通过EvalPlus增强的版本等关键基准测试中，OpenCodeInterpreter展现出了卓越的性能。特别是，OpenCodeInterpreter-33B在HumanEval和MBPP的平均（及加强版本）上达到了83.2（76.4）的准确率，与GPT-4的84.2（76.2）相当接近，并且在使用GPT-4合成的人类反馈后，准确率进一步提升到91.6（84.6）。OpenCodeInterpreter缩小了开源代码生成模型与像GPT-4代码解释器这样的专有系统之间的差距。"
+  },
+  "summary_cn": "大型语言模型的引入显著推进了代码生成的发展。然而，开源模型通常缺乏像GPT-4代码解释器这样的高级系统的执行能力和迭代精炼功能。为了解决这个问题，我们推出了OpenCodeInterpreter，这是一个旨在生成、执行和迭代精炼代码的开源代码系统家族。OpenCodeInterpreter得到了一个包含68K多轮交互的数据集Code-Feedback的支持，它集成了执行和人类反馈，用于动态代码精炼。我们对OpenCodeInterpreter进行了全面评估，跨越了HumanEval、MBPP及其通过EvalPlus增强的版本等关键基准，揭示了其卓越的性能。值得注意的是，OpenCodeInterpreter-33B在HumanEval和MBPP的平均（及加强版本）上达到了83.2（76.4）的准确率，与GPT-4的84.2（76.2）紧密竞争，并且在使用GPT-4合成的人类反馈后进一步提升到91.6（84.6）。OpenCodeInterpreter缩小了开源代码生成模型与像GPT-4代码解释器这样的专有系统之间的差距。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"code generation\",\n    \"large language models\",\n    \"open-source\",\n    \"iterative refinement\",\n    \"execution capabilities\",\n    \"human feedback\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "code generation",
+      "large language models",
+      "open-source",
+      "iterative refinement",
+      "execution capabilities",
+      "human feedback"
+    ]
+  }
+}

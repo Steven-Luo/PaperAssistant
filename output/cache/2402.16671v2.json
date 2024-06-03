@@ -1,0 +1,23 @@
+{
+  "id": "2402.16671v2",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在处理纯文本方面已显示出强大能力，但它们在解释和利用结构化数据（如表格、图表和数据库）方面的能力仍然有限，我们的调查揭示了LLMs在处理结构化数据方面的显著不足，例如，ChatGPT在平均水平上落后于最先进模型35%。\n方法\t我们开发了一个包含110万个示例的全面指令调整数据集，以增强LLMs的结构化知识基础（SKG）能力，并利用此数据集训练了一系列基于Code-LLaMA架构的模型，称为StructLM，参数范围从7B到34B。\n结果\tStructLM系列在18个评估数据集中的14个上超过了特定任务的模型，并在7个SKG任务上建立了新的最先进成就。此外，StructLM在6个新的SKG任务上展示了出色的泛化能力。与预期相反，我们观察到模型规模的扩大只带来了边际效益，StructLM-34B相比StructLM-7B只显示出轻微的改进，这表明结构化知识基础仍是一个挑战性任务，需要更多创新设计才能达到新的水平。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在处理纯文本方面已显示出强大能力，但它们在解释和利用结构化数据（如表格、图表和数据库）方面的能力仍然有限，我们的调查揭示了LLMs在处理结构化数据方面的显著不足，例如，ChatGPT在平均水平上落后于最先进模型35%。",
+    "方法": "我们开发了一个包含110万个示例的全面指令调整数据集，以增强LLMs的结构化知识基础（SKG）能力，并利用此数据集训练了一系列基于Code-LLaMA架构的模型，称为StructLM，参数范围从7B到34B。",
+    "结果": "StructLM系列在18个评估数据集中的14个上超过了特定任务的模型，并在7个SKG任务上建立了新的最先进成就。此外，StructLM在6个新的SKG任务上展示了出色的泛化能力。与预期相反，我们观察到模型规模的扩大只带来了边际效益，StructLM-34B相比StructLM-7B只显示出轻微的改进，这表明结构化知识基础仍是一个挑战性任务，需要更多创新设计才能达到新的水平。"
+  },
+  "summary_cn": "结构化数据源，如表格、图表和数据库，是无处不在的知识来源。尽管大型语言模型（LLMs）在处理纯文本方面已展现出了显著能力，但它们在解释和利用结构化数据方面的熟练度仍然有限。我们的调查揭示了LLMs在处理结构化数据方面的显著不足，例如，ChatGPT在平均水平上落后于最先进（SoTA）模型35%。为了增强LLMs中的结构化知识基础（SKG）能力，我们开发了一个包含110万个示例的全面指令调整数据集。利用这个数据集，我们训练了一系列基于Code-LLaMA架构的模型，称为StructLM，参数范围从70亿到340亿。我们的StructLM系列在18个评估数据集中的14个上超过了特定任务的模型，并在7个SKG任务上建立了新的SoTA成就。此外，StructLM在6个新的SKG任务上展现了异常的泛化能力。与预期相反，我们观察到模型规模的扩大只带来了边际效益，其中StructLM-34B相比于StructLM-7B只显示出轻微的改进。这表明结构化知识基础仍然是一个具有挑战性的任务，并且需要更多创新的设计来推动到一个新的水平。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"Structured Data\",\n    \"Large Language Models\",\n    \"Structured Knowledge Grounding\",\n    \"Instruction Tuning\",\n    \"Code-LLaMa Architecture\",\n    \"State-of-the-Art Achievements\",\n    \"Model Scaling\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Structured Data",
+      "Large Language Models",
+      "Structured Knowledge Grounding",
+      "Instruction Tuning",
+      "Code-LLaMa Architecture",
+      "State-of-the-Art Achievements",
+      "Model Scaling"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2402.18540v1",
+  "title": "Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates",
+  "pdf_url": "http://arxiv.org/pdf/2402.18540v1",
+  "raw_tldr": "动机\t公共LLMs如Llama 2-Chat在LLM研究中引发了巨大活动，但最近的研究发现即使是看似安全的数据集上的良性微调也可能导致模型出现不安全行为，因此本文旨在探索减轻对齐损失的方法和最佳实践。\n方法\t通过在几种聊天模型（Meta的Llama 2-Chat、Mistral AI的Mistral 7B Instruct v0.2和OpenAI的GPT-3.5 Turbo）上进行广泛实验，发现在微调和推理期间使用的提示模板在保持安全对齐中起着关键作用，并提出了“纯净调优，安全测试”（PTST）原则——在不包含安全提示的情况下微调模型，但在测试时包含。\n结果\t在GSM8K、ChatDoctor和OpenOrca上的微调实验表明，PTST原则显著减少了不安全行为的出现，并且在某些情况下甚至几乎消除了这些行为。",
+  "tldr": {
+    "动机": "公共LLMs如Llama 2-Chat在LLM研究中引发了巨大活动，但最近的研究发现即使是看似安全的数据集上的良性微调也可能导致模型出现不安全行为，因此本文旨在探索减轻对齐损失的方法和最佳实践。",
+    "方法": "通过在几种聊天模型（Meta的Llama 2-Chat、Mistral AI的Mistral 7B Instruct v0.2和OpenAI的GPT-3.5 Turbo）上进行广泛实验，发现在微调和推理期间使用的提示模板在保持安全对齐中起着关键作用，并提出了“纯净调优，安全测试”（PTST）原则——在不包含安全提示的情况下微调模型，但在测试时包含。",
+    "结果": "在GSM8K、ChatDoctor和OpenOrca上的微调实验表明，PTST原则显著减少了不安全行为的出现，并且在某些情况下甚至几乎消除了这些行为。"
+  },
+  "summary_cn": "公共大型语言模型（LLM），如Llama 2-Chat，已经在LLM研究领域引发了巨大的活动。这些模型经过了对齐训练，并被认为是安全的。然而，最近Qi等人（2023年）报告称，即使是良性的微调（例如，在看似安全的数据集上）也可能导致模型出现不安全的行为。本文讨论了减轻此类对齐丧失的方法和最佳实践。通过对几种聊天模型（Meta的Llama 2-Chat、Mistral AI的Mistral 7B Instruct v0.2和OpenAI的GPT-3.5 Turbo）进行广泛的实验，本文发现，在微调和推理过程中使用的提示模板在保持安全对齐方面起着至关重要的作用，并提出了“纯净调整，安全测试”（PTST）原则——在不包含安全提示的情况下微调模型，但在测试时包含它。在GSM8K、ChatDoctor和OpenOrca上进行的微调实验表明，PTST显著减少了不安全行为的出现，甚至在某些情况下几乎消除了这些行为。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"LLMs\",\n    \"安全性\",\n    \"细调\",\n    \"对齐训练\",\n    \"实验\",\n    \"PTST原则\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "LLMs",
+      "安全性",
+      "细调",
+      "对齐训练",
+      "实验",
+      "PTST原则"
+    ]
+  }
+}

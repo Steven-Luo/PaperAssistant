@@ -1,0 +1,23 @@
+{
+  "id": "2403.02884v1",
+  "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+  "pdf_url": "http://arxiv.org/pdf/2403.02884v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在解决问题方面展现出了显著能力，但在解决数学问题方面的熟练度仍然不足。\n方法\t提出了一种名为MathScale的简单且可扩展的方法，使用前沿的LLMs（例如GPT-3.5）创建高质量的数学推理数据。该方法首先从种子数学问题中提取主题和知识点，然后构建概念图，用于生成新的数学问题。\n结果\t创建了一个包含两百万数学问题-答案对的数学推理数据集（MathScaleQA）。通过将MathScaleQA用于微调开源LLMs（例如LLaMA-2和Mistral），显著提高了数学推理能力。在{\\sc MwpBench}基准测试中，MathScale-7B在所有数据集上实现了最先进的性能，相比同等规模的最佳对手，微平均准确率提高了42.9%，宏平均准确率提高了43.7%。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在解决问题方面展现出了显著能力，但在解决数学问题方面的熟练度仍然不足。",
+    "方法": "提出了一种名为MathScale的简单且可扩展的方法，使用前沿的LLMs（例如GPT-3.5）创建高质量的数学推理数据。该方法首先从种子数学问题中提取主题和知识点，然后构建概念图，用于生成新的数学问题。",
+    "结果": "创建了一个包含两百万数学问题-答案对的数学推理数据集（MathScaleQA）。通过将MathScaleQA用于微调开源LLMs（例如LLaMA-2和Mistral），显著提高了数学推理能力。在{\\sc MwpBench}基准测试中，MathScale-7B在所有数据集上实现了最先进的性能，相比同等规模的最佳对手，微平均准确率提高了42.9%，宏平均准确率提高了43.7%。"
+  },
+  "summary_cn": "大型语言模型（LLMs）在解决问题方面展现出了显著的能力。然而，它们在解决数学问题方面的熟练度仍然不足。我们提出了一种简单且可扩展的方法MathScale，使用前沿的大型语言模型（例如GPT-3.5）创建高质量的数学推理数据。受人类数学学习中的认知机制启发，它首先从种子数学问题中提取主题和知识点，然后构建一个概念图，随后用于生成新的数学问题。MathScale在我们生成的数学数据集的大小轴上展示了有效的可扩展性。结果，我们创建了一个包含两百万个数学问题-答案对的数学推理数据集（MathScaleQA）。为了全面评估LLMs的数学推理能力，我们构建了MwpBench，一个数学文字问题的基准测试，它是一个包含十个数据集（包括GSM8K和MATH）的集合，涵盖了K-12、大学以及竞赛级别的数学问题。我们将MathScaleQA应用于微调开源的LLMs（例如LLaMA-2和Mistral），结果在数学推理能力上获得了显著的提升。在MwpBench上的评估中，MathScale-7B在所有数据集上都达到了最先进的性能，相比同等大小的最佳同行，微平均准确率提高了42.9%，宏平均准确率提高了43.7%。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Mathematical Reasoning\",\n    \"Dataset Creation\",\n    \"Benchmarking\",\n    \"Fine-tuning\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Mathematical Reasoning",
+      "Dataset Creation",
+      "Benchmarking",
+      "Fine-tuning"
+    ]
+  }
+}

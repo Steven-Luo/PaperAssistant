@@ -1,0 +1,22 @@
+{
+  "id": "2307.09288v2",
+  "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+  "pdf_url": "http://arxiv.org/pdf/2307.09288v2",
+  "raw_tldr": "动机\t我们开发并发布了Llama 2，这是一系列预训练和微调的大型语言模型（LLMs），旨在为对话用例优化，并可能成为闭源模型的合适替代品。\n方法\t我们详细描述了我们对Llama 2-Chat的微调方法和安全性改进，这些模型的规模从70亿到700亿参数不等。\n结果\tLlama 2的模型在我们测试的大多数基准上优于开源聊天模型，并且基于对有用性和安全性的人类评估，可能是闭源模型的合适替代品。",
+  "tldr": {
+    "动机": "我们开发并发布了Llama 2，这是一系列预训练和微调的大型语言模型（LLMs），旨在为对话用例优化，并可能成为闭源模型的合适替代品。",
+    "方法": "我们详细描述了我们对Llama 2-Chat的微调方法和安全性改进，这些模型的规模从70亿到700亿参数不等。",
+    "结果": "Llama 2的模型在我们测试的大多数基准上优于开源聊天模型，并且基于对有用性和安全性的人类评估，可能是闭源模型的合适替代品。"
+  },
+  "summary_cn": "在这项工作中，我们开发并发布了Llama 2，这是一系列经过预训练和微调的大型语言模型（LLMs），规模从70亿到700亿参数不等。我们的微调LLMs，称为Llama 2-Chat，针对对话用例进行了优化。我们的模型在我们测试的大多数基准上都优于开源聊天模型，并且基于我们对有用性和安全性的人类评估，可能是闭源模型的合适替代品。我们提供了关于Llama 2-Chat微调和安全性改进的详细描述，以便使社区能够在我们的工作基础上进行构建，并为负责任地开发LLMs做出贡献。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\"pretrained language models\", \"fine-tuning\", \"dialogue systems\", \"safety improvements\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "pretrained language models",
+      "fine-tuning",
+      "dialogue systems",
+      "safety improvements"
+    ]
+  }
+}

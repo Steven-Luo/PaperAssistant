@@ -1,0 +1,22 @@
+{
+  "id": "2402.19427v1",
+  "raw_tldr": "动机\tRecurrent neural networks (RNNs) 速度快、在长序列上效率高，但难以训练且难以扩展。\n方法\t提出了Hawk，一个具有门控线性递归的RNN，以及Griffin，一个将门控线性递归与局部注意力相结合的混合模型。\n结果\tHawk超过了Mamba在下游任务上的表现，而Griffin在训练令牌数量少6倍多的情况下，达到了Llama-2的性能。Griffin能够在比训练时看到的序列长得多的序列上进行外推。我们的模型在训练期间与Transformers在硬件效率上匹配，在推理期间具有更低的延迟和显著更高的吞吐量。我们将Griffin扩展到了14B参数，并解释了如何为高效的分布式训练对我们的模型进行分片。",
+  "tldr": {
+    "动机": "Recurrent neural networks (RNNs) 速度快、在长序列上效率高，但难以训练且难以扩展。",
+    "方法": "提出了Hawk，一个具有门控线性递归的RNN，以及Griffin，一个将门控线性递归与局部注意力相结合的混合模型。",
+    "结果": "Hawk超过了Mamba在下游任务上的表现，而Griffin在训练令牌数量少6倍多的情况下，达到了Llama-2的性能。Griffin能够在比训练时看到的序列长得多的序列上进行外推。我们的模型在训练期间与Transformers在硬件效率上匹配，在推理期间具有更低的延迟和显著更高的吞吐量。我们将Griffin扩展到了14B参数，并解释了如何为高效的分布式训练对我们的模型进行分片。"
+  },
+  "summary_cn": "循环神经网络（RNNs）在长序列上具有快速推理和高效扩展的特点，但它们难以训练且难以扩展。我们提出了Hawk，一种具有门控线性递归的RNN，以及Griffin，一种混合模型，将门控线性递归与局部注意力相结合。Hawk在下游任务上的表现超过了Mamba的报告性能，而Griffin尽管在少于6倍的令牌上进行训练，却能匹敌Llama-2的性能。我们还展示了Griffin能够在比训练期间看到的序列明显更长的序列上进行外推。我们的模型在训练期间与变压器（Transformers）的硬件效率相匹配，在推理期间具有更低的延迟和显著更高的吞吐量。我们将Griffin扩展到了140亿参数，并解释了如何为高效的分布式训练对我们的模型进行分片。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\"RNN\", \"Gated Linear Recurrences\", \"Local Attention\", \"Transformers\", \"Distributed Training\", \"Model Scaling\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "RNN",
+      "Gated Linear Recurrences",
+      "Local Attention",
+      "Transformers",
+      "Distributed Training",
+      "Model Scaling"
+    ]
+  }
+}

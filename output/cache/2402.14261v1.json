@@ -1,0 +1,26 @@
+{
+  "id": "2402.14261v1",
+  "summary_cn": "将大型语言模型（LLMs）整合到开发环境（IDEs）中已成为现代软件开发的一个焦点。如OpenAI GPT-3.5/4和Code Llama等LLMs有潜力通过作为智能的、基于聊天的编程助手，显著提高开发者的生产力。然而，直接使用LLMs可能不会是任何给定场景下的最佳选择。相反，每个系统都需要将LLM针对其一套启发式规则进行优化，以确保最佳性能。在本文中，我们介绍了Copilot评估工具集：一套用于评估LLM引导的IDE交互的数据和工具，涵盖了各种编程场景和语言。我们提出的度量标准比以往的最先进评估系统更为健壮和信息密集。我们为涵盖广泛开发者任务的场景设计并计算了静态和基于执行的成功度量标准，包括从自然语言生成代码（generate）、从代码生成文档（doc）、生成测试用例（test）、修复错误（fix）以及工作空间理解和查询解决（workspace）。这些成功度量标准旨在评估LLMs在给定IDE及其相应参数空间内的性能。我们使用这些度量标准评估三种常见LLMs的学习成果，可以为LLM引导的IDEs中未来场景的开发和验证提供信息。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Software Development\",\n    \"IDE Integration\",\n    \"Developer Productivity\",\n    \"Evaluation Metrics\",\n    \"Code Generation\",\n    \"Documentation Generation\",\n    \"Test Case Generation\",\n    \"Bug-Fixing\",\n    \"Workspace Understanding\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Software Development",
+      "IDE Integration",
+      "Developer Productivity",
+      "Evaluation Metrics",
+      "Code Generation",
+      "Documentation Generation",
+      "Test Case Generation",
+      "Bug-Fixing",
+      "Workspace Understanding"
+    ]
+  },
+  "raw_tldr": "动机\t集成大型语言模型（LLMs）到开发环境（IDEs）中，已成为现代软件开发的焦点，但直接使用LLMs可能不会在任何给定场景下达到最优效果，需要针对每个系统调整LLMs以确保最佳性能。\n方法\t介绍了Copilot评估工具集：一套用于评估LLM引导的IDE交互的数据和工具，涵盖各种编程场景和语言，并提出了比以往评估系统更为健壮和信息密集的评估指标。\n结果\t设计并计算了静态和基于执行的成功指标，用于评估包括代码生成、文档生成、测试用例生成、bug修复以及工作空间理解和查询解决等开发者任务的场景，通过评估三种常见的LLMs，为LLM引导的IDEs的未来场景开发和验证提供了见解。",
+  "tldr": {
+    "动机": "集成大型语言模型（LLMs）到开发环境（IDEs）中，已成为现代软件开发的焦点，但直接使用LLMs可能不会在任何给定场景下达到最优效果，需要针对每个系统调整LLMs以确保最佳性能。",
+    "方法": "介绍了Copilot评估工具集：一套用于评估LLM引导的IDE交互的数据和工具，涵盖各种编程场景和语言，并提出了比以往评估系统更为健壮和信息密集的评估指标。",
+    "结果": "设计并计算了静态和基于执行的成功指标，用于评估包括代码生成、文档生成、测试用例生成、bug修复以及工作空间理解和查询解决等开发者任务的场景，通过评估三种常见的LLMs，为LLM引导的IDEs的未来场景开发和验证提供了见解。"
+  }
+}

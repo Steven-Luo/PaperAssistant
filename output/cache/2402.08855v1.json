@@ -1,0 +1,25 @@
+{
+  "id": "2402.08855v1",
+  "title": "GhostWriter: Augmenting Collaborative Human-AI Writing Experiences Through Personalization and Agency",
+  "pdf_url": "http://arxiv.org/pdf/2402.08855v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）变得越来越普遍，并在提供各种形式的写作辅助中发挥作用。然而，由LLM驱动的写作系统由于其有限的个性化和控制能力可能会让用户感到沮丧，特别是当用户缺乏提示工程经验时。\n方法\t我们引入了GhostWriter，一个AI增强的写作设计探针，通过它，用户可以行使增强的代理权和个性化。GhostWriter利用LLMs隐式学习用户的预期写作风格，同时允许通过手动风格编辑和注释进行显式教学时刻。\n结果\tGhostWriter帮助用户创作个性化文本生成，并通过提供多种控制系统写作风格的方式赋予他们权力。我们提出了关于人们与AI辅助写作关系的见解，并为未来的工作提供设计建议。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）变得越来越普遍，并在提供各种形式的写作辅助中发挥作用。然而，由LLM驱动的写作系统由于其有限的个性化和控制能力可能会让用户感到沮丧，特别是当用户缺乏提示工程经验时。",
+    "方法": "我们引入了GhostWriter，一个AI增强的写作设计探针，通过它，用户可以行使增强的代理权和个性化。GhostWriter利用LLMs隐式学习用户的预期写作风格，同时允许通过手动风格编辑和注释进行显式教学时刻。",
+    "结果": "GhostWriter帮助用户创作个性化文本生成，并通过提供多种控制系统写作风格的方式赋予他们权力。我们提出了关于人们与AI辅助写作关系的见解，并为未来的工作提供设计建议。"
+  },
+  "summary_cn": "大型语言模型（LLMs）变得越来越普遍，并在提供各种形式的写作辅助方面发挥了广泛的作用。然而，由LLM驱动的写作系统可能会因其有限的个性化和控制而让用户感到沮丧，特别是当用户缺乏与提示工程相关的经验时，这种情况可能会加剧。我们认为设计是解决这些挑战的一种方式，并引入了GhostWriter，这是一个增强了AI的写作设计探针，用户可以在其中行使增强的主动性和个性化。GhostWriter利用LLMs在用户写作时隐式学习用户的预期写作风格，同时允许通过手动风格编辑和注释进行显式教学时刻。我们研究了18名参与者使用GhostWriter完成两项不同的写作任务，观察到它帮助用户创作个性化的文本生成，并通过提供多种控制系统写作风格的方式赋予他们权力。从这项研究中，我们提出了关于人们与AI辅助写作关系的见解，并为未来的工作提供了设计建议。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Writing Assistance\",\n    \"Personalization\",\n    \"Control\",\n    \"Design\",\n    \"AI-enhanced Writing\",\n    \"User Study\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Writing Assistance",
+      "Personalization",
+      "Control",
+      "Design",
+      "AI-enhanced Writing",
+      "User Study"
+    ]
+  }
+}

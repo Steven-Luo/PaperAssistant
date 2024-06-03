@@ -1,0 +1,28 @@
+{
+  "id": "2403.08551v1",
+  "title": "GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting",
+  "pdf_url": "http://arxiv.org/pdf/2403.08551v1",
+  "raw_tldr": "动机\t隐式神经表示（INRs）在图像表示和压缩方面取得了巨大成功，但其对高GPU资源的需求限制了其在低端设备上的应用。\n方法\t提出了一种基于2D高斯溅射的图像表示和压缩新范式GaussianImage，采用2D高斯表示图像并通过累积求和的渲染算法，结合向量量化技术构建图像编解码器。\n结果\t该方法大幅降低了GPU内存使用（至少降低3倍）和拟合时间（加速5倍），在表示性能上与INRs相当，渲染速度达到1500-2000 FPS，且编解码器在速率失真性能上与基于压缩的INRs相当，解码速度约为1000 FPS，部分位回传编码的初步概念验证显示性能超过COIN和COIN++。",
+  "tldr": {
+    "动机": "隐式神经表示（INRs）在图像表示和压缩方面取得了巨大成功，但其对高GPU资源的需求限制了其在低端设备上的应用。",
+    "方法": "提出了一种基于2D高斯溅射的图像表示和压缩新范式GaussianImage，采用2D高斯表示图像并通过累积求和的渲染算法，结合向量量化技术构建图像编解码器。",
+    "结果": "该方法大幅降低了GPU内存使用（至少降低3倍）和拟合时间（加速5倍），在表示性能上与INRs相当，渲染速度达到1500-2000 FPS，且编解码器在速率失真性能上与基于压缩的INRs相当，解码速度约为1000 FPS，部分位回传编码的初步概念验证显示性能超过COIN和COIN++。"
+  },
+  "summary_cn": "隐式神经表示（INRs）最近在图像表示和压缩方面取得了巨大成功，假设有足够的GPU资源，它们提供了高视觉质量和10-1000 FPS的快速渲染速度。然而，这一要求常常阻碍了它们在内存有限的低端设备上的使用。作为回应，我们提出了一种基于2D高斯溅射的开创性图像表示和压缩范式，命名为GaussianImage。我们首先引入2D高斯来表示图像，其中每个高斯包括位置、协方差和颜色等8个参数。随后，我们揭示了一种基于累积求和的新颖渲染算法。值得注意的是，我们的方法不仅在表示性能上与INRs（例如，WIRE, I-NGP）相媲美，而且最低减少了3倍的GPU内存使用和5倍更快的拟合时间，还提供了1500-2000 FPS的更快渲染速度，无论参数大小如何。此外，我们整合了现有的向量量化技术来构建图像编解码器。实验结果表明，我们的编解码器在速率失真性能上与基于压缩的INRs（如COIN和COIN++）相当，同时提供了大约1000 FPS的解码速度。此外，初步的概念证明显示，当使用部分比特回传编码时，我们的编解码器在性能上超过了COIN和COIN++。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"Implicit Neural Representations\",\n    \"Image Representation\",\n    \"Image Compression\",\n    \"2D Gaussian Splatting\",\n    \"Rendering Algorithm\",\n    \"GPU Memory Usage\",\n    \"Fitting Time\",\n    \"Vector Quantization\",\n    \"Rate-Distortion Performance\",\n    \"Bits-Back Coding\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "Implicit Neural Representations",
+      "Image Representation",
+      "Image Compression",
+      "2D Gaussian Splatting",
+      "Rendering Algorithm",
+      "GPU Memory Usage",
+      "Fitting Time",
+      "Vector Quantization",
+      "Rate-Distortion Performance",
+      "Bits-Back Coding"
+    ]
+  }
+}

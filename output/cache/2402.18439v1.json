@@ -1,0 +1,23 @@
+{
+  "id": "2402.18439v1",
+  "title": "Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication",
+  "pdf_url": "http://arxiv.org/pdf/2402.18439v1",
+  "raw_tldr": "动机\t自然语言（NL）长期以来是人类认知和沟通的主要格式，并且在大型语言模型（LLMs）的发展和应用中同样占据了中心地位。然而，除了NL，LLMs在预训练期间还接触了各种非NL格式，如代码和逻辑表达式。尚未彻底检验NL作为LLMs，特别是在单个LLM推理和多代理通信中的最佳格式的地位。\n方法\t通过探索非NL格式在单个LLM推理和多代理通信中的效用，挑战NL默认使用的做法。展示了允许LLMs在推理或通信前自主选择最合适的格式，可以提高不同LLMs的推理效率3.3到5.7%，并在多代理通信中减少高达72.7%的令牌使用，同时保持沟通的有效性。\n结果\tLLMs能够从有限的任务指令中设计出一种格式，并且所设计的格式可以有效地在不同的LLMs之间转移。LLMs决定的结构化通信格式与已建立的代理通信语言展示出显著的相似性，表明向高效、结构化的代理通信的自然演化。",
+  "tldr": {
+    "动机": "自然语言（NL）长期以来是人类认知和沟通的主要格式，并且在大型语言模型（LLMs）的发展和应用中同样占据了中心地位。然而，除了NL，LLMs在预训练期间还接触了各种非NL格式，如代码和逻辑表达式。尚未彻底检验NL作为LLMs，特别是在单个LLM推理和多代理通信中的最佳格式的地位。",
+    "方法": "通过探索非NL格式在单个LLM推理和多代理通信中的效用，挑战NL默认使用的做法。展示了允许LLMs在推理或通信前自主选择最合适的格式，可以提高不同LLMs的推理效率3.3到5.7%，并在多代理通信中减少高达72.7%的令牌使用，同时保持沟通的有效性。",
+    "结果": "LLMs能够从有限的任务指令中设计出一种格式，并且所设计的格式可以有效地在不同的LLMs之间转移。LLMs决定的结构化通信格式与已建立的代理通信语言展示出显著的相似性，表明向高效、结构化的代理通信的自然演化。"
+  },
+  "summary_cn": "自然语言（NL）长期以来一直是人类认知和沟通的主要形式，并且相应地，在大型语言模型（LLMs）的发展和应用中也占据了类似的关键地位。然而，除了NL之外，LLMs在预训练期间还接触了各种非NL格式，如代码和逻辑表达式。尚未彻底检验NL作为LLMs的最佳格式，特别是在单个LLM推理和多代理通信中的地位。在这项工作中，我们通过探索这些情境中非NL格式的实用性，挑战了默认使用NL的做法。我们展示了允许LLMs在推理或通信之前自主选择最合适的格式，可以使不同LLMs的推理效率提高3.3到5.7%，并且在多代理通信中减少多达72.7%的令牌使用，同时保持了沟通的有效性。我们的全面分析进一步揭示了LLMs能够根据有限的任务指令设计出一种格式，并且所设计的格式可以有效地在不同LLMs之间转移。有趣的是，LLMs决定的结构化通信格式与已建立的代理通信语言展现出了显著的相似性，这表明了代理通信中向高效、结构化通信的自然演进。我们的代码已在\\url{https://github.com/thunlp/AutoForm}发布。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Non-NL Formats\",\n    \"Reasoning Efficiency\",\n    \"Multi-Agent Communication\",\n    \"Agent Communication Languages\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Non-NL Formats",
+      "Reasoning Efficiency",
+      "Multi-Agent Communication",
+      "Agent Communication Languages"
+    ]
+  }
+}

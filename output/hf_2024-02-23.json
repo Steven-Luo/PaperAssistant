@@ -1,0 +1,135 @@
+[
+ {
+  "link": "/papers/2402.14658",
+  "id": "2402.14658",
+  "title": "OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/J9Z7fBm_fC6eQV8-yjdmk.mp4"
+ },
+ {
+  "link": "/papers/2402.14083",
+  "id": "2402.14083",
+  "title": "Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/vil4JnUKWuwKa_SWYPFps.png"
+ },
+ {
+  "link": "/papers/2402.14818",
+  "id": "2402.14818",
+  "title": "PALO: A Polyglot Large Multimodal Model for 5B People",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/IMt4llXcK4PR5xna7mnFY.png"
+ },
+ {
+  "link": "/papers/2402.14797",
+  "id": "2402.14797",
+  "title": "Snap Video: Scaled Spatiotemporal Transformers for Text-to-Video Synthesis",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/2z9ydIkorw1KI1SgxlMya.png"
+ },
+ {
+  "link": "/papers/2402.14327",
+  "id": "2402.14327",
+  "title": "Subobject-level Image Tokenization",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/pJEqG_9vQ3fFROGSN0X8i.png"
+ },
+ {
+  "link": "/papers/2402.14289",
+  "id": "2402.14289",
+  "title": "TinyLLaVA: A Framework of Small-scale Large Multimodal Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/jLTorjcBFaqWNxe8v34Xc.png"
+ },
+ {
+  "link": "/papers/2402.14034",
+  "id": "2402.14034",
+  "title": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/OQ6FyQzJ0TnZ-v3Nii3dn.png"
+ },
+ {
+  "link": "/papers/2402.14547",
+  "id": "2402.14547",
+  "title": "OmniPred: Language Models as Universal Regressors",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/ijyBcI4TRzqJmU2GlTOwr.png"
+ },
+ {
+  "link": "/papers/2402.14261",
+  "id": "2402.14261",
+  "title": "Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/DT1GZteSe00AqW0yXx_nw.png"
+ },
+ {
+  "link": "/papers/2402.14167",
+  "id": "2402.14167",
+  "title": "T-Stitch: Accelerating Sampling in Pre-Trained Diffusion Models with Trajectory Stitching",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/c16yygP36a4XQ4Wu9Ju9_.png"
+ },
+ {
+  "link": "/papers/2402.14086",
+  "id": "2402.14086",
+  "title": "LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/y3cPKihXT2Fu_4eXA02jl.png"
+ },
+ {
+  "link": "/papers/2402.14810",
+  "id": "2402.14810",
+  "title": "GeneOH Diffusion: Towards Generalizable Hand-Object Interaction Denoising via Denoising Diffusion",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/wwLwrz8tXVgFmPhnk5Sde.mp4"
+ },
+ {
+  "link": "/papers/2402.14650",
+  "id": "2402.14650",
+  "title": "GaussianPro: 3D Gaussian Splatting with Progressive Propagation",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/DoTO-vmhmEZ46b1NEJMX7.mp4"
+ },
+ {
+  "link": "/papers/2402.14792",
+  "id": "2402.14792",
+  "title": "Consolidating Attention Features for Multi-view Image Editing",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/-4na-GRPXDJonefyY3jmQ.mp4"
+ },
+ {
+  "link": "/papers/2402.14180",
+  "id": "2402.14180",
+  "title": "Linear Transformers are Versatile In-Context Learners",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/ffL5P53UVpEM2XbJjUFUY.png"
+ },
+ {
+  "link": "/papers/2402.14590",
+  "id": "2402.14590",
+  "title": "Scaling Up LLM Reviews for Google Ads Content Moderation",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/VEVFFh0-Bk8BGY9EvOs_g.png"
+ },
+ {
+  "link": "/papers/2402.14795",
+  "id": "2402.14795",
+  "title": "CyberDemo: Augmenting Simulated Human Demonstration for Real-World Dexterous Manipulation",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/gRbuAWso9SyWQ_FgTVndc.png"
+ },
+ {
+  "link": "/papers/2402.14194",
+  "id": "2402.14194",
+  "title": "BeTAIL: Behavior Transformer Adversarial Imitation Learning from Human Racing Gameplay",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/n9u_flt9xZmD8FDqCbkQk.png"
+ },
+ {
+  "link": "/papers/2402.14253",
+  "id": "2402.14253",
+  "title": "MVD$^2$: Efficient Multiview 3D Reconstruction for Multiview Diffusion",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/pZ5BFUNmq6Eqyg6owNVhb.png"
+ }
+]

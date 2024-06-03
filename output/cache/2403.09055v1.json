@@ -1,0 +1,24 @@
+{
+  "id": "2403.09055v1",
+  "title": "StreamMultiDiffusion: Real-Time Interactive Generation with Region-Based Semantic Control",
+  "pdf_url": "http://arxiv.org/pdf/2403.09055v1",
+  "raw_tldr": "动机\t当前扩散模型在文本到图像的合成中取得了巨大成功，成为下一代终端用户图像生成和编辑应用的有力候选者。然而，将减少推理时间和增加用户交互性（如基于区域的文本提示）的工作整合起来非常困难，限制了扩散模型的潜力。\n方法\t提出了StreamMultiDiffusion，这是第一个实时基于区域的文本到图像生成框架。通过稳定快速推理技术并将模型重构为新提出的多提示流批处理架构，实现了比现有解决方案快10倍的全景生成速度，以及在单个RTX 2080 Ti GPU上进行基于区域的文本到图像合成时1.57 FPS的生成速度。\n结果\tStreamMultiDiffusion开启了一个名为语义调色板的新互动图像生成范式，能够实时从给定的多个手绘区域生成高质量图像，这些区域编码了预设的语义含义（例如，鹰、女孩）。",
+  "tldr": {
+    "动机": "当前扩散模型在文本到图像的合成中取得了巨大成功，成为下一代终端用户图像生成和编辑应用的有力候选者。然而，将减少推理时间和增加用户交互性（如基于区域的文本提示）的工作整合起来非常困难，限制了扩散模型的潜力。",
+    "方法": "提出了StreamMultiDiffusion，这是第一个实时基于区域的文本到图像生成框架。通过稳定快速推理技术并将模型重构为新提出的多提示流批处理架构，实现了比现有解决方案快10倍的全景生成速度，以及在单个RTX 2080 Ti GPU上进行基于区域的文本到图像合成时1.57 FPS的生成速度。",
+    "结果": "StreamMultiDiffusion开启了一个名为语义调色板的新互动图像生成范式，能够实时从给定的多个手绘区域生成高质量图像，这些区域编码了预设的语义含义（例如，鹰、女孩）。"
+  },
+  "summary_cn": "扩散模型在文本到图像合成中取得的巨大成功，使其成为下一代终端用户图像生成和编辑应用的有希望的候选者。以往的工作集中在通过减少推理时间或通过允许新的、细粒度控制（如基于区域的文本提示）来提高扩散模型的可用性。然而，我们通过实证发现，整合这两个分支的工作并非易事，限制了扩散模型的潜力。为了解决这种不兼容性，我们提出了StreamMultiDiffusion，这是第一个实时的基于区域的文本到图像生成框架。通过稳定快速推理技术并将模型重构为新提出的多提示流批处理架构，我们实现了比现有解决方案快10倍的全景生成速度，以及在单个RTX 2080 Ti GPU上进行基于区域的文本到图像合成时1.57 FPS的生成速度。我们的解决方案为交互式图像生成开辟了一种新的范式，名为语义调色板，其中高质量图像从给定的多个手绘区域实时生成，编码了规定的语义含义（例如，鹰、女孩）。我们的代码和演示应用可在https://github.com/ironjr/StreamMultiDiffusion获取。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"diffusion models\",\n    \"text-to-image synthesis\",\n    \"image generation\",\n    \"real-time\",\n    \"region-based text prompts\",\n    \"semantic palette\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "diffusion models",
+      "text-to-image synthesis",
+      "image generation",
+      "real-time",
+      "region-based text prompts",
+      "semantic palette"
+    ]
+  }
+}

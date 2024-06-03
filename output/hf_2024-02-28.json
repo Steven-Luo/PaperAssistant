@@ -1,0 +1,107 @@
+[
+ {
+  "link": "/papers/2402.17764",
+  "id": "2402.17764",
+  "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/MBjSFighU68b4s8iAx5Iv.png"
+ },
+ {
+  "link": "/papers/2402.17485",
+  "id": "2402.17485",
+  "title": "EMO: Emote Portrait Alive - Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/Jpuu71oibjBK1VrDwppG5.png"
+ },
+ {
+  "link": "/papers/2402.17177",
+  "id": "2402.17177",
+  "title": "Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/qkWMyZ3B6nFw9ScqbdkiM.png"
+ },
+ {
+  "link": "/papers/2402.17412",
+  "id": "2402.17412",
+  "title": "DiffuseKronA: A Parameter Efficient Fine-tuning Method for Personalized Diffusion Model",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/G7DpUf36R0brB1zRVJ-If.png"
+ },
+ {
+  "link": "/papers/2402.17193",
+  "id": "2402.17193",
+  "title": "When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/OHI5lrgnO3IsfEp2p9AJm.png"
+ },
+ {
+  "link": "/papers/2402.17553",
+  "id": "2402.17553",
+  "title": "OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/sVlGbt1C9fBO9qqYg8M-0.png"
+ },
+ {
+  "link": "/papers/2402.17139",
+  "id": "2402.17139",
+  "title": "Video as the New Language for Real-World Decision Making",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/HJmf2efYoD0IlWqmBWEou.png"
+ },
+ {
+  "link": "/papers/2402.17403",
+  "id": "2402.17403",
+  "title": "Sora Generates Videos with Stunning Geometrical Consistency",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/210y4X6o_IOFY9KvT8Mqd.png"
+ },
+ {
+  "link": "/papers/2402.17759",
+  "id": "2402.17759",
+  "title": "Towards Optimal Learning of Language Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/pFZcsoaiudgYFU_Knk9qa.png"
+ },
+ {
+  "link": "/papers/2402.17723",
+  "id": "2402.17723",
+  "title": "Seeing and Hearing: Open-domain Visual-Audio Generation with Diffusion Latent Aligners",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/aJGbhL62JRk5ZthHJN6zN.mp4"
+ },
+ {
+  "link": "/papers/2402.17753",
+  "id": "2402.17753",
+  "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/qRmY1xwE4f4hm-L99ULtw.png"
+ },
+ {
+  "link": "/papers/2402.17463",
+  "id": "2402.17463",
+  "title": "Training-Free Long-Context Scaling of Large Language Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/D6aUg6csG2bSP1w1DP9Uk.png"
+ },
+ {
+  "link": "/papers/2402.16936",
+  "id": "2402.16936",
+  "title": "Disentangled 3D Scene Generation with Layout Learning",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/sqN59PrKFrDyvlXh3u7bi.png"
+ },
+ {
+  "link": "/papers/2402.17245",
+  "id": "2402.17245",
+  "title": "Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/lfyxQFYDgnR95y7HvJaD5.png"
+ },
+ {
+  "link": "/papers/2402.17427",
+  "id": "2402.17427",
+  "title": "VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/4iteIvMm0gDIxoA3tqKKh.png"
+ }
+]

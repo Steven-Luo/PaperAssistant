@@ -1,0 +1,24 @@
+{
+  "id": "2402.14167v1",
+  "raw_tldr": "动机#为了提高高质量图像生成中扩散概率模型（DPMs）的采样效率，同时尽量减少或不降低生成质量，提出了一种名为T-Stitch的采样轨迹拼接技术。\n\n方法#T-Stitch技术首先在初始步骤中使用一个较小的DPM作为较大DPM的廉价替代品，然后在后期切换到较大的DPM，这基于对不同扩散模型在相同训练数据分布下学习到的编码相似性的关键洞察，以及较小模型在早期步骤中生成良好全局结构的能力。\n\n结果#通过广泛实验验证，T-Stitch无需训练，适用于不同架构，并能与大多数现有的快速采样技术互补，实现灵活的速度与质量权衡。例如，在DiT-XL上，可以将40%的早期时间步骤安全地替换为速度快10倍的DiT-S，而不会降低类条件ImageNet生成的性能。此外，该方法还可以作为一种插入技术，不仅加速了流行的预训练稳定扩散（SD）模型，还提高了公共模型库中风格化SD模型的提示对齐。",
+  "tldr": {
+    "动机": "为了提高高质量图像生成中扩散概率模型（DPMs）的采样效率，同时尽量减少或不降低生成质量，提出了一种名为T-Stitch的采样轨迹拼接技术。",
+    "方法": "T-Stitch技术首先在初始步骤中使用一个较小的DPM作为较大DPM的廉价替代品，然后在后期切换到较大的DPM，这基于对不同扩散模型在相同训练数据分布下学习到的编码相似性的关键洞察，以及较小模型在早期步骤中生成良好全局结构的能力。",
+    "结果": "通过广泛实验验证，T-Stitch无需训练，适用于不同架构，并能与大多数现有的快速采样技术互补，实现灵活的速度与质量权衡。例如，在DiT-XL上，可以将40%的早期时间步骤安全地替换为速度快10倍的DiT-S，而不会降低类条件ImageNet生成的性能。此外，该方法还可以作为一种插入技术，不仅加速了流行的预训练稳定扩散（SD）模型，还提高了公共模型库中风格化SD模型的提示对齐。"
+  },
+  "summary_cn": "在高质量图像生成中，从扩散概率模型（DPMs）中采样往往代价昂贵，并且通常需要许多步骤和一个大型模型。在本文中，我们介绍了一种采样技术——轨迹拼接T-Stitch，这是一种简单而有效的技术，用以提高采样效率，同时几乎不会或根本不会降低生成质量。T-Stitch不是仅使用一个大型DPM完成整个采样轨迹，而是首先利用一个较小的DPM在初始步骤中作为大型DPM的廉价替代品，并在后期切换到大型DPM。我们的关键见解是，不同的扩散模型在相同的训练数据分布下学习到了相似的编码，而且较小的模型能够在早期步骤生成良好的全局结构。大量实验表明，T-Stitch无需训练，通常适用于不同的架构，并且能够与大多数现有的快速采样技术互补，提供灵活的速度和质量权衡。例如，在DiT-XL上，可以安全地用速度快10倍的DiT-S替换40%的早期时间步，而不会降低类条件ImageNet生成的性能。我们进一步展示了我们的方法也可以作为一种即插即用技术，不仅加速了流行的预训练稳定扩散（SD）模型，还提高了公共模型库中风格化SD模型的提示对齐。代码已在https://github.com/NVlabs/T-Stitch上发布。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"diffusion probabilistic models\",\n    \"image generation\",\n    \"sampling efficiency\",\n    \"T-Stitch\",\n    \"speed and quality trade-offs\",\n    \"class-conditional ImageNet generation\",\n    \"stable diffusion models\",\n    \"prompt alignment\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "diffusion probabilistic models",
+      "image generation",
+      "sampling efficiency",
+      "T-Stitch",
+      "speed and quality trade-offs",
+      "class-conditional ImageNet generation",
+      "stable diffusion models",
+      "prompt alignment"
+    ]
+  }
+}

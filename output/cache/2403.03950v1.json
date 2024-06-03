@@ -1,0 +1,37 @@
+{
+  "id": "2403.03950v1",
+  "title": "Stop Regressing: Training Value Functions via Classification for Scalable Deep RL",
+  "pdf_url": "http://arxiv.org/pdf/2403.03950v1",
+  "raw_tldr": "动机\t深度强化学习（RL）中的价值函数是核心组成部分，但将基于回归的价值函数扩展到大型网络（如高容量Transformers）时面临挑战，与监督学习相比存在明显差异。\n方法\t通过使用分类代替回归来训练价值函数，具体采用分类交叉熵，探索深度RL的可扩展性是否能因此得到改善，并在多个领域进行验证。\n结果\t使用分类交叉熵训练的价值函数在多个领域（包括Atari 2600游戏、多任务RL、机器人操控、无搜索下棋和高容量Transformers上的语言代理Wordle任务）显著提高了性能和可扩展性，达到了这些领域的最先进结果。",
+  "tldr": {
+    "动机": "深度强化学习（RL）中的价值函数是核心组成部分，但将基于回归的价值函数扩展到大型网络（如高容量Transformers）时面临挑战，与监督学习相比存在明显差异。",
+    "方法": "通过使用分类代替回归来训练价值函数，具体采用分类交叉熵，探索深度RL的可扩展性是否能因此得到改善，并在多个领域进行验证。",
+    "结果": "使用分类交叉熵训练的价值函数在多个领域（包括Atari 2600游戏、多任务RL、机器人操控、无搜索下棋和高容量Transformers上的语言代理Wordle任务）显著提高了性能和可扩展性，达到了这些领域的最先进结果。"
+  },
+  "summary_cn": "价值函数是深度强化学习（RL）的核心组成部分。这些由神经网络参数化的函数，通过使用均方误差回归目标进行训练，以匹配自举目标值。然而，将基于价值的RL方法通过回归扩展到大型网络（如高容量的Transformers）已被证明是具有挑战性的。这种困难与监督学习形成了鲜明对比：通过利用交叉熵分类损失，监督方法已可靠地扩展到庞大的网络。观察到这种差异，在本文中，我们研究通过使用分类代替回归来训练价值函数，是否也可以简单地提高深度RL的可扩展性。我们展示了用分类交叉熵训练的价值函数，在多个领域显著提高了性能和可扩展性。这些领域包括：使用SoftMoEs在Atari 2600游戏上的单任务RL、使用大规模ResNets在Atari上的多任务RL、使用Q-transformers的机器人操控、无需搜索的下棋，以及使用高容量Transformers的语言代理Wordle任务，在这些领域上达到了最先进的结果。通过仔细分析，我们展示了分类交叉熵的好处主要源于其缓解基于价值的RL固有问题（如噪声目标和非平稳性）的能力。总的来说，我们认为，简单地将训练价值函数的方法转变为使用分类交叉熵，可以以极小或无成本的方式，显著提高深度RL的可扩展性。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Deep Reinforcement Learning\",\n  \"标签\": [\n    \"Value Functions\",\n    \"Neural Networks\",\n    \"Mean Squared Error Regression\",\n    \"Transformers\",\n    \"Supervised Learning\",\n    \"Cross-Entropy Classification Loss\",\n    \"Categorical Cross-Entropy\",\n    \"Atari 2600\",\n    \"SoftMoEs\",\n    \"Multi-Task RL\",\n    \"ResNets\",\n    \"Robotic Manipulation\",\n    \"Q-Transformers\",\n    \"Chess\",\n    \"Language-Agent Task\",\n    \"Wordle\",\n    \"Scalability\",\n    \"Noisy Targets\",\n    \"Non-Stationarity\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Deep Reinforcement Learning",
+    "标签": [
+      "Value Functions",
+      "Neural Networks",
+      "Mean Squared Error Regression",
+      "Transformers",
+      "Supervised Learning",
+      "Cross-Entropy Classification Loss",
+      "Categorical Cross-Entropy",
+      "Atari 2600",
+      "SoftMoEs",
+      "Multi-Task RL",
+      "ResNets",
+      "Robotic Manipulation",
+      "Q-Transformers",
+      "Chess",
+      "Language-Agent Task",
+      "Wordle",
+      "Scalability",
+      "Noisy Targets",
+      "Non-Stationarity"
+    ]
+  }
+}

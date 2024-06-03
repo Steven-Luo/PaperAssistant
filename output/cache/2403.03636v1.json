@@ -1,0 +1,23 @@
+{
+  "id": "2403.03636v1",
+  "title": "SheetAgent: A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models",
+  "pdf_url": "http://arxiv.org/pdf/2403.03636v1",
+  "raw_tldr": "动机\t电子表格操作在日常工作中广泛存在，显著提高了工作效率。尽管最近尝试使用大型语言模型（LLM）进行自动电子表格操作，但在存在推理挑战的复杂和现实任务中尚未进行研究（例如，需要多步推理和含糊要求的长期操作）。\n方法\t为了弥补与现实世界要求之间的差距，我们引入了一个名为SheetRM的基准测试，特点是具有由现实生活挑战引起的推理依赖操作的长期和多类别任务。进一步提出了一种名为SheetAgent的新型自主代理，该代理利用LLM的力量，并由三个协作模块组成：Planner、Informer和Retriever，通过迭代任务推理和反思，实现了无需人工干预的电子表格高级推理和准确操作。\n结果\tSheetAgent在多个基准测试上的通过率提高了20-30%，在电子表格操作的精确度和表格推理能力方面实现了显著提升。",
+  "tldr": {
+    "动机": "电子表格操作在日常工作中广泛存在，显著提高了工作效率。尽管最近尝试使用大型语言模型（LLM）进行自动电子表格操作，但在存在推理挑战的复杂和现实任务中尚未进行研究（例如，需要多步推理和含糊要求的长期操作）。",
+    "方法": "为了弥补与现实世界要求之间的差距，我们引入了一个名为SheetRM的基准测试，特点是具有由现实生活挑战引起的推理依赖操作的长期和多类别任务。进一步提出了一种名为SheetAgent的新型自主代理，该代理利用LLM的力量，并由三个协作模块组成：Planner、Informer和Retriever，通过迭代任务推理和反思，实现了无需人工干预的电子表格高级推理和准确操作。",
+    "结果": "SheetAgent在多个基准测试上的通过率提高了20-30%，在电子表格操作的精确度和表格推理能力方面实现了显著提升。"
+  },
+  "summary_cn": "电子表格操作在大多数日常工作中广泛存在，并显著提高了工作效率。最近，人们尝试使用大型语言模型（LLM）进行自动电子表格操作，但在存在推理挑战的复杂和现实任务中尚未进行研究（例如，需要多步推理和含糊要求的长期操作）。为了弥合与现实世界要求之间的差距，我们引入了一个名为$\\textbf{SheetRM}$的基准测试，它以现实生活中的挑战引起的推理依赖操作为特征，涵盖长期和多类别任务。为了缓解上述挑战，我们进一步提出了一个名为$\\textbf{SheetAgent}$的新型自主代理，该代理利用了LLM的力量。SheetAgent由三个协作模块组成：$\\textit{规划器（Planner）}$、$\\textit{信息提供者（Informer）}$和$\\textit{检索器（Retriever）}$，通过迭代任务推理和反思，实现了无需人机交互即可在电子表格上进行高级推理和准确操作。大量实验表明，与基线相比，SheetAgent在多个基准测试上的通过率提高了20-30%，在电子表格操作的精确度和表格推理能力方面实现了增强。更多详情和可视化内容可在https://sheetagent.github.io查看。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Spreadsheet manipulation\",\n    \"Large language model\",\n    \"Reasoning\",\n    \"Benchmark\",\n    \"Autonomous agent\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Spreadsheet manipulation",
+      "Large language model",
+      "Reasoning",
+      "Benchmark",
+      "Autonomous agent"
+    ]
+  }
+}

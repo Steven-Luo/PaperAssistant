@@ -1,0 +1,23 @@
+{
+  "id": "2403.00745v1",
+  "title": "AtP*: An efficient and scalable method for localizing LLM behaviour to components",
+  "pdf_url": "http://arxiv.org/pdf/2403.00745v1",
+  "raw_tldr": "动机\t激活修补是一种直接计算行为对模型组件因果归因的方法。然而，对于SoTA大型语言模型（LLMs），穷尽地应用这种方法需要按模型组件数量线性增长的成本，这可能代价高昂。\n方法\t我们研究了一种名为Attribution Patching (AtP) 的快速梯度近似方法，以及提出了AtP的一个变体AtP*，通过两项改进来解决AtP的两类失败模式，同时保持了可扩展性。\n结果\t我们呈现了对AtP及其替代方法进行更快激活修补的首个系统性研究，并展示了AtP在所有调查方法中的显著优势，AtP*进一步显著改进。最后，我们提供了一种方法来限定AtP*估计剩余假阴性的概率。",
+  "tldr": {
+    "动机": "激活修补是一种直接计算行为对模型组件因果归因的方法。然而，对于SoTA大型语言模型（LLMs），穷尽地应用这种方法需要按模型组件数量线性增长的成本，这可能代价高昂。",
+    "方法": "我们研究了一种名为Attribution Patching (AtP) 的快速梯度近似方法，以及提出了AtP的一个变体AtP*，通过两项改进来解决AtP的两类失败模式，同时保持了可扩展性。",
+    "结果": "我们呈现了对AtP及其替代方法进行更快激活修补的首个系统性研究，并展示了AtP在所有调查方法中的显著优势，AtP*进一步显著改进。最后，我们提供了一种方法来限定AtP*估计剩余假阴性的概率。"
+  },
+  "summary_cn": "激活修补是一种直接计算行为对模型组件因果归因的方法。然而，穷尽地应用它需要按模型组件数量线性增长的成本进行扫描，这对于最新的大型语言模型（LLMs）来说可能代价高昂。我们研究了一种快速梯度近似激活修补的方法，称为归因修补（AtP），并发现了AtP的两类失败模式，这些模式会导致显著的假阴性。我们提出了一种称为AtP*的AtP变体，通过两项更改来解决这些失败模式，同时保持可扩展性。我们呈现了对AtP及其替代方法进行更快激活修补的首个系统性研究，并显示AtP显著优于所有其他调查方法，而AtP*提供了进一步的显著改进。最后，我们提供了一种方法来限定AtP*估计剩余假阴性的概率。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"Activation Patching\",\n    \"Causal Attributions\",\n    \"Large Language Models\",\n    \"Gradient-Based Approximation\",\n    \"Systematic Study\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Activation Patching",
+      "Causal Attributions",
+      "Large Language Models",
+      "Gradient-Based Approximation",
+      "Systematic Study"
+    ]
+  }
+}

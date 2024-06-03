@@ -1,0 +1,27 @@
+{
+  "id": "2403.00071v1",
+  "title": "Resonance RoPE: Improving Context Length Generalization of Large Language Models",
+  "pdf_url": "http://arxiv.org/pdf/2403.00071v1",
+  "raw_tldr": "动机\t该论文解决了在配备旋转位置嵌入（RoPE）的大型语言模型（LLMs）中，针对训练短序列测试长序列（TSTL）场景的挑战，其中模型在预训练时面临较短序列，难以处理长序列中分布外（OOD）位置的问题。\n方法\t引入了一种新颖的方法——共振RoPE，通过改进RoPE特征的插值来缩小TSTL场景中的泛化差距，显著提高模型性能，而不增加额外的在线计算成本。此外，提出了一个新的合成基准测试PosGen，专为TSTL场景中的细粒度行为分析设计，旨在从识别新的令牌位置的挑战中分离出长文本上令牌生成难度的持续增加。\n结果\t实验结果表明，应用共振RoPE后，Transformer能更好、更稳健地识别OOD位置。在大型语言模型的广泛实验中，将共振RoPE应用于当前最先进的RoPE缩放方法YaRN后，无论是在上游语言建模任务还是在各种下游长文本应用中，都显示出了优越的性能。",
+  "tldr": {
+    "动机": "该论文解决了在配备旋转位置嵌入（RoPE）的大型语言模型（LLMs）中，针对训练短序列测试长序列（TSTL）场景的挑战，其中模型在预训练时面临较短序列，难以处理长序列中分布外（OOD）位置的问题。",
+    "方法": "引入了一种新颖的方法——共振RoPE，通过改进RoPE特征的插值来缩小TSTL场景中的泛化差距，显著提高模型性能，而不增加额外的在线计算成本。此外，提出了一个新的合成基准测试PosGen，专为TSTL场景中的细粒度行为分析设计，旨在从识别新的令牌位置的挑战中分离出长文本上令牌生成难度的持续增加。",
+    "结果": "实验结果表明，应用共振RoPE后，Transformer能更好、更稳健地识别OOD位置。在大型语言模型的广泛实验中，将共振RoPE应用于当前最先进的RoPE缩放方法YaRN后，无论是在上游语言建模任务还是在各种下游长文本应用中，都显示出了优越的性能。"
+  },
+  "summary_cn": "本文解决了配备旋转位置嵌入（RoPE）的大型语言模型（LLMs）中训练短测试长（TSTL）场景的挑战，其中在较短序列上预训练的模型面临着在较长序列中处理分布外（OOD）令牌位置的困难。我们引入了共振RoPE，这是一种旨在通过改进RoPE特征的插值来缩小TSTL场景中泛化差距的新方法，显著提高了模型性能，而无需额外的在线计算成本。此外，我们提出了PosGen，这是一个专为TSTL场景中的细粒度行为分析而设计的新型合成基准，旨在从识别新令牌位置的挑战中分离出在长上下文中令牌生成难度的持续增加。我们在合成任务上的实验表明，在应用共振RoPE后，变压器更好且更稳健地识别了OOD位置。我们在大型语言模型上的广泛实验也表明，在将共振RoPE应用于当前最先进的RoPE缩放方法YaRN后，无论是在上游语言建模任务还是在各种下游长文本应用中，都显示出了更优越的性能。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Rotary Position Embedding\",\n    \"train-short-test-long scenarios\",\n    \"out-of-distribution token positions\",\n    \"Resonance RoPE\",\n    \"PosGen benchmark\",\n    \"Transformers\",\n    \"language modeling tasks\",\n    \"long-text applications\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Rotary Position Embedding",
+      "train-short-test-long scenarios",
+      "out-of-distribution token positions",
+      "Resonance RoPE",
+      "PosGen benchmark",
+      "Transformers",
+      "language modeling tasks",
+      "long-text applications"
+    ]
+  }
+}

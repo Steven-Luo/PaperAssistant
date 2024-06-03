@@ -1,0 +1,25 @@
+{
+  "id": "2402.14905v1",
+  "raw_tldr": "#动机：由于云服务成本增加和延迟问题，本文解决了在移动设备上高效部署大型语言模型(LLMs)的迫切需求，专注于设计参数少于十亿的高质量LLMs，适合移动部署。\n\n#方法：采用深而窄的架构，结合嵌入共享和分组查询注意力机制，提出了一种称为MobileLLM的强基线网络，并提出了一种即时的块状权重共享方法，无需增加模型大小且只有边际的延迟开销。\n\n#结果：MobileLLM在先进的125M/350M模型上分别提高了2.7%/4.3%的准确率，而MobileLLM-LS在MobileLLM 125M/350M的基础上进一步提高了0.7%/0.8%的准确率。MobileLLM模型家族在聊天基准测试上显著优于之前的小于十亿参数模型，并在API调用任务中接近LLaMA-v2 7B的正确性，突显了小型模型在常见移动设备使用案例中的能力。",
+  "tldr": {
+    "": "结果：MobileLLM在先进的125M/350M模型上分别提高了2.7%/4.3%的准确率，而MobileLLM-LS在MobileLLM 125M/350M的基础上进一步提高了0.7%/0.8%的准确率。MobileLLM模型家族在聊天基准测试上显著优于之前的小于十亿参数模型，并在API调用任务中接近LLaMA-v2 7B的正确性，突显了小型模型在常见移动设备使用案例中的能力。",
+    "动机": "",
+    "方法": "",
+    "结果": ""
+  },
+  "summary_cn": "本文解决了在移动设备上对高效大型语言模型（LLMs）日益增长的需求，这一需求由云计算成本增加和延迟问题所驱动。我们专注于设计具有不到十亿参数的顶级质量LLMs，这是移动部署的一个实际选择。与强调数据量和参数量在决定模型质量中的关键作用的普遍观点相反，我们的调查强调了模型架构对于小于十亿规模LLMs的重要性。通过利用深而窄的架构，结合嵌入共享和分组查询注意力机制，我们建立了一个强大的基线网络，称为MobileLLM，它在先前的125M/350M最先进模型上实现了显著的2.7%/4.3%的准确率提升。此外，我们提出了一种即时的块级权重共享方法，不增加模型大小，只带来边际的延迟开销。由此产生的模型，称为MobileLLM-LS，在MobileLLM 125M/350M上进一步提高了0.7%/0.8%的准确率。而且，MobileLLM模型家族与之前的小于十亿模型相比，在聊天基准测试上显示出显著的改进，并在API调用任务中展现出与LLaMA-v2 7B接近的正确性，凸显了小型模型对于常见移动设备使用案例的能力。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Mobile Deployment\",\n    \"Model Architecture\",\n    \"Embedding Sharing\",\n    \"Grouped-Query Attention\",\n    \"Weight Sharing\",\n    \"Chat Benchmarks\",\n    \"API Calling Tasks\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Mobile Deployment",
+      "Model Architecture",
+      "Embedding Sharing",
+      "Grouped-Query Attention",
+      "Weight Sharing",
+      "Chat Benchmarks",
+      "API Calling Tasks"
+    ]
+  }
+}

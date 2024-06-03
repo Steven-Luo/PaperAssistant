@@ -1,0 +1,26 @@
+{
+  "id": "2403.07487v1",
+  "title": "Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM",
+  "pdf_url": "http://arxiv.org/pdf/2403.07487v1",
+  "raw_tldr": "动机\t人类运动生成是生成性计算机视觉中的一个重要追求，而实现长序列和高效的运动生成仍然具有挑战性。\n方法\t提出了Motion Mamba，一个简单高效的方法，采用了分层时间Mamba（HTM）块和双向空间Mamba（BSM）块，通过集成不同数量的独立SSM模块并利用对称的U-Net架构来处理时间数据，以及双向处理潜在姿态以增强在时间帧内的准确运动生成。\n结果\t与之前最好的基于扩散的方法相比，在HumanML3D和KIT-ML数据集上实现了高达50%的FID改进和高达4倍的速度提升，展示了高质量长序列运动建模和实时人类运动生成的强大能力。",
+  "tldr": {
+    "动机": "人类运动生成是生成性计算机视觉中的一个重要追求，而实现长序列和高效的运动生成仍然具有挑战性。",
+    "方法": "提出了Motion Mamba，一个简单高效的方法，采用了分层时间Mamba（HTM）块和双向空间Mamba（BSM）块，通过集成不同数量的独立SSM模块并利用对称的U-Net架构来处理时间数据，以及双向处理潜在姿态以增强在时间帧内的准确运动生成。",
+    "结果": "与之前最好的基于扩散的方法相比，在HumanML3D和KIT-ML数据集上实现了高达50%的FID改进和高达4倍的速度提升，展示了高质量长序列运动建模和实时人类运动生成的强大能力。"
+  },
+  "summary_cn": "人类运动生成在生成式计算机视觉中占据重要地位，而实现长序列和高效的运动生成仍然具有挑战性。最近在状态空间模型（SSMs）上的进展，特别是Mamba，已经在长序列建模方面展现出相当的潜力，其高效的硬件感知设计似乎是构建运动生成模型的一个有希望的方向。然而，将SSMs适配到运动生成上面临障碍，因为缺乏专门的设计架构来模拟运动序列。为了解决这些挑战，我们提出了Motion Mamba，一种简单高效的方法，展示了首个利用SSMs的运动生成模型。具体来说，我们设计了一个分层时间Mamba（HTM）块，通过在对称的U-Net架构中集成不同数量的独立SSM模块来处理时间数据，旨在保持帧之间的运动一致性。我们还设计了一个双向空间Mamba（BSM）块，以双向处理潜在姿态，以在时间帧内增强准确的运动生成。我们提出的方法在HumanML3D和KIT-ML数据集上比之前最好的基于扩散的方法实现了高达50%的FID改进和高达4倍的速度提升，这证明了高质量长序列运动建模和实时人类运动生成的强大能力。请参见项目网站 https://steve-zeyu-zhang.github.io/MotionMamba/",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"Human Motion Generation\",\n    \"Generative Computer Vision\",\n    \"State Space Models\",\n    \"Efficient Hardware-Aware Design\",\n    \"Hierarchical Temporal Modeling\",\n    \"Bidirectional Spatial Processing\",\n    \"FID Improvement\",\n    \"Real-Time Motion Generation\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "Human Motion Generation",
+      "Generative Computer Vision",
+      "State Space Models",
+      "Efficient Hardware-Aware Design",
+      "Hierarchical Temporal Modeling",
+      "Bidirectional Spatial Processing",
+      "FID Improvement",
+      "Real-Time Motion Generation"
+    ]
+  }
+}

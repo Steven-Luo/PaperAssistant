@@ -1,0 +1,65 @@
+[
+ {
+  "link": "/papers/2403.08295",
+  "id": "2403.08295",
+  "title": "Gemma: Open Models Based on Gemini Research and Technology",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08295.png"
+ },
+ {
+  "link": "/papers/2403.08763",
+  "id": "2403.08763",
+  "title": "Simple and Scalable Strategies to Continually Pre-train Large Language Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08763.png"
+ },
+ {
+  "link": "/papers/2403.08764",
+  "id": "2403.08764",
+  "title": "VLOGGER: Multimodal Diffusion for Embodied Avatar Synthesis",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08764.png"
+ },
+ {
+  "link": "/papers/2403.08268",
+  "id": "2403.08268",
+  "title": "Follow-Your-Click: Open-domain Regional Image Animation via Short Prompts",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08268.png"
+ },
+ {
+  "link": "/papers/2403.08540",
+  "id": "2403.08540",
+  "title": "Language models scale reliably with over-training and on downstream tasks",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08540.png"
+ },
+ {
+  "link": "/papers/2403.08715",
+  "id": "2403.08715",
+  "title": "SOTOPIA-$π$: Interactive Learning of Socially Intelligent Language Agents",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08715.png"
+ },
+ {
+  "link": "/papers/2403.07918",
+  "id": "2403.07918",
+  "title": "On the Societal Impact of Open Foundation Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.07918.png"
+ },
+ {
+  "link": "/papers/2403.08629",
+  "id": "2403.08629",
+  "title": "Scaling Up Dynamic Human-Scene Interaction Modeling",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08629.png"
+ },
+ {
+  "link": "/papers/2403.08551",
+  "id": "2403.08551",
+  "title": "GaussianImage: 1000 FPS Image Representation and Compression by 2D Gaussian Splatting",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.08551.png"
+ }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "2402.16822v1",
+  "raw_tldr": "动机\t随着大型语言模型（LLMs）在许多实际应用中的日益普及，理解并增强它们对用户输入的鲁棒性变得极为重要。现有的识别对抗性提示的方法往往专注于特定领域、缺乏多样性或需要大量人工注释。\n方法\tRainbow Teaming采用了一种新颖的方法，将对抗性提示生成视为一个质量-多样性问题，并使用开放式搜索来生成既有效又多样的提示。该方法能够揭示模型在包括安全性、问答和网络安全等广泛领域的脆弱性。\n结果\t通过在Rainbow Teaming生成的合成数据上进行微调，可以在不损害其一般能力和有用性的情况下，提高最先进大型语言模型的安全性，为开放式自我改进铺平了道路。",
+  "tldr": {
+    "动机": "随着大型语言模型（LLMs）在许多实际应用中的日益普及，理解并增强它们对用户输入的鲁棒性变得极为重要。现有的识别对抗性提示的方法往往专注于特定领域、缺乏多样性或需要大量人工注释。",
+    "方法": "Rainbow Teaming采用了一种新颖的方法，将对抗性提示生成视为一个质量-多样性问题，并使用开放式搜索来生成既有效又多样的提示。该方法能够揭示模型在包括安全性、问答和网络安全等广泛领域的脆弱性。",
+    "结果": "通过在Rainbow Teaming生成的合成数据上进行微调，可以在不损害其一般能力和有用性的情况下，提高最先进大型语言模型的安全性，为开放式自我改进铺平了道路。"
+  },
+  "summary_cn": "随着大型语言模型（LLMs）在许多实际应用中变得越来越普遍，理解并增强它们对用户输入的鲁棒性变得至关重要。现有的识别对抗性提示的方法往往专注于特定领域、缺乏多样性或需要大量的人工注释。为了解决这些限制，我们提出了一种新颖的方法——彩虹团队（Rainbow Teaming），用于生成多样化的对抗性提示集合。彩虹团队将对抗性提示生成视为一个质量-多样性问题，并使用开放式搜索来生成既有效又多样化的提示。它可以揭示模型在包括安全性、问答和网络安全在内的广泛领域中的脆弱性。我们还展示了通过对彩虹团队生成的合成数据进行微调，可以在不损害其一般能力和有用性的情况下，提高最先进LLMs的安全性，为开放式自我改进铺平了道路。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"large language models\",\n    \"adversarial prompts\",\n    \"robustness\",\n    \"open-ended search\",\n    \"safety\",\n    \"question answering\",\n    \"cybersecurity\",\n    \"fine-tuning\",\n    \"synthetic data\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language models",
+      "adversarial prompts",
+      "robustness",
+      "open-ended search",
+      "safety",
+      "question answering",
+      "cybersecurity",
+      "fine-tuning",
+      "synthetic data"
+    ]
+  },
+  "title": "Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts",
+  "pdf_url": "http://arxiv.org/pdf/2402.16822v1"
+}

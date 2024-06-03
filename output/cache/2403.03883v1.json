@@ -1,0 +1,23 @@
+{
+  "id": "2403.03883v1",
+  "title": "SaulLM-7B: A pioneering Large Language Model for Law",
+  "pdf_url": "http://arxiv.org/pdf/2403.03883v1",
+  "raw_tldr": "动机\t在法律领域中引入一个专门定制的大型语言模型SaulLM-7B，旨在提高法律文本的理解和生成能力。\n方法\t基于Mistral 7B架构，训练了一个具有7亿参数的模型，使用超过300亿token的英语法律语料库，并提出了一种新颖的指导性微调方法，利用法律数据集进一步提升模型性能。\n结果\tSaulLM-7B在理解和处理法律文件方面展现了最先进的水平，并且该模型在遵循CC-BY-SA-4.0许可下发布。",
+  "tldr": {
+    "动机": "在法律领域中引入一个专门定制的大型语言模型SaulLM-7B，旨在提高法律文本的理解和生成能力。",
+    "方法": "基于Mistral 7B架构，训练了一个具有7亿参数的模型，使用超过300亿token的英语法律语料库，并提出了一种新颖的指导性微调方法，利用法律数据集进一步提升模型性能。",
+    "结果": "SaulLM-7B在理解和处理法律文件方面展现了最先进的水平，并且该模型在遵循CC-BY-SA-4.0许可下发布。"
+  },
+  "summary_cn": "在本文中，我们介绍了SaulLM-7B，这是一个为法律领域量身定制的大型语言模型（LLM）。SaulLM-7B拥有70亿参数，是第一个专门为法律文本理解和生成而设计的LLM。SaulLM-7B基于Mistral 7B架构，训练于超过300亿标记符的英文法律语料库上。SaulLM-7B在理解和处理法律文件方面展现了最先进的能力。此外，我们还提出了一种新颖的指令式微调方法，利用法律数据集进一步提升SaulLM-7B在法律任务中的表现。SaulLM-7B以CC-BY-SA-4.0许可证发布。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"large language model\",\n    \"legal domain\",\n    \"text comprehension\",\n    \"text generation\",\n    \"instructional fine-tuning\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language model",
+      "legal domain",
+      "text comprehension",
+      "text generation",
+      "instructional fine-tuning"
+    ]
+  }
+}

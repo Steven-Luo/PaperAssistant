@@ -1,0 +1,28 @@
+{
+  "id": "2403.15484v1",
+  "title": "RakutenAI-7B: Extending Large Language Models for Japanese",
+  "pdf_url": "http://arxiv.org/pdf/2403.15484v1",
+  "raw_tldr": "动机:为了在开放的7B模型中实现最佳的日本语言模型性能。\n方法:推出了专门针对日语的RakutenAI-7B系列大型语言模型，包括基础模型以及经过指令和聊天调整的模型。\n结果:RakutenAI-7B在日语LM Harness基准测试中取得了最好的性能，同时发布了RakutenAI-7B-instruct和RakutenAI-7B-chat模型，并在Apache 2.0许可下发布。",
+  "tldr": {
+    "动机:为了在开放的7B模型中实现最佳的日本语言模型性能。": "",
+    "方法:推出了专门针对日语的RakutenAI-7B系列大型语言模型，包括基础模型以及经过指令和聊天调整的模型。": "",
+    "结果:RakutenAI-7B在日语LM Harness基准测试中取得了最好的性能，同时发布了RakutenAI-7B-instruct和RakutenAI-7B-chat模型，并在Apache 2.0许可下发布。": "",
+    "动机": "",
+    "方法": "",
+    "结果": ""
+  },
+  "summary_cn": "我们推出了RakutenAI-7B，这是一套面向日语的大型语言模型，它在开放的7B模型中在日本LM Harness基准测试中取得了最佳性能。除了基础模型之外，我们还分别发布了指导调整型和聊天调整型模型，即RakutenAI-7B-instruct和RakutenAI-7B-chat，它们都在Apache 2.0许可下发布。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"自然语言处理 (NLP)\",\n  \"标签\": [\n    \"大型语言模型\",\n    \"日语\",\n    \"开放模型\",\n    \"性能基准\",\n    \"Apache 2.0许可\",\n    \"指令调整模型\",\n    \"聊天调整模型\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "自然语言处理 (NLP)",
+    "标签": [
+      "大型语言模型",
+      "日语",
+      "开放模型",
+      "性能基准",
+      "Apache 2.0许可",
+      "指令调整模型",
+      "聊天调整模型"
+    ]
+  }
+}

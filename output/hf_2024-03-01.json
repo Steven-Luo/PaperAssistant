@@ -1,0 +1,79 @@
+[
+ {
+  "link": "/papers/2402.19173",
+  "id": "2402.19173",
+  "title": "StarCoder 2 and The Stack v2: The Next Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/FUbEjaqJTyfiCVLfIMcgk.png"
+ },
+ {
+  "link": "/papers/2402.19155",
+  "id": "2402.19155",
+  "title": "Beyond Language Models: Byte Models are Digital World Simulators",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/8d3oJgqtVy6AvG8Frsxfw.png"
+ },
+ {
+  "link": "/papers/2402.19427",
+  "id": "2402.19427",
+  "title": "Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/5e68p09De9fBpLfPl_uUJ.png"
+ },
+ {
+  "link": "/papers/2402.19479",
+  "id": "2402.19479",
+  "title": "Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/VSE0UHuPnl98dY-q2yjTH.png"
+ },
+ {
+  "link": "/papers/2402.18796",
+  "id": "2402.18796",
+  "title": "MOSAIC: A Modular System for Assistive and Interactive Cooking",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/Pg0wqi5vENUDkzEFjrH7m.mp4"
+ },
+ {
+  "link": "/papers/2402.19469",
+  "id": "2402.19469",
+  "title": "Humanoid Locomotion as Next Token Prediction",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/RdzS9K3DCfonN0pfyHKZJ.mp4"
+ },
+ {
+  "link": "/papers/2402.18668",
+  "id": "2402.18668",
+  "title": "Simple linear attention language models balance the recall-throughput tradeoff",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/YfWiKNu_gMu7gX8CBQB2E.png"
+ },
+ {
+  "link": "/papers/2402.19159",
+  "id": "2402.19159",
+  "title": "Trajectory Consistency Distillation",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/WNn2aze7DMaqNyGmnNcAy.png"
+ },
+ {
+  "link": "/papers/2402.18842",
+  "id": "2402.18842",
+  "title": "ViewFusion: Towards Multi-View Consistency via Interpolated Denoising",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/c5xVMiG3rAsMUujOcU1X8.mp4"
+ },
+ {
+  "link": "/papers/2402.19481",
+  "id": "2402.19481",
+  "title": "DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/l3RaqnhAKiCFa5xHOSQfH.png"
+ },
+ {
+  "link": "/papers/2402.18734",
+  "id": "2402.18734",
+  "title": "Priority Sampling of Large Language Models for Compilers",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/Pd3hUuaovnlxf5_8AXWge.png"
+ }
+]

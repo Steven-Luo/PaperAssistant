@@ -1,0 +1,27 @@
+{
+  "id": "2402.19173v1",
+  "raw_tldr": "动机\t大型代码语言模型（Code LLMs）的负责任发展需要开放科学合作，BigCode项目旨在此背景下推出StarCoder2。\n方法\t与软件遗产（SWH）合作，构建基于其源代码档案数字公共资源的Stack v2，并从619种编程语言的SWH仓库、GitHub拉取请求、Kaggle笔记本和代码文档中精心挑选其他高质量数据源，训练3B、7B和15B参数的StarCoder2模型。\n结果\tStarCoder2模型在代码LLM基准测试中的表现超过了相似大小的其他模型，其中3B模型甚至超过了15B的StarCoderBase模型，15B模型显著优于同等大小的模型，并在多个方面匹敌或超过了更大的CodeLlama-34B模型，尤其在数学和代码推理基准测试以及多种低资源语言上表现优异。",
+  "tldr": {
+    "动机": "大型代码语言模型（Code LLMs）的负责任发展需要开放科学合作，BigCode项目旨在此背景下推出StarCoder2。",
+    "方法": "与软件遗产（SWH）合作，构建基于其源代码档案数字公共资源的Stack v2，并从619种编程语言的SWH仓库、GitHub拉取请求、Kaggle笔记本和代码文档中精心挑选其他高质量数据源，训练3B、7B和15B参数的StarCoder2模型。",
+    "结果": "StarCoder2模型在代码LLM基准测试中的表现超过了相似大小的其他模型，其中3B模型甚至超过了15B的StarCoderBase模型，15B模型显著优于同等大小的模型，并在多个方面匹敌或超过了更大的CodeLlama-34B模型，尤其在数学和代码推理基准测试以及多种低资源语言上表现优异。"
+  },
+  "summary_cn": "BigCode项目是一个专注于负责任地开发大型代码语言模型（Code LLMs）的开放科学合作项目，该项目推出了StarCoder2。我们与软件遗产（SWH）合作，在其源代码档案的数字公共资源之上构建了Stack v2。除了覆盖619种编程语言的SWH仓库外，我们还精心挑选了其他高质量数据源，如GitHub拉取请求、Kaggle笔记本和代码文档。这导致训练集的规模是第一个StarCoder数据集的4倍。我们在3.3到4.3万亿个令牌上训练了具有30亿、70亿和150亿参数的StarCoder2模型，并在一整套代码LLM基准测试上对它们进行了彻底评估。我们发现，我们的小型模型StarCoder2-3B在大多数基准测试中表现优于其他类似大小的代码LLM，并且还超过了StarCoderBase-15B。我们的大型模型StarCoder2-15B显著优于其他相似大小的模型。此外，它与CodeLlama-34B的表现相当或更好，而CodeLlama-34B的模型大小是其两倍多。尽管DeepSeekCoder-33B在高资源语言的代码完成方面表现最佳，但我们发现StarCoder2-15B在数学和代码推理基准测试以及几种低资源语言上的表现超过了它。我们在OpenRAIL许可下提供模型权重，并通过发布软件遗产持久标识符（SWHIDs）来确保对训练数据的完全透明度。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models for Code\",\n    \"Code LLMs\",\n    \"Software Heritage\",\n    \"GitHub\",\n    \"Kaggle\",\n    \"code documentation\",\n    \"model evaluation\",\n    \"code completion\",\n    \"low-resource languages\",\n    \"OpenRAIL license\",\n    \"SWHIDs\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models for Code",
+      "Code LLMs",
+      "Software Heritage",
+      "GitHub",
+      "Kaggle",
+      "code documentation",
+      "model evaluation",
+      "code completion",
+      "low-resource languages",
+      "OpenRAIL license",
+      "SWHIDs"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+[
+ {
+  "link": "/papers/2402.14905",
+  "id": "2402.14905",
+  "title": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/SZoqAKLrSSD-cy5SreL4T.png"
+ },
+ {
+  "link": "/papers/2402.15391",
+  "id": "2402.15391",
+  "title": "Genie: Generative Interactive Environments",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/bCTVh9dCqN6_e7TSeIsr2.qt"
+ },
+ {
+  "link": "/papers/2402.15000",
+  "id": "2402.15000",
+  "title": "Divide-or-Conquer? Which Part Should You Distill Your LLM?",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/hr_KNu9asHJ_Kk6XOb0ex.png"
+ },
+ {
+  "link": "/papers/2402.14830",
+  "id": "2402.14830",
+  "title": "Orca-Math: Unlocking the potential of SLMs in Grade School Math",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/SNUBmAcBKlgg0OxeTRfvH.png"
+ },
+ {
+  "link": "/papers/2402.15504",
+  "id": "2402.15504",
+  "title": "Gen4Gen: Generative Data Pipeline for Generative Multi-Concept Composition",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/384fXOREWdo-zNfQtHOxe.mp4"
+ },
+ {
+  "link": "/papers/2402.15220",
+  "id": "2402.15220",
+  "title": "ChunkAttention: Efficient Self-Attention with Prefix-Aware KV Cache and Two-Phase Partition",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/WOW9WqXM5dHIdKaVVO-gj.png"
+ },
+ {
+  "link": "/papers/2402.15319",
+  "id": "2402.15319",
+  "title": "GPTVQ: The Blessing of Dimensionality for LLM Quantization",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/TD0kC_hrvKDrbzKZlz1RH.png"
+ },
+ {
+  "link": "/papers/2402.14848",
+  "id": "2402.14848",
+  "title": "Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/ddkmh05FqmK6CoS3gg6TZ.png"
+ },
+ {
+  "link": "/papers/2402.15509",
+  "id": "2402.15509",
+  "title": "Seamless Human Motion Composition with Blended Positional Encodings",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/DP13-Sul2O6gMLP2ejUKc.mp4"
+ },
+ {
+  "link": "/papers/2402.15491",
+  "id": "2402.15491",
+  "title": "API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/nUI5yLZekAUe9vO_fe-Av.png"
+ },
+ {
+  "link": "/papers/2402.14904",
+  "id": "2402.14904",
+  "title": "Watermarking Makes Language Models Radioactive",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/u16DqQGe68ALImF2qDgqK.png"
+ },
+ {
+  "link": "/papers/2402.15021",
+  "id": "2402.15021",
+  "title": "CLoVe: Encoding Compositional Language in Contrastive Vision-Language Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/ZmOZf-Cz0FJDnW812B5pc.png"
+ },
+ {
+  "link": "/papers/2402.15506",
+  "id": "2402.15506",
+  "title": "AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/KG3JHyjeTYWa-WhUm2R__.png"
+ }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "2403.09631v1",
+  "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+  "pdf_url": "http://arxiv.org/pdf/2403.09631v1",
+  "raw_tldr": "动机\t现有的视觉-语言-动作（VLA）模型依赖于2D输入，缺乏与3D物理世界更广泛整合的能力。此外，这些模型通过学习从感知到动作的直接映射来进行动作预测，忽略了世界的广泛动态以及动作与动态之间的关系。相比之下，人类拥有能够想象未来场景以便相应规划行动的世界模型。\n方法\t提出了3D-VLA，这是一种新的体现化基础模型，通过一个生成性世界模型无缝连接3D感知、推理和动作。3D-VLA建立在基于3D的大型语言模型（LLM）之上，并引入了一组交互令牌以与体现化环境互动。此外，通过训练一系列体现化扩散模型并将它们对齐到LLM中来注入生成能力，以预测目标图像和点云。为了训练3D-VLA，通过从现有的机器人数据集中提取大量3D相关信息来策划一个大规模的3D体现化指令数据集。\n结果\t3D-VLA在体现化环境中显著提高了推理、多模态生成和规划能力，展示了其在现实世界应用中的潜力。",
+  "tldr": {
+    "动机": "现有的视觉-语言-动作（VLA）模型依赖于2D输入，缺乏与3D物理世界更广泛整合的能力。此外，这些模型通过学习从感知到动作的直接映射来进行动作预测，忽略了世界的广泛动态以及动作与动态之间的关系。相比之下，人类拥有能够想象未来场景以便相应规划行动的世界模型。",
+    "方法": "提出了3D-VLA，这是一种新的体现化基础模型，通过一个生成性世界模型无缝连接3D感知、推理和动作。3D-VLA建立在基于3D的大型语言模型（LLM）之上，并引入了一组交互令牌以与体现化环境互动。此外，通过训练一系列体现化扩散模型并将它们对齐到LLM中来注入生成能力，以预测目标图像和点云。为了训练3D-VLA，通过从现有的机器人数据集中提取大量3D相关信息来策划一个大规模的3D体现化指令数据集。",
+    "结果": "3D-VLA在体现化环境中显著提高了推理、多模态生成和规划能力，展示了其在现实世界应用中的潜力。"
+  },
+  "summary_cn": "最近的视觉-语言-行动（VLA）模型依赖于2D输入，缺乏与更广泛的3D物理世界的整合。此外，它们通过学习从感知到行动的直接映射来执行行动预测，忽略了世界的广泛动态以及行动与动态之间的关系。相比之下，人类拥有描绘对未来场景想象以便据此计划行动的世界模型。为此，我们提出了3D-VLA，通过引入一种新的具身基础模型家族，无缝连接3D感知、推理和行动，通过一个生成性世界模型。具体来说，3D-VLA建立在一个基于3D的大型语言模型（LLM）之上，并引入了一组交互令牌来与具身环境进行互动。此外，为了将生成能力注入模型，我们训练了一系列具身扩散模型，并将它们对齐到LLM中，以预测目标图像和点云。为了训练我们的3D-VLA，我们通过从现有的机器人数据集中提取大量3D相关信息，策划了一个大规模的3D具身指令数据集。我们在保留的数据集上进行的实验表明，3D-VLA显著提高了在具身环境中的推理、多模态生成和规划能力，展示了其在现实世界应用中的潜力。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"3D perception\",\n    \"action prediction\",\n    \"embodied foundation models\",\n    \"generative world model\",\n    \"large language model\",\n    \"embodied diffusion models\",\n    \"3D embodied instruction dataset\",\n    \"reasoning\",\n    \"multimodal generation\",\n    \"planning capabilities\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "3D perception",
+      "action prediction",
+      "embodied foundation models",
+      "generative world model",
+      "large language model",
+      "embodied diffusion models",
+      "3D embodied instruction dataset",
+      "reasoning",
+      "multimodal generation",
+      "planning capabilities"
+    ]
+  }
+}

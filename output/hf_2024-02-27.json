@@ -1,0 +1,72 @@
+[
+ {
+  "link": "/papers/2402.16153",
+  "id": "2402.16153",
+  "title": "ChatMusician: Understanding and Generating Music Intrinsically with LLM",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/WDMvwieajdGIJXfJ830Y0.mp4"
+ },
+ {
+  "link": "/papers/2402.16819",
+  "id": "2402.16819",
+  "title": "Nemotron-4 15B Technical Report",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/4UrqVp4fu-hQ8cyPsNAd4.png"
+ },
+ {
+  "link": "/papers/2402.16107",
+  "id": "2402.16107",
+  "title": "FuseChat: Knowledge Fusion of Chat Models",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/4O9EizBGqSgKw2ktFCplr.png"
+ },
+ {
+  "link": "/papers/2402.16843",
+  "id": "2402.16843",
+  "title": "Multi-LoRA Composition for Image Generation",
+  "media_type": "video",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/JvQHGGDcnlgggLFw0wiwh.mp4"
+ },
+ {
+  "link": "/papers/2402.15627",
+  "id": "2402.15627",
+  "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/igMXMW43IYmaQwXQ7sz9h.png"
+ },
+ {
+  "link": "/papers/2402.16671",
+  "id": "2402.16671",
+  "title": "StructLM: Towards Building Generalist Models for Structured Knowledge Grounding",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/a0ikiPRfVdZK8OB7FBSrH.png"
+ },
+ {
+  "link": "/papers/2402.16840",
+  "id": "2402.16840",
+  "title": "MobiLlama: Towards Accurate and Lightweight Fully Transparent GPT",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/InGhb9_Qq6r4NNWx8wHmL.png"
+ },
+ {
+  "link": "/papers/2402.16822",
+  "id": "2402.16822",
+  "title": "Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/gwUY2uHyoFs3RkbQ0PMnV.png"
+ },
+ {
+  "link": "/papers/2402.16837",
+  "id": "2402.16837",
+  "title": "Do Large Language Models Latently Perform Multi-Hop Reasoning?",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/Az5DrQf0hQpNDciaF5taj.png"
+ },
+ {
+  "link": "/papers/2402.16641",
+  "id": "2402.16641",
+  "title": "Towards Open-ended Visual Quality Comparison",
+  "media_type": "img",
+  "src": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/2NTei4Nfrczk-iko1v9JF.png"
+ }
+]

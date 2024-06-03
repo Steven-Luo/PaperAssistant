@@ -1,0 +1,25 @@
+{
+  "id": "2402.10893v1",
+  "title": "RLVF: Learning from Verbal Feedback without Overgeneralization",
+  "pdf_url": "http://arxiv.org/pdf/2402.10893v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在多样化的应用场景中部署时，需要能够修改或定制默认模型行为以纳入细微的要求和偏好。然而，仅仅通过高级口头反馈来提示模型，会导致反馈在不相关的上下文中过度泛化的问题。\n方法\tC3PO方法通过使用一条高级反馈生成一个小型的合成偏好数据集来指定反馈应该如何（以及不应该如何）被应用，然后根据合成偏好数据对模型进行微调，同时最小化对于不适用反馈的提示的原始模型的偏离。\n结果\t实验结果表明，C3PO方法能够有效地将口头反馈应用于相关场景，同时为其他上下文保留现有行为。对于人类和GPT-4生成的高级反馈，C3PO与上下文基线相比，能够有效地遵循给定的反馈，同时减少了30%的过度泛化。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在多样化的应用场景中部署时，需要能够修改或定制默认模型行为以纳入细微的要求和偏好。然而，仅仅通过高级口头反馈来提示模型，会导致反馈在不相关的上下文中过度泛化的问题。",
+    "方法": "C3PO方法通过使用一条高级反馈生成一个小型的合成偏好数据集来指定反馈应该如何（以及不应该如何）被应用，然后根据合成偏好数据对模型进行微调，同时最小化对于不适用反馈的提示的原始模型的偏离。",
+    "结果": "实验结果表明，C3PO方法能够有效地将口头反馈应用于相关场景，同时为其他上下文保留现有行为。对于人类和GPT-4生成的高级反馈，C3PO与上下文基线相比，能够有效地遵循给定的反馈，同时减少了30%的过度泛化。"
+  },
+  "summary_cn": "大型语言模型（LLMs）被部署在多样化的环境中，这要求能够修改或定制默认模型行为以纳入细微的要求和偏好。一个方便的界面来指定此类模型调整是高级口头反馈，例如“在给我的老板写电子邮件时不要使用表情符号。”然而，尽管编写高级反馈比收集人类反馈的强化学习（RLHF）的注释要简单得多，我们发现仅仅用这样的反馈提示模型会导致反馈在不相关的上下文中被过度概括。我们研究了在不过度概括的情况下纳入口头反馈的问题，这激发了一种新方法：上下文化批评与受限偏好优化（C3PO）。C3PO使用一条高级反馈来生成一个小型合成偏好数据集，指定应该（和不应该）如何应用反馈。然后，它根据合成偏好数据对模型进行微调，同时最小化在反馈不适用的提示下与原始模型的偏差。我们的实验结果表明，我们的方法有效地将口头反馈应用于相关场景，同时为其他上下文保留现有行为。对于人类和GPT-4生成的高级反馈，C3PO有效地遵循给定的反馈，与上下文基线相比，同时减少了30%的过度概括。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"large language models\",\n    \"verbal feedback\",\n    \"reinforcement learning from human feedback\",\n    \"Contextualized Critiques with Constrained Preference Optimization\",\n    \"fine-tuning\",\n    \"synthetic preference data\",\n    \"overgeneralization\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language models",
+      "verbal feedback",
+      "reinforcement learning from human feedback",
+      "Contextualized Critiques with Constrained Preference Optimization",
+      "fine-tuning",
+      "synthetic preference data",
+      "overgeneralization"
+    ]
+  }
+}

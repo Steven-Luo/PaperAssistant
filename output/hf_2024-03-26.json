@@ -1,0 +1,58 @@
+[
+ {
+  "link": "/papers/2403.17008",
+  "id": "2403.17008",
+  "title": "FlashFace: Human Image Personalization with High-fidelity Identity Preservation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.17008.png"
+ },
+ {
+  "link": "/papers/2403.16971",
+  "id": "2403.16971",
+  "title": "LLM Agent Operating System",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.16971.png"
+ },
+ {
+  "link": "/papers/2403.16627",
+  "id": "2403.16627",
+  "title": "SDXS: Real-Time One-Step Latent Diffusion Models with Image Conditions",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.16627.png"
+ },
+ {
+  "link": "/papers/2403.17005",
+  "id": "2403.17005",
+  "title": "TRIP: Temporal Residual Learning with Image Noise Prior for Image-to-Video Diffusion Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.17005.png"
+ },
+ {
+  "link": "/papers/2403.15447",
+  "id": "2403.15447",
+  "title": "Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.15447.png"
+ },
+ {
+  "link": "/papers/2403.16990",
+  "id": "2403.16990",
+  "title": "Be Yourself: Bounded Attention for Multi-Subject Text-to-Image Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.16990.png"
+ },
+ {
+  "link": "/papers/2403.15484",
+  "id": "2403.15484",
+  "title": "RakutenAI-7B: Extending Large Language Models for Japanese",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.15484.png"
+ },
+ {
+  "link": "/papers/2403.17001",
+  "id": "2403.17001",
+  "title": "VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.17001.png"
+ }
+]

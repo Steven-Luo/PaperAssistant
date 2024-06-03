@@ -1,0 +1,72 @@
+[
+ {
+  "link": "/papers/2403.18814",
+  "id": "2403.18814",
+  "title": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18814.png"
+ },
+ {
+  "link": "/papers/2403.18361",
+  "id": "2403.18361",
+  "title": "ViTAR: Vision Transformer with Any Resolution",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18361.png"
+ },
+ {
+  "link": "/papers/2403.18421",
+  "id": "2403.18421",
+  "title": "BioMedLM: A 2.7B Parameter Language Model Trained On Biomedical Text",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18421.png"
+ },
+ {
+  "link": "/papers/2403.18818",
+  "id": "2403.18818",
+  "title": "ObjectDrop: Bootstrapping Counterfactuals for Photorealistic Object Removal and Insertion",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18818.png"
+ },
+ {
+  "link": "/papers/2403.18802",
+  "id": "2403.18802",
+  "title": "Long-form factuality in large language models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18802.png"
+ },
+ {
+  "link": "/papers/2403.18795",
+  "id": "2403.18795",
+  "title": "Gamba: Marry Gaussian Splatting with Mamba for single view 3D reconstruction",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18795.png"
+ },
+ {
+  "link": "/papers/2403.18816",
+  "id": "2403.18816",
+  "title": "Garment3DGen: 3D Garment Stylization and Texture Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18816.png"
+ },
+ {
+  "link": "/papers/2403.18605",
+  "id": "2403.18605",
+  "title": "FlexEdit: Flexible and Controllable Diffusion-based Object-centric Image Editing",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18605.png"
+ },
+ {
+  "link": "/papers/2403.18783",
+  "id": "2403.18783",
+  "title": "Towards a World-English Language Model for On-Device Virtual Assistants",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18783.png"
+ },
+ {
+  "link": "/papers/2403.18118",
+  "id": "2403.18118",
+  "title": "EgoLifter: Open-world 3D Segmentation for Egocentric Perception",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.18118.png"
+ }
+]

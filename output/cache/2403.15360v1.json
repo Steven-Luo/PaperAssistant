@@ -1,0 +1,27 @@
+{
+  "id": "2403.15360v1",
+  "title": "SiMBA: Simplified Mamba-Based Architecture for Vision and Multivariate Time series",
+  "pdf_url": "http://arxiv.org/pdf/2403.15360v1",
+  "raw_tldr": "动机\tTransformer架构虽在多个领域取得了突破性进展，但其注意力网络存在低归纳偏置和与输入序列长度成二次方复杂度增长的问题。近期，一些状态空间模型（SSM）如S4等被提出以解决这些问题，尤其是在处理更长序列时。然而，最先进的SSM——Mamba在扩展到大型网络处理计算机视觉数据集时存在稳定性问题。\n方法\t提出了一种新的架构SiMBA，该架构通过特定的特征值计算引入了Einstein FFT (EinFFT) 用于通道建模，并使用Mamba块进行序列建模。\n结果\tSiMBA在图像和时间序列基准测试中的表现超过了现有的SSM，缩小了与最先进Transformer的性能差距。特别是，SiMBA在ImageNet以及Stanford Car、Flower等迁移学习基准和七个时间序列基准数据集上建立了新的最先进SSM水平。",
+  "tldr": {
+    "动机": "Transformer架构虽在多个领域取得了突破性进展，但其注意力网络存在低归纳偏置和与输入序列长度成二次方复杂度增长的问题。近期，一些状态空间模型（SSM）如S4等被提出以解决这些问题，尤其是在处理更长序列时。然而，最先进的SSM——Mamba在扩展到大型网络处理计算机视觉数据集时存在稳定性问题。",
+    "方法": "提出了一种新的架构SiMBA，该架构通过特定的特征值计算引入了Einstein FFT (EinFFT) 用于通道建模，并使用Mamba块进行序列建模。",
+    "结果": "SiMBA在图像和时间序列基准测试中的表现超过了现有的SSM，缩小了与最先进Transformer的性能差距。特别是，SiMBA在ImageNet以及Stanford Car、Flower等迁移学习基准和七个时间序列基准数据集上建立了新的最先进SSM水平。"
+  },
+  "summary_cn": "变压器（Transformers）广泛采用了注意力网络用于序列混合和MLPs用于通道混合，在跨领域取得突破性成就中发挥了关键作用。然而，近期的文献强调了注意力网络的问题，包括低归纳偏置和与输入序列长度相关的二次复杂性。像S4以及其他（Hippo、全局卷积、液态S4、LRU、Mega和Mamba）的状态空间模型（SSMs）已经出现，以解决上述问题，帮助处理更长的序列长度。Mamba作为最先进的SSM，在扩展到大型网络以处理计算机视觉数据集时存在稳定性问题。我们提出了SiMBA，这是一种新的架构，它通过特定的特征值计算引入了Einstein FFT（EinFFT）用于通道建模，并使用Mamba块进行序列建模。在图像和时间序列基准测试中的广泛性能研究表明，SiMBA超越了现有的SSM，缩小了与最先进变压器的性能差距。值得注意的是，SiMBA在ImageNet和诸如Stanford Car和Flower以及任务学习基准测试以及七个时间序列基准数据集上确立了自己作为最新最先进SSM的地位。项目页面可在此网站上找到：\\url{https://github.com/badripatro/Simba}。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": [\"Machine Learning\", \"CV\"],\n  \"标签\": [\"Transformers\", \"Attention Networks\", \"State Space Models\", \"Sequence Modeling\", \"Image Benchmarks\", \"Time-Series Benchmarks\", \"SiMBA\", \"Einstein FFT\", \"Performance Studies\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Transformers",
+      "Attention Networks",
+      "State Space Models",
+      "Sequence Modeling",
+      "Image Benchmarks",
+      "Time-Series Benchmarks",
+      "SiMBA",
+      "Einstein FFT",
+      "Performance Studies"
+    ]
+  }
+}

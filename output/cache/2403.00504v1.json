@@ -1,0 +1,24 @@
+{
+  "id": "2403.00504v1",
+  "title": "Learning and Leveraging World Models in Visual Representation Learning",
+  "pdf_url": "http://arxiv.org/pdf/2403.00504v1",
+  "raw_tldr": "动机\t自监督方法中的联合嵌入预测架构（JEPA）通过利用世界模型学习显示出了前景，但之前仅限于预测输入的缺失部分，本文旨在将JEPA预测任务泛化到更广泛的损坏类型上。\n方法\t引入了图像世界模型（Image World Models, IWM）方法，超越了遮蔽图像建模，学习在潜在空间预测全局光度变换的效果，并探究了学习高性能IWM的关键因素：条件、预测难度和容量。\n结果\tIWM通过微调可以适应多种任务，微调后的IWM世界模型在性能上匹配或超越了之前的自监督方法。此外，使用IWM学习可以控制学习表示的抽象级别，学习到的表示既可以是不变的，如对比方法，也可以是等变的，如遮蔽图像建模。",
+  "tldr": {
+    "动机": "自监督方法中的联合嵌入预测架构（JEPA）通过利用世界模型学习显示出了前景，但之前仅限于预测输入的缺失部分，本文旨在将JEPA预测任务泛化到更广泛的损坏类型上。",
+    "方法": "引入了图像世界模型（Image World Models, IWM）方法，超越了遮蔽图像建模，学习在潜在空间预测全局光度变换的效果，并探究了学习高性能IWM的关键因素：条件、预测难度和容量。",
+    "结果": "IWM通过微调可以适应多种任务，微调后的IWM世界模型在性能上匹配或超越了之前的自监督方法。此外，使用IWM学习可以控制学习表示的抽象级别，学习到的表示既可以是不变的，如对比方法，也可以是等变的，如遮蔽图像建模。"
+  },
+  "summary_cn": "联合嵌入预测架构（JEPA）已成为一种有前景的自监督方法，它通过利用世界模型来学习。虽然之前仅限于预测输入的缺失部分，我们探索了如何将JEPA预测任务泛化到更广泛的损坏类型上。我们引入了图像世界模型（Image World Models），这种方法超越了遮蔽图像建模，并学会在潜在空间预测全局光度变换的效果。我们研究了学习高性能IWM的配方，并显示它依赖于三个关键方面：条件、预测难度和容量。此外，我们展示了通过微调可以适应解决多样化任务的预测世界模型，经过微调的IWM世界模型匹配或超越了之前自监督方法的性能。最后，我们展示了通过IWM学习允许人们控制学习表示的抽象级别，学习不变表示，如对比方法，或等变表示，如遮蔽图像建模。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"self-supervised learning\",\n    \"image world models\",\n    \"latent space\",\n    \"photometric transformations\",\n    \"invariant representations\",\n    \"equivariant representations\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "self-supervised learning",
+      "image world models",
+      "latent space",
+      "photometric transformations",
+      "invariant representations",
+      "equivariant representations"
+    ]
+  }
+}

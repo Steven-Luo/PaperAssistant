@@ -1,0 +1,24 @@
+{
+  "id": "2402.07939v3",
+  "title": "UFO: A UI-Focused Agent for Windows OS Interaction",
+  "pdf_url": "http://arxiv.org/pdf/2402.07939v3",
+  "raw_tldr": "动机\t我们引入了UFO，这是一个创新的面向UI的代理，旨在满足用户对Windows操作系统应用程序的请求，利用了GPT-Vision的能力。\n方法\tUFO采用双代理框架，仔细观察和分析Windows应用程序的图形用户界面（GUI）和控制信息。该框架包括一个控制交互模块，促进了无需人工干预的动作落地，实现了完全自动化的执行。\n结果\tUFO在9个受欢迎的Windows应用程序上进行了测试，涵盖了反映用户日常使用的各种场景。结果表明，UFO在满足用户请求方面的有效性优于其他方法。",
+  "tldr": {
+    "动机": "我们引入了UFO，这是一个创新的面向UI的代理，旨在满足用户对Windows操作系统应用程序的请求，利用了GPT-Vision的能力。",
+    "方法": "UFO采用双代理框架，仔细观察和分析Windows应用程序的图形用户界面（GUI）和控制信息。该框架包括一个控制交互模块，促进了无需人工干预的动作落地，实现了完全自动化的执行。",
+    "结果": "UFO在9个受欢迎的Windows应用程序上进行了测试，涵盖了反映用户日常使用的各种场景。结果表明，UFO在满足用户请求方面的有效性优于其他方法。"
+  },
+  "summary_cn": "我们介绍了UFO，一种创新的面向用户界面(UI)的代理，旨在满足用户对Windows操作系统应用程序的定制化请求，利用了GPT-Vision的能力。UFO采用双代理框架，精细地观察和分析Windows应用程序的图形用户界面(GUI)和控制信息。这使得代理能够无缝地在各个应用程序内部以及跨应用程序导航和操作，以满足用户请求，即使这些请求跨越多个应用程序。该框架包含一个控制交互模块，促进了无需人工干预的动作落地，实现了完全自动化执行。因此，UFO将繁琐且耗时的过程转变为仅通过自然语言命令就能实现的简单任务。我们对UFO在9个受欢迎的Windows应用程序中进行了测试，涵盖了反映用户日常使用的各种场景。从定量指标和真实案例研究得出的结果强调了UFO在满足用户请求方面的卓越有效性。据我们所知，UFO是第一个专门为Windows操作系统环境中的任务完成而定制的UI代理。UFO的开源代码可在https://github.com/microsoft/UFO上获得。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"UI-Focused agent\",\n    \"GPT-Vision\",\n    \"Windows OS\",\n    \"Graphical User Interface (GUI)\",\n    \"Natural Language Commands\",\n    \"Open-source\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "UI-Focused agent",
+      "GPT-Vision",
+      "Windows OS",
+      "Graphical User Interface (GUI)",
+      "Natural Language Commands",
+      "Open-source"
+    ]
+  }
+}

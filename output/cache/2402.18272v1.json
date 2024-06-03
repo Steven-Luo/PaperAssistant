@@ -1,0 +1,24 @@
+{
+  "id": "2402.18272v1",
+  "title": "Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?",
+  "pdf_url": "http://arxiv.org/pdf/2402.18272v1",
+  "raw_tldr": "动机\t最近在大型语言模型（LLMs）的研究中，有观点认为多代理讨论可以提高LLMs的推理能力。本文旨在通过系统实验重新评估这一说法。\n方法\t提出了一种新颖的群体讨论框架，以丰富讨论机制的集合。\n结果\t研究结果表明，使用强提示的单一代理LLM几乎可以在广泛的推理任务和LLM背景上达到与现有最佳讨论方法相同的性能。只有在提示中没有演示时，多代理讨论的表现才会优于单一代理。此外，还揭示了LLMs在讨论过程中的常见交互机制。",
+  "tldr": {
+    "动机": "最近在大型语言模型（LLMs）的研究中，有观点认为多代理讨论可以提高LLMs的推理能力。本文旨在通过系统实验重新评估这一说法。",
+    "方法": "提出了一种新颖的群体讨论框架，以丰富讨论机制的集合。",
+    "结果": "研究结果表明，使用强提示的单一代理LLM几乎可以在广泛的推理任务和LLM背景上达到与现有最佳讨论方法相同的性能。只有在提示中没有演示时，多代理讨论的表现才会优于单一代理。此外，还揭示了LLMs在讨论过程中的常见交互机制。"
+  },
+  "summary_cn": "最近在大型语言模型（LLMs）讨论方面的进展表明，多代理讨论可以提高LLMs的推理能力。在这项工作中，我们通过系统实验重新评估了这一说法，我们提出了一个新颖的群体讨论框架来丰富讨论机制的集合。有趣的是，我们的结果显示，在广泛的推理任务和基础LLMs上，一个使用强提示的单一代理LLM几乎可以达到与现有最佳讨论方法相同的性能。我们观察到，只有在提示中没有演示时，多代理讨论的表现才会优于单一代理。进一步的研究揭示了LLMs在讨论过程中的共同交互机制。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\"LLMs\", \"multi-agent discussion\", \"reasoning abilities\", \"systematic experiments\", \"group discussion framework\", \"prompts\"]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "LLMs",
+      "multi-agent discussion",
+      "reasoning abilities",
+      "systematic experiments",
+      "group discussion framework",
+      "prompts"
+    ]
+  }
+}

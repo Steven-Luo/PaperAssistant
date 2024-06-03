@@ -1,0 +1,22 @@
+{
+  "id": "2402.14194v1",
+  "raw_tldr": "动机#在许多机器人任务中，如自动赛车，需要模仿复杂的环境动态和人类决策过程，但传统的序列建模方法难以适应新环境或分布偏移，而对抗性模仿学习虽能缓解这一问题，却存在样本效率低下和处理复杂运动模式困难的问题。\n\n方法#提出了BeTAIL：行为变换器对抗性模仿学习，结合了从人类演示中学到的行为变换器（BeT）策略和在线对抗性模仿学习（AIL），通过向BeT策略添加AIL残差策略，以模拟人类专家的序贯决策过程，并纠正分布外状态或环境动态的变化。\n\n结果#在Gran Turismo Sport的真人高手演示中的三个挑战上测试BeTAIL，结果表明，相比于原始方法，BeTAIL减少了与环境的交互，提高了赛车性能和稳定性，即使在BeT预训练的赛道与下游学习的赛道不同时也是如此。",
+  "tldr": {
+    "动机": "在许多机器人任务中，如自动赛车，需要模仿复杂的环境动态和人类决策过程，但传统的序列建模方法难以适应新环境或分布偏移，而对抗性模仿学习虽能缓解这一问题，却存在样本效率低下和处理复杂运动模式困难的问题。",
+    "方法": "提出了BeTAIL：行为变换器对抗性模仿学习，结合了从人类演示中学到的行为变换器（BeT）策略和在线对抗性模仿学习（AIL），通过向BeT策略添加AIL残差策略，以模拟人类专家的序贯决策过程，并纠正分布外状态或环境动态的变化。",
+    "结果": "在Gran Turismo Sport的真人高手演示中的三个挑战上测试BeTAIL，结果表明，相比于原始方法，BeTAIL减少了与环境的交互，提高了赛车性能和稳定性，即使在BeT预训练的赛道与下游学习的赛道不同时也是如此。"
+  },
+  "summary_cn": "模仿学习通过示范学习策略，无需手工设计奖励函数。在许多机器人任务中，例如自动驾驶赛车，被模仿的策略必须模拟复杂的环境动态和人类决策制定。序列建模在捕捉运动序列的复杂模式方面非常有效，但在适应新环境或常见于现实世界机器人任务的分布转变时却难以应对。相比之下，对抗性模仿学习（AIL）可以缓解这一效应，但在样本效率低下和处理复杂运动模式方面存在困难。因此，我们提出了行为变换器对抗性模仿学习（BeTAIL）：将人类示范中的行为变换器（BeT）策略与在线AIL相结合。BeTAIL向BeT策略添加了一个AIL残差策略，以模拟人类专家的顺序决策过程，并纠正分布外状态或环境动态的变化。我们在Gran Turismo Sport中使用真人高手级别的演示在三个挑战上测试了BeTAIL。我们提出的残差BeTAIL减少了与环境的互动，并即使在BeT预训练于下游学习不同的赛道时，也提高了赛车性能和稳定性。视频和代码可在此处获取：https://sites.google.com/berkeley.edu/BeTAIL/home。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Robotics\",\n  \"标签\": [\n    \"Imitation Learning\",\n    \"Adversarial Imitation Learning\",\n    \"Behavior Transformer\",\n    \"Sequence Modeling\",\n    \"Autonomous Racing\",\n    \"Robotic Tasks\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Robotics",
+    "标签": [
+      "Imitation Learning",
+      "Adversarial Imitation Learning",
+      "Behavior Transformer",
+      "Sequence Modeling",
+      "Autonomous Racing",
+      "Robotic Tasks"
+    ]
+  }
+}

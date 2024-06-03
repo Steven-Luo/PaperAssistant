@@ -1,0 +1,28 @@
+{
+  "id": "2403.09338v1",
+  "title": "LocalMamba: Visual State Space Model with Windowed Selective Scan",
+  "pdf_url": "http://arxiv.org/pdf/2403.09338v1",
+  "raw_tldr": "动机\t最近在状态空间模型，特别是Mamba的进步，已经在长序列建模任务如语言理解中展示了显著进步。然而，它们在视觉任务中的应用并未显著超越传统的卷积神经网络（CNNs）和视觉变换器（ViTs）的性能。本文认为，提升视觉Mamba（ViM）的关键在于优化序列建模的扫描方向。\n方法\t我们引入了一种新颖的局部扫描策略，将图像划分为不同的窗口，有效捕获局部依赖性同时保持全局视角。此外，考虑到不同网络层对扫描模式的偏好不同，我们提出了一种动态方法，独立搜索每层的最优扫描选择，显著提高性能。\n结果\t通过在平面和层次模型上的广泛实验，我们的方法在有效捕获图像表示方面的优越性得到了证明。例如，我们的模型在ImageNet上以相同的1.5G FLOPs显著超过Vim-Ti 3.1%。",
+  "tldr": {
+    "动机": "最近在状态空间模型，特别是Mamba的进步，已经在长序列建模任务如语言理解中展示了显著进步。然而，它们在视觉任务中的应用并未显著超越传统的卷积神经网络（CNNs）和视觉变换器（ViTs）的性能。本文认为，提升视觉Mamba（ViM）的关键在于优化序列建模的扫描方向。",
+    "方法": "我们引入了一种新颖的局部扫描策略，将图像划分为不同的窗口，有效捕获局部依赖性同时保持全局视角。此外，考虑到不同网络层对扫描模式的偏好不同，我们提出了一种动态方法，独立搜索每层的最优扫描选择，显著提高性能。",
+    "结果": "通过在平面和层次模型上的广泛实验，我们的方法在有效捕获图像表示方面的优越性得到了证明。例如，我们的模型在ImageNet上以相同的1.5G FLOPs显著超过Vim-Ti 3.1%。"
+  },
+  "summary_cn": "近期在状态空间模型方面的进展，尤其是Mamba，已经在长序列建模任务中，如语言理解，展现了显著的进步。然而，它们在视觉任务中的应用并未显著超越传统的卷积神经网络（CNNs）和视觉变换器（ViTs）。本文认为，提升视觉Mamba（ViM）的关键在于优化序列建模的扫描方向。传统的ViM方法，通过平铺空间令牌，忽略了保持局部2D依赖性，因此增加了相邻令牌之间的距离。我们引入了一种新颖的局部扫描策略，将图像划分为不同的窗口，有效捕获局部依赖性的同时保持全局视角。此外，考虑到不同网络层对扫描模式的偏好各异，我们提出了一种动态方法，独立搜索每一层的最优扫描选择，显著提高了性能。在平面和层次化模型上的广泛实验强调了我们方法在有效捕获图像表示方面的优越性。例如，我们的模型在ImageNet上的性能显著优于Vim-Ti 3.1%，在相同的1.5G FLOPs下。代码可在以下链接获取：https://github.com/hunto/LocalMamba。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"state space models\",\n    \"language understanding\",\n    \"vision tasks\",\n    \"Convolutional Neural Networks\",\n    \"Vision Transformers\",\n    \"sequence modeling\",\n    \"local scanning strategy\",\n    \"image representations\",\n    \"ImageNet\",\n    \"performance optimization\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "state space models",
+      "language understanding",
+      "vision tasks",
+      "Convolutional Neural Networks",
+      "Vision Transformers",
+      "sequence modeling",
+      "local scanning strategy",
+      "image representations",
+      "ImageNet",
+      "performance optimization"
+    ]
+  }
+}

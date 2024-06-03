@@ -1,0 +1,31 @@
+{
+  "id": "2403.01807v1",
+  "title": "ViewDiff: 3D-Consistent Image Generation with Text-to-Image Models",
+  "pdf_url": "http://arxiv.org/pdf/2403.01807v1",
+  "raw_tldr": "动机\t3D资产生成受到大量关注，受到最近文本引导的2D内容创建成功的启发。现有的文本到3D方法通常产生非真实感的3D对象且没有背景。\n方法\t提出一种方法，利用预训练的文本到图像模型作为先验，通过单次去噪过程学习生成多视图图像，并将3D体渲染和跨帧注意力层集成到文本到图像模型的U-Net网络的每个块中，设计了一种自回归生成方式，能在任何视点渲染更具3D一致性的图像。\n结果\t我们的模型在真实世界数据集上训练，能生成具有多样化高质量形状和纹理的实例，并且与现有方法相比，生成的结果更一致，视觉质量更好（FID降低30%，KID降低37%）。",
+  "tldr": {
+    "动机": "3D资产生成受到大量关注，受到最近文本引导的2D内容创建成功的启发。现有的文本到3D方法通常产生非真实感的3D对象且没有背景。",
+    "方法": "提出一种方法，利用预训练的文本到图像模型作为先验，通过单次去噪过程学习生成多视图图像，并将3D体渲染和跨帧注意力层集成到文本到图像模型的U-Net网络的每个块中，设计了一种自回归生成方式，能在任何视点渲染更具3D一致性的图像。",
+    "结果": "我们的模型在真实世界数据集上训练，能生成具有多样化高质量形状和纹理的实例，并且与现有方法相比，生成的结果更一致，视觉质量更好（FID降低30%，KID降低37%）。"
+  },
+  "summary_cn": "3D资产生成正在受到大量关注，这一趋势受到了最近文本引导的2D内容创作成功的启发。现有的文本到3D方法使用预训练的文本到图像扩散模型来解决优化问题或者在合成数据上对它们进行微调，这通常会导致生成非真实感的3D对象且没有背景。在本文中，我们提出了一种方法，利用预训练的文本到图像模型作为先验，并学习从真实世界数据中一次性去噪生成多视图图像。具体来说，我们提议将3D体渲染和跨帧注意力层集成到文本到图像模型的现有U-Net网络的每个块中。此外，我们设计了一种自回归生成方法，能够在任何视点渲染出更具3D一致性的图像。我们在真实世界的对象数据集上训练我们的模型，并展示了其生成各种高质量形状和纹理、在真实环境中的实例的能力。与现有方法相比，我们方法生成的结果更为一致，并且具有更好的视觉质量（-30%的FID，-37%的KID）。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"3D asset generation\",\n    \"text-guided 2D content creation\",\n    \"text-to-3D methods\",\n    \"pretrained text-to-image diffusion models\",\n    \"non-photorealistic 3D objects\",\n    \"multi-view images\",\n    \"3D volume-rendering\",\n    \"cross-frame-attention layers\",\n    \"U-Net network\",\n    \"autoregressive generation\",\n    \"real-world datasets\",\n    \"FID\",\n    \"KID\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "3D asset generation",
+      "text-guided 2D content creation",
+      "text-to-3D methods",
+      "pretrained text-to-image diffusion models",
+      "non-photorealistic 3D objects",
+      "multi-view images",
+      "3D volume-rendering",
+      "cross-frame-attention layers",
+      "U-Net network",
+      "autoregressive generation",
+      "real-world datasets",
+      "FID",
+      "KID"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2403.02084v1",
+  "title": "ResAdapter: Domain Consistent Resolution Adapter for Diffusion Models",
+  "pdf_url": "http://arxiv.org/pdf/2403.02084v1",
+  "raw_tldr": "动机\t最近的文本到图像模型（例如，Stable Diffusion）和相应的个性化技术（例如，DreamBooth和LoRA）使个人能够生成高质量和富有想象力的图像。然而，当生成超出其训练领域分辨率的图像时，这些模型往往会遇到限制。\n方法\t我们提出了分辨率适配器（ResAdapter），这是一个为扩散模型设计的、与领域一致的适配器，能够生成不受限制分辨率和宽高比的图像。与其他多分辨率生成方法不同，ResAdapter直接生成动态分辨率的图像。特别是，在学习了纯分辨率先验的深刻理解之后，ResAdapter在通用数据集上训练，能够在保持原始风格领域的同时，使用个性化扩散模型生成无分辨率限制的图像。\n结果\t综合实验表明，ResAdapter仅使用0.5M就可以为任意扩散模型处理具有灵活分辨率的图像。更多扩展实验表明，ResAdapter与其他模块（例如，ControlNet、IP-Adapter和LCM-LoRA）兼容，可用于跨广泛分辨率范围的图像生成，并且可以集成到其他多分辨率模型（例如，ElasticDiffusion）中，以高效生成更高分辨率的图像。",
+  "tldr": {
+    "动机": "最近的文本到图像模型（例如，Stable Diffusion）和相应的个性化技术（例如，DreamBooth和LoRA）使个人能够生成高质量和富有想象力的图像。然而，当生成超出其训练领域分辨率的图像时，这些模型往往会遇到限制。",
+    "方法": "我们提出了分辨率适配器（ResAdapter），这是一个为扩散模型设计的、与领域一致的适配器，能够生成不受限制分辨率和宽高比的图像。与其他多分辨率生成方法不同，ResAdapter直接生成动态分辨率的图像。特别是，在学习了纯分辨率先验的深刻理解之后，ResAdapter在通用数据集上训练，能够在保持原始风格领域的同时，使用个性化扩散模型生成无分辨率限制的图像。",
+    "结果": "综合实验表明，ResAdapter仅使用0.5M就可以为任意扩散模型处理具有灵活分辨率的图像。更多扩展实验表明，ResAdapter与其他模块（例如，ControlNet、IP-Adapter和LCM-LoRA）兼容，可用于跨广泛分辨率范围的图像生成，并且可以集成到其他多分辨率模型（例如，ElasticDiffusion）中，以高效生成更高分辨率的图像。"
+  },
+  "summary_cn": "最近在文本到图像模型（例如，稳定扩散Stable Diffusion）和相应的个性化技术（例如，DreamBooth和LoRA）方面的进步，使个人能够生成高质量和富有想象力的图像。然而，当生成超出其训练领域分辨率的图像时，这些模型往往会遇到限制。为了克服这一限制，我们提出了分辨率适配器（ResAdapter），这是一个为扩散模型设计的、与领域一致的适配器，能够生成不受限制分辨率和宽高比的图像。与其他处理静态分辨率图像并进行复杂后处理操作的多分辨率生成方法不同，ResAdapter直接生成动态分辨率的图像。特别是，在学习了纯分辨率先验的深刻理解之后，ResAdapter在通用数据集上训练，能够在保留其原始风格领域的同时，使用个性化扩散模型生成无分辨率限制的图像。全面的实验表明，ResAdapter仅使用0.5M就可以为任意扩散模型处理具有灵活分辨率的图像。更多的扩展实验表明，ResAdapter与其他模块（例如，ControlNet、IP-Adapter和LCM-LoRA）兼容，可用于跨广泛分辨率范围的图像生成，并且可以集成到其他多分辨率模型（例如，ElasticDiffusion）中，以高效生成更高分辨率的图像。项目链接为https://res-adapter.github.io。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"CV\",\n  \"标签\": [\n    \"text-to-image models\",\n    \"Stable Diffusion\",\n    \"DreamBooth\",\n    \"LoRA\",\n    \"Resolution Adapter\",\n    \"diffusion models\",\n    \"image generation\",\n    \"multi-resolution generation\",\n    \"ControlNet\",\n    \"IP-Adapter\",\n    \"LCM-LoRA\",\n    \"ElasticDiffusion\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "CV",
+    "标签": [
+      "text-to-image models",
+      "Stable Diffusion",
+      "DreamBooth",
+      "LoRA",
+      "Resolution Adapter",
+      "diffusion models",
+      "image generation",
+      "multi-resolution generation",
+      "ControlNet",
+      "IP-Adapter",
+      "LCM-LoRA",
+      "ElasticDiffusion"
+    ]
+  }
+}

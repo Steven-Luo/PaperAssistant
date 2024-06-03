@@ -1,0 +1,23 @@
+{
+  "id": "2402.14289v1",
+  "raw_tldr": "动机#为了设计和分析小规模的大型多模态模型（LMMs），提出了TinyLLaVA框架，旨在提供一个统一的视角。\n\n方法#通过实证研究不同的视觉编码器、连接模块、语言模型、训练数据和训练配方的效果，并在该框架下训练了一系列小规模LMMs。\n\n结果#通过结合更高质量的数据和更优的训练配方，小型LMMs能够与更大型的LMMs达到一致的性能。其中，最佳模型TinyLLaVA-3.1B在性能上超越了现有的7B模型，如LLaVA-1.5和Qwen-VL。",
+  "tldr": {
+    "动机": "为了设计和分析小规模的大型多模态模型（LMMs），提出了TinyLLaVA框架，旨在提供一个统一的视角。",
+    "方法": "通过实证研究不同的视觉编码器、连接模块、语言模型、训练数据和训练配方的效果，并在该框架下训练了一系列小规模LMMs。",
+    "结果": "通过结合更高质量的数据和更优的训练配方，小型LMMs能够与更大型的LMMs达到一致的性能。其中，最佳模型TinyLLaVA-3.1B在性能上超越了现有的7B模型，如LLaVA-1.5和Qwen-VL。"
+  },
+  "summary_cn": "我们提出了TinyLLaVA框架，为设计和分析小规模的大型多模态模型（LMMs）提供了一个统一的视角。我们实证研究了不同视觉编码器、连接模块、语言模型、训练数据和训练配方的效果。我们的广泛实验表明，通过结合更高质量的数据和更好的训练配方，较小的LMMs可以与较大的LMMs一致地达到相当的性能。在我们的框架下，我们训练了一系列小规模的LMMs。我们最好的模型，TinyLLaVA-3.1B，在整体性能上优于现有的7B模型，如LLaVA-1.5和Qwen-VL。我们希望我们的发现能够作为未来研究在数据规模、训练设置和模型选择方面的基准。我们的模型权重和代码将会公开。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"多模态\",\n  \"标签\": [\n    \"TinyLLaVA\",\n    \"Large Multimodal Models\",\n    \"vision encoders\",\n    \"language models\",\n    \"training data\",\n    \"training recipes\",\n    \"model scaling\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "多模态",
+    "标签": [
+      "TinyLLaVA",
+      "Large Multimodal Models",
+      "vision encoders",
+      "language models",
+      "training data",
+      "training recipes",
+      "model scaling"
+    ]
+  }
+}

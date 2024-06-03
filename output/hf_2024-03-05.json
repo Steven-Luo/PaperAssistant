@@ -1,0 +1,37 @@
+[
+ {
+  "link": "/papers/2403.02084",
+  "id": "2403.02084",
+  "title": "ResAdapter: Domain Consistent Resolution Adapter for Diffusion Models",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/o7F_nwZ73f7iIUc2vqvee.png"
+ },
+ {
+  "link": "/papers/2403.01800",
+  "id": "2403.01800",
+  "title": "AtomoVideo: High Fidelity Image-to-Video Generation",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/IvOP7b35PJG4HcRQIEw1j.png"
+ },
+ {
+  "link": "/papers/2403.01807",
+  "id": "2403.01807",
+  "title": "ViewDiff: 3D-Consistent Image Generation with Text-to-Image Models",
+  "media_type": "image",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/ZfA2mttFsD1F8OPmq8jMy.png"
+ },
+ {
+  "link": "/papers/2403.01444",
+  "id": "2403.01444",
+  "title": "3DGStream: On-the-Fly Training of 3D Gaussians for Efficient Streaming of Photo-Realistic Free-Viewpoint Videos",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/qCpOLy41oswsKC2bR2-w9.mp4"
+ },
+ {
+  "link": "/papers/2403.01422",
+  "id": "2403.01422",
+  "title": "MovieLLM: Enhancing Long Video Understanding with AI-Generated Movies",
+  "media_type": "video",
+  "media_url": "https://cdn-uploads.huggingface.co/production/uploads/60f1abe7544c2adfd699860c/DlcPynp9hELsiG7d35Itl.mp4"
+ }
+]

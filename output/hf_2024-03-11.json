@@ -1,0 +1,51 @@
+[
+ {
+  "link": "/papers/2403.05135",
+  "id": "2403.05135",
+  "title": "ELLA: Equip Diffusion Models with LLM for Enhanced Semantic Alignment",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05135.png"
+ },
+ {
+  "link": "/papers/2403.05525",
+  "id": "2403.05525",
+  "title": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05525.png"
+ },
+ {
+  "link": "/papers/2403.05530",
+  "id": "2403.05530",
+  "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05530.png"
+ },
+ {
+  "link": "/papers/2403.05438",
+  "id": "2403.05438",
+  "title": "VideoElevator: Elevating Video Generation Quality with Versatile Text-to-Image Diffusion Models",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05438.png"
+ },
+ {
+  "link": "/papers/2403.05185",
+  "id": "2403.05185",
+  "title": "Personalized Audiobook Recommendations at Spotify Through Graph Neural Networks",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05185.png"
+ },
+ {
+  "link": "/papers/2403.05121",
+  "id": "2403.05121",
+  "title": "CogView3: Finer and Faster Text-to-Image Generation via Relay Diffusion",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05121.png"
+ },
+ {
+  "link": "/papers/2403.05034",
+  "id": "2403.05034",
+  "title": "CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model",
+  "media_type": "image",
+  "media_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2403.05034.png"
+ }
+]

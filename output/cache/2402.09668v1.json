@@ -1,0 +1,25 @@
+{
+  "id": "2402.09668v1",
+  "title": "How to Train Data-Efficient LLMs",
+  "pdf_url": "http://arxiv.org/pdf/2402.09668v1",
+  "raw_tldr": "动机\t训练大型语言模型(LLMs)成本高昂，本文研究了数据高效的预训练LLMs方法，即旨在优化模型质量与训练资源/数据消耗的帕累托前沿的技术。\n方法\t本文提出了两种技术：一是利用指令调优LLMs的零次推理能力通过Ask-LLM直接评估训练样本的质量；二是通过Density采样，模拟数据分布以选择多样化样本，以达到覆盖目标。\n结果\t在比较了19种采样器、数百个评估任务和预训练运行后，发现Ask-LLM和Density在各自类别中是最佳方法。覆盖采样能够恢复全数据的性能，而在拒绝了90%原始数据集的情况下，使用Ask-LLM数据训练的模型一致性能优于全数据训练，同时收敛速度提高了70%。",
+  "tldr": {
+    "动机": "训练大型语言模型(LLMs)成本高昂，本文研究了数据高效的预训练LLMs方法，即旨在优化模型质量与训练资源/数据消耗的帕累托前沿的技术。",
+    "方法": "本文提出了两种技术：一是利用指令调优LLMs的零次推理能力通过Ask-LLM直接评估训练样本的质量；二是通过Density采样，模拟数据分布以选择多样化样本，以达到覆盖目标。",
+    "结果": "在比较了19种采样器、数百个评估任务和预训练运行后，发现Ask-LLM和Density在各自类别中是最佳方法。覆盖采样能够恢复全数据的性能，而在拒绝了90%原始数据集的情况下，使用Ask-LLM数据训练的模型一致性能优于全数据训练，同时收敛速度提高了70%。"
+  },
+  "summary_cn": "大型语言模型（LLMs）的训练成本高昂。在本文中，我们研究了用于预训练LLMs的数据高效方法，即旨在优化模型质量与训练资源/数据消耗的帕累托前沿的技术。我们试图理解基于（i）计算成本高昂的数据质量估计和（ii）在特征空间中最大化覆盖范围和基于多样性的度量的数据选择程序相关的权衡。我们的第一种技术，Ask-LLM，利用指令调优的LLMs的零次推理能力来直接评估训练样例的质量。为了针对覆盖范围，我们提出了密度采样，该方法模拟数据分布以选择多样化的样本。在我们比较的19种采样器中，涉及数百个评估任务和预训练运行，我们发现Ask-LLM和密度采样是各自类别中最好的方法。覆盖采样可以恢复全数据的性能，而在Ask-LLM数据上训练的模型一致地优于全数据训练——即使我们拒绝了原始数据集中的90%，同时收敛速度提高了多达70%。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"large language models\",\n    \"data-efficient pre-training\",\n    \"Pareto frontier\",\n    \"data selection\",\n    \"zero-shot reasoning\",\n    \"coverage and diversity\",\n    \"Density sampling\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "large language models",
+      "data-efficient pre-training",
+      "Pareto frontier",
+      "data selection",
+      "zero-shot reasoning",
+      "coverage and diversity",
+      "Density sampling"
+    ]
+  }
+}

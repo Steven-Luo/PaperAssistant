@@ -1,0 +1,23 @@
+{
+  "id": "2402.11550v1",
+  "title": "LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration",
+  "pdf_url": "http://arxiv.org/pdf/2402.11550v1",
+  "raw_tldr": "动机\t大型语言模型（LLMs）在理解语言和执行复杂推理任务方面表现出色，但长上下文窗口的LLMs因训练成本高和推理延迟大而臭名昭著。即使是最先进的模型如GPT-4和Claude2在处理超过100k令牌的输入时也经常出错，这一现象也被称为“lost in the middle”。\n方法\t本文提出了一种基于多代理协作的方法\\textsc{LongAgent}，该方法将LLMs（例如LLaMA）扩展到128K的上下文，并展示了与GPT-4相比在长文本处理方面的潜在优势。\\textsc{LongAgent}中，一个领导者负责理解用户意图并指导团队成员从文档中获取信息。为了解决成员幻觉导致的回应冲突，我们开发了一种\\textit{成员间通信}机制，通过信息共享解决冲突。\n结果\t\\textsc{LongAgent}为长文本处理提供了一个有希望的替代方案。使用LLaMA-7B实例化的代理团队在128k长文本检索、多跳问答等任务上与GPT-4相比取得了显著改进。",
+  "tldr": {
+    "动机": "大型语言模型（LLMs）在理解语言和执行复杂推理任务方面表现出色，但长上下文窗口的LLMs因训练成本高和推理延迟大而臭名昭著。即使是最先进的模型如GPT-4和Claude2在处理超过100k令牌的输入时也经常出错，这一现象也被称为“lost in the middle”。",
+    "方法": "本文提出了一种基于多代理协作的方法\textsc{LongAgent}，该方法将LLMs（例如LLaMA）扩展到128K的上下文，并展示了与GPT-4相比在长文本处理方面的潜在优势。\textsc{LongAgent}中，一个领导者负责理解用户意图并指导团队成员从文档中获取信息。为了解决成员幻觉导致的回应冲突，我们开发了一种\textit{成员间通信}机制，通过信息共享解决冲突。",
+    "结果": "extsc{LongAgent}为长文本处理提供了一个有希望的替代方案。使用LLaMA-7B实例化的代理团队在128k长文本检索、多跳问答等任务上与GPT-4相比取得了显著改进。"
+  },
+  "summary_cn": "大型语言模型（LLMs）在理解语言和执行复杂推理任务方面展现出了令人印象深刻的性能。然而，具有长上下文窗口的LLMs因其昂贵的训练成本和高延迟的推理速度而臭名昭著。即使是最先进的模型，如GPT-4和Claude2，在处理超过$100k$令牌的输入时，也经常会犯错误，这种现象也被称为\\textit{中途迷失}。在本文中，我们提出了一种基于多代理协作的方法\\textsc{LongAgent}，它将LLMs（例如LLaMA）扩展到128K的上下文，并展示了与GPT-4相比在长文本处理方面的潜在优势。在\\textsc{LongAgent}中，一个领导者负责理解用户意图并指导团队成员从文档中获取信息。由于成员的幻觉，领导者要从几十到几百个成员的回应中获取准确信息并非易事。为了解决这个问题，我们开发了一种\\textit{成员间通信}机制，通过信息共享来解决由幻觉引起的回应冲突。我们的实验结果表明，\\textsc{LongAgent}为长文本处理提供了一个有希望的替代方案。使用LLaMA-7B实例化的代理团队在128k长文本检索、多跳问答等任务上与GPT-4相比取得了显著改进。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"Large Language Models\",\n    \"Long Context Windows\",\n    \"Multi-Agent Collaboration\",\n    \"Long-Text Processing\",\n    \"Inter-Member Communication\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "Large Language Models",
+      "Long Context Windows",
+      "Multi-Agent Collaboration",
+      "Long-Text Processing",
+      "Inter-Member Communication"
+    ]
+  }
+}

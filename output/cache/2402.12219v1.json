@@ -1,0 +1,29 @@
+{
+  "id": "2402.12219v1",
+  "title": "Reformatted Alignment",
+  "pdf_url": "http://arxiv.org/pdf/2402.12219v1",
+  "raw_tldr": "动机\t提高微调数据的质量对于使大型语言模型（LLMs）与人类价值观保持一致至关重要，现有的提高数据质量方法要么劳动密集，要么容易因LLM的幻觉错误而出现事实错误。\n方法\t介绍了一种名为ReAlign的简单有效方法，通过将指令数据的响应重新格式化为更符合预设标准和汇总证据的格式，提高现有指令数据的质量，以更好地与人类价值观保持一致。这种方法最小化了人工注释、幻觉和扩展难度，与现有的对齐技术正交。\n结果\tReAlign显著提高了LLMs的一般对齐能力、数学推理能力、事实性和可读性。特别是，仅通过重新格式化响应，就能将LLaMA-2-13B在GSM8K上的数学推理能力从46.77%提高到56.63%的准确率。此外，仅5%的ReAlign数据就能使通过Alpaca数据集测量的一般对齐能力提高67%。",
+  "tldr": {
+    "动机": "提高微调数据的质量对于使大型语言模型（LLMs）与人类价值观保持一致至关重要，现有的提高数据质量方法要么劳动密集，要么容易因LLM的幻觉错误而出现事实错误。",
+    "方法": "介绍了一种名为ReAlign的简单有效方法，通过将指令数据的响应重新格式化为更符合预设标准和汇总证据的格式，提高现有指令数据的质量，以更好地与人类价值观保持一致。这种方法最小化了人工注释、幻觉和扩展难度，与现有的对齐技术正交。",
+    "结果": "ReAlign显著提高了LLMs的一般对齐能力、数学推理能力、事实性和可读性。特别是，仅通过重新格式化响应，就能将LLaMA-2-13B在GSM8K上的数学推理能力从46.77%提高到56.63%的准确率。此外，仅5%的ReAlign数据就能使通过Alpaca数据集测量的一般对齐能力提高67%。"
+  },
+  "summary_cn": "微调数据的质量对于使大型语言模型（LLMs）与人类价值观保持一致至关重要。目前改善数据质量的方法要么劳动密集，要么容易因LLM的幻觉错误而出现事实错误。本文探讨了提升现有指令数据质量以更好地与人类价值观保持一致的方法，介绍了一种简单有效的方法，名为ReAlign，该方法将指令数据的响应重新格式化为更符合预设标准和汇总证据的格式。这种方法最小化了人工注释、幻觉和扩展难度，与现有的对齐技术保持正交。实验表明，ReAlign显著提高了LLM的一般对齐能力、数学推理、事实性和可读性。令人鼓舞的是，仅通过重新格式化响应，而不引入任何额外数据或高级训练技术，LLaMA-2-13B在GSM8K上的数学推理能力就可以从46.77%提高到56.63%的准确率。此外，仅5%的ReAlign数据就能使通过Alpaca数据集测量的一般对齐能力提高67%。这项工作强调了进一步研究LLM的科学和机械可解释性的需求。我们已将相关代码和数据公开，以支持未来的研究，网址为https://github.com/GAIR-NLP/ReAlign。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"NLP\",\n  \"标签\": [\n    \"large language models\",\n    \"data quality\",\n    \"human values alignment\",\n    \"ReAlign\",\n    \"math reasoning\",\n    \"factuality\",\n    \"readability\",\n    \"LLaMA-2-13B\",\n    \"GSM8K\",\n    \"Alpaca dataset\",\n    \"mechanistic interpretability\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "NLP",
+    "标签": [
+      "large language models",
+      "data quality",
+      "human values alignment",
+      "ReAlign",
+      "math reasoning",
+      "factuality",
+      "readability",
+      "LLaMA-2-13B",
+      "GSM8K",
+      "Alpaca dataset",
+      "mechanistic interpretability"
+    ]
+  }
+}

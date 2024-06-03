@@ -1,0 +1,25 @@
+{
+  "id": "2403.09347v1",
+  "title": "BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences",
+  "pdf_url": "http://arxiv.org/pdf/2403.09347v1",
+  "raw_tldr": "动机\tTransformer基础的大型语言模型（LLMs）的成功在很大程度上归功于有效的注意力模块，但这些注意力模块的二次时间和内存复杂度在处理长序列时也带来了挑战。为了解决长序列问题，一个潜在的解决方案是利用分布式集群在多个设备（例如，GPUs）上并行计算注意力模块。\n方法\t本文提出了一个名为“BurstAttention”的分布式注意力框架，旨在优化全局集群和本地设备级别的内存访问和通信操作。\n结果\tBurstAttention与其他竞争性的分布式注意力解决方案进行比较，实验结果显示，在处理长序列方面，BurstAttention与这些竞争基线相比具有显著优势，减少了40%的通信开销，并在8 X A100上训练32K序列长度时实现了2倍的加速。",
+  "tldr": {
+    "动机": "Transformer基础的大型语言模型（LLMs）的成功在很大程度上归功于有效的注意力模块，但这些注意力模块的二次时间和内存复杂度在处理长序列时也带来了挑战。为了解决长序列问题，一个潜在的解决方案是利用分布式集群在多个设备（例如，GPUs）上并行计算注意力模块。",
+    "方法": "本文提出了一个名为“BurstAttention”的分布式注意力框架，旨在优化全局集群和本地设备级别的内存访问和通信操作。",
+    "结果": "BurstAttention与其他竞争性的分布式注意力解决方案进行比较，实验结果显示，在处理长序列方面，BurstAttention与这些竞争基线相比具有显著优势，减少了40%的通信开销，并在8 X A100上训练32K序列长度时实现了2倍的加速。"
+  },
+  "summary_cn": "有效的注意力模块在基于Transformer的大型语言模型（LLMs）的成功中扮演了关键角色，但这些注意力模块的二次时间和内存复杂性也在处理长序列时构成了挑战。解决长序列问题的一个潜在解决方案是利用分布式集群在多个设备（例如，GPU）上并行计算注意力模块。然而，采用分布式方法不可避免地引入了额外的内存开销来存储局部注意力结果，并且还会产生额外的通信成本来将局部结果汇总成全局结果。在本文中，我们提出了一个名为“BurstAttention”的分布式注意力框架，以在全局集群和局部设备级别优化内存访问和通信操作。在我们的实验中，我们将BurstAttention与其他竞争性的分布式注意力解决方案进行了比较，用于处理长序列。在不同长度设置下的实验结果表明，与这些竞争性基准相比，BurstAttention在处理长序列时提供了显著优势，减少了40%的通信开销，并在8 X A100上训练32K序列长度时实现了2倍的加速。",
+  "tag_info_raw": "```json\n{\n  \"主要领域\": \"Machine Learning\",\n  \"标签\": [\n    \"Transformer\",\n    \"Large Language Models\",\n    \"Attention Modules\",\n    \"Distributed Computing\",\n    \"GPU\",\n    \"Communication Overheads\",\n    \"Memory Optimization\"\n  ]\n}\n```",
+  "tag_info": {
+    "主要领域": "Machine Learning",
+    "标签": [
+      "Transformer",
+      "Large Language Models",
+      "Attention Modules",
+      "Distributed Computing",
+      "GPU",
+      "Communication Overheads",
+      "Memory Optimization"
+    ]
+  }
+}
